@@ -1,0 +1,40 @@
+# Ignore build folders inside Last02.Api
+Last02.Api/bin/
+Last02.Api/obj/
+
+Last02.Commons/bin/
+Last02.Commons/obj/
+
+Last02.Data/bin/
+Last02.Data/obj/
+
+Last02.Models/bin/
+Last02.Models/obj/
+
+Last02.Services/bin/
+Last02.Services/obj/
+
+Last02.Web/bin/
+Last02.Web/obj/
+# Ignore user-specific project files
+Last02.Api/*.user
+Last02.Api/*.vspscc
+Last02.Api/*.vssscc
+
+Last02.Web/*.user
+Last02.Web/*.suo
+
+# Ignore Rider IDE configs (nếu dùng)
+Last02.Api/.idea/
+
+# Ignore HTTP test files (tuỳ chọn)
+Last02.Api/*.http
+Last02.Web/*.http
+
+# Ignore secrets
+Last02.Api/appsettings.json
+Last02.Web/appsettings.json
+
+# Ignore Docker override files (tuỳ chọn)
+Last02.Api/docker-compose.override.yml
+Last02.Web/docker-compose.override.yml
