@@ -1,0 +1,109 @@
+﻿@using Last02.Web.Resources
+@{
+	ViewData["Title"] = "Courses";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="page-content">
+	<div class="d-flex w-100 pt-3 pb-3">
+		<button class="btn btn-primary btn-sm me-2" id="createCourseBtn">
+			<i class="fa-solid fa-plus"></i>
+			@Resource.Common_Label_Create
+		</button>
+
+		<button class="btn btn-warning btn-sm me-2 d-none" id="editCourseBtn">
+			<i class="fa-solid fa-pencil"></i>
+			@Resource.Common_Label_Edit
+		</button>
+
+		<button class="btn btn-danger btn-sm d-none" id="deleteCourseBtn">
+			<i class="fa-solid fa-trash"></i>
+			@Resource.Common_Label_Delete
+		</button>
+	</div>
+	<div class="border border-secondary p-2 pb-3 rounded">
+		<table id="coursesTable" class="table table-striped table-hover table-bordered">
+			<thead>
+				<tr>
+					<th class="text-center text-nowrap course-td-max-width">
+						<input type="checkbox" id="selectAllCoursesCheckbox">
+					</th>
+					<th class="text-center text-nowrap course-td-max-width">Title</th>
+					<th class="text-center text-nowrap course-td-max-width">CreatedDate</th>
+				</tr>
+			</thead>
+		</table>
+	</div>
+</div>
+<div class="d-none">
+	<input id="CourseLanguagesList" value="@ViewBag.CourseLanguagesList" />
+</div>
+<div class="modal fade" id="courseCreateModal" data-bs-backdrop="static" data-bs-keyboard="false" aria-hidden="true"
+	 tabindex="-1">
+	<div class="modal-dialog modal-md modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Create Course</h5>
+				<button type="button" class="btn-close" aria-label="Close"></button>
+			</div>
+			<div class="modal-body course-create-modal-content">
+				@await Html.PartialAsync("~/Views/Shared/Courses/_Create.cshtml")
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary course-btn-width" id="courseCloseBtn">Close</button>
+				<button type="button" class="btn btn-primary course-btn-width" id="courseCreateBtn">Create</button>
+				<button type="button" class="btn btn-primary course-btn-width d-none"
+						id="courseBackToCreateBtn">
+					Back
+				</button>
+				<button type="button" class="btn btn-primary course-btn-width d-none"
+						id="courseConfirmCreateBtn">
+					Confirm
+				</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="courseCreateResultModal" data-bs-backdrop="static" data-bs-keyboard="false"
+	 aria-hidden="true" tabindex="-1">
+	<div class="modal-dialog modal-sm modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="courseCreateResultTitle">エラー</h5>
+				<button type="button" class="btn-close" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+				<p id="courseCreateResultMessage" class="text-center"></p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary course-btn-width" data-bs-toggle="modal"
+						data-bs-target="#courseCreateResultModal">
+					Close
+				</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="courseDeleteConfirmModal" data-bs-backdrop="static" data-bs-keyboard="false"
+	 aria-hidden="true" tabindex="-1">
+	<div class="modal-dialog modal-sm modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="courseDeleteConfirmTitle">Confirm Delete Course</h5>
+				<button type="button" class="btn-close" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+				<p id="courseDeleteConfirmMessage" class="text-center">Are you sure you want to delete the course?</p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary course-btn-width" data-bs-toggle="modal"
+						data-bs-target="#courseDeleteConfirmModal">
+					Close
+				</button>
+				<button type="button" class="btn btn-danger course-btn-width" id="courseDeleteConfirmBtn">Delete</button>
+			</div>
+		</div>
+	</div>
+</div>

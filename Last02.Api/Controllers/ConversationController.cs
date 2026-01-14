@@ -26,18 +26,18 @@ namespace Last02.Api.Controllers
         /// <response code="200">Returns the list of conversations</response>
         /// <response code="500">If there was an internal server error</response>
         [HttpGet]
-        [ProducesResponseType(typeof(ResponseBase<IEnumerable<Audio>>), StatusCodes.Status200OK)]
-        [ProducesResponseType(typeof(ResponseBase<IEnumerable<Audio>>), StatusCodes.Status500InternalServerError)]
+        [ProducesResponseType(typeof(ResponseBase<IEnumerable<ConversationDto>>), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(ResponseBase<IEnumerable<ConversationDto>>), StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> GetAll()
         {
             try
             {
                 var conversations = await _conversationService.GetAllConversationsAsync();
-                return ResponseBase<IEnumerable<Audio>>.Success(conversations).ToActionResult();
+                return conversations.ToActionResult();
             }
             catch (Exception ex)
             {
-                return ResponseBase<IEnumerable<Audio>>.Error($"{nameof(GetAll)} failed: {ex.Message}").ToActionResult();
+                return ResponseBase<IEnumerable<ConversationDto>>.Error($"{nameof(GetAll)} failed: {ex.Message}").ToActionResult();
             }
         }
 

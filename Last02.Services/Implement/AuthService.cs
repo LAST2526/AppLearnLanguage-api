@@ -125,14 +125,14 @@ namespace Last02.Services.Implement
                     return ResponseBase<EmailLoginDto>.Error(await _messageService.GetMessageAsync(MessageCodes.Auth.ERR_PASSWORD_INCORRECT));
                 }
 
-                if (user.TemporaryPasswordExpires.HasValue && user.TemporaryPasswordExpires <= DateTime.UtcNow)
-                {
-                    user.TemporaryPasswordHash = null;
-                    user.TemporaryPasswordExpires = null;
+                //if (user.TemporaryPasswordExpires.HasValue && user.TemporaryPasswordExpires <= DateTime.UtcNow)
+                //{
+                //    user.TemporaryPasswordHash = null;
+                //    user.TemporaryPasswordExpires = null;
 
-                    await _uow.SaveAsync();
-                    return ResponseBase<EmailLoginDto>.Error(await _messageService.GetMessageAsync(MessageCodes.Auth.ERR_PASSWORD_INCORRECT));
-                }
+                //    await _uow.SaveAsync();
+                //    return ResponseBase<EmailLoginDto>.Error(await _messageService.GetMessageAsync(MessageCodes.Auth.ERR_PASSWORD_INCORRECT));
+                //}
 
                 var refreshToken = GenerateRefreshToken();
                 var accessToken = GenerateJwtToken(user, refreshToken);

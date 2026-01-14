@@ -18,6 +18,8 @@ namespace Last02.Data.Entities
         public string AudioCode { get; set; }
         public AudioType? AudioType { get; set; }
         public string Title { get; set; } = string.Empty;
+        public string TitleVi { get; set; } = string.Empty;
+        public string TitleEn { get; set; } = string.Empty;
         public string Section { get; set; } = string.Empty;
         [Required]
         public string FileUrl { get; set; } = string.Empty;

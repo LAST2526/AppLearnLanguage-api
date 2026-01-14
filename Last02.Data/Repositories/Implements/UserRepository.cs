@@ -22,11 +22,11 @@ namespace Last02.Data.Repositories.Implements
             return await _context.Users.FirstOrDefaultAsync(u => u.Email != null && u.Email.ToLower() == email.ToLower());
         }
 
-        public async Task<Users?> GetByEmailAndDOBAsync(string email, DateTime dob)
+        public async Task<Users?> GetByEmailAndDOBAsync(string email)
         {
             return await _context.Users
                 .Where(u => u.Email != null && u.Email.ToLower() == email.ToLower()
-                                            && u.Member != null && u.Member.DOB.Date == dob.Date)
+                                            && u.Member != null)
                 .Include(u => u.Member)
                 .FirstOrDefaultAsync();
         }

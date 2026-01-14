@@ -3,32 +3,80 @@
   "WorkspaceRootPath": "E:\\Last02-App\\backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{68F0F8E0-1886-41DC-8BAA-8C92AD9B6D65}|Last02.Services\\Last02.Services.csproj|e:\\last02-app\\backend\\last02.services\\implement\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68F0F8E0-1886-41DC-8BAA-8C92AD9B6D65}|Last02.Services\\Last02.Services.csproj|solutionrelative:last02.services\\implement\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{68F0F8E0-1886-41DC-8BAA-8C92AD9B6D65}|Last02.Services\\Last02.Services.csproj|e:\\last02-app\\backend\\last02.services\\implement\\flashcardupdatehistoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68F0F8E0-1886-41DC-8BAA-8C92AD9B6D65}|Last02.Services\\Last02.Services.csproj|solutionrelative:last02.services\\implement\\flashcardupdatehistoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68F0F8E0-1886-41DC-8BAA-8C92AD9B6D65}|Last02.Services\\Last02.Services.csproj|e:\\last02-app\\backend\\last02.services\\implement\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68F0F8E0-1886-41DC-8BAA-8C92AD9B6D65}|Last02.Services\\Last02.Services.csproj|solutionrelative:last02.services\\implement\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D11DF398-1840-4805-A41A-A53C5041DF81}|Last02.Web\\Last02.Web.csproj|e:\\last02-app\\backend\\last02.web\\controllers\\flashcardhistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D11DF398-1840-4805-A41A-A53C5041DF81}|Last02.Web\\Last02.Web.csproj|solutionrelative:last02.web\\controllers\\flashcardhistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98401341-B537-4C66-B34C-AF6D23DA428A}|Last02.Api\\Last02.Api.csproj|e:\\last02-app\\backend\\last02.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98401341-B537-4C66-B34C-AF6D23DA428A}|Last02.Api\\Last02.Api.csproj|solutionrelative:last02.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D11DF398-1840-4805-A41A-A53C5041DF81}|Last02.Web\\Last02.Web.csproj|e:\\last02-app\\backend\\last02.web\\controllers\\audiogenhistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D11DF398-1840-4805-A41A-A53C5041DF81}|Last02.Web\\Last02.Web.csproj|solutionrelative:last02.web\\controllers\\audiogenhistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68F0F8E0-1886-41DC-8BAA-8C92AD9B6D65}|Last02.Services\\Last02.Services.csproj|e:\\last02-app\\backend\\last02.services\\implement\\s3storageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68F0F8E0-1886-41DC-8BAA-8C92AD9B6D65}|Last02.Services\\Last02.Services.csproj|solutionrelative:last02.services\\implement\\s3storageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D11DF398-1840-4805-A41A-A53C5041DF81}|Last02.Web\\Last02.Web.csproj|e:\\last02-app\\backend\\last02.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D11DF398-1840-4805-A41A-A53C5041DF81}|Last02.Web\\Last02.Web.csproj|solutionrelative:last02.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68F0F8E0-1886-41DC-8BAA-8C92AD9B6D65}|Last02.Services\\Last02.Services.csproj|e:\\last02-app\\backend\\last02.services\\interfaces\\istorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68F0F8E0-1886-41DC-8BAA-8C92AD9B6D65}|Last02.Services\\Last02.Services.csproj|solutionrelative:last02.services\\interfaces\\istorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D11DF398-1840-4805-A41A-A53C5041DF81}|Last02.Web\\Last02.Web.csproj|e:\\last02-app\\backend\\last02.web\\wwwroot\\js\\audio_gen_history.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{D11DF398-1840-4805-A41A-A53C5041DF81}|Last02.Web\\Last02.Web.csproj|solutionrelative:last02.web\\wwwroot\\js\\audio_gen_history.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68F0F8E0-1886-41DC-8BAA-8C92AD9B6D65}|Last02.Services\\Last02.Services.csproj|e:\\last02-app\\backend\\last02.services\\implement\\audiogenhistoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68F0F8E0-1886-41DC-8BAA-8C92AD9B6D65}|Last02.Services\\Last02.Services.csproj|solutionrelative:last02.services\\implement\\audiogenhistoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68F0F8E0-1886-41DC-8BAA-8C92AD9B6D65}|Last02.Services\\Last02.Services.csproj|e:\\last02-app\\backend\\last02.services\\implement\\conversationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68F0F8E0-1886-41DC-8BAA-8C92AD9B6D65}|Last02.Services\\Last02.Services.csproj|solutionrelative:last02.services\\implement\\conversationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC39D58A-A5CE-4C1F-8D69-CE254BF25083}|Last02.Models\\Last02.Models.csproj|e:\\last02-app\\backend\\last02.models\\dtos\\conversationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC39D58A-A5CE-4C1F-8D69-CE254BF25083}|Last02.Models\\Last02.Models.csproj|solutionrelative:last02.models\\dtos\\conversationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68F0F8E0-1886-41DC-8BAA-8C92AD9B6D65}|Last02.Services\\Last02.Services.csproj|e:\\last02-app\\backend\\last02.services\\di\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68F0F8E0-1886-41DC-8BAA-8C92AD9B6D65}|Last02.Services\\Last02.Services.csproj|solutionrelative:last02.services\\di\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{98401341-B537-4C66-B34C-AF6D23DA428A}|Last02.Api\\Last02.Api.csproj|e:\\last02-app\\backend\\last02.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98401341-B537-4C66-B34C-AF6D23DA428A}|Last02.Api\\Last02.Api.csproj|solutionrelative:last02.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C670BA4D-9EE1-4F4A-AA5F-FFA1EF756CBD}|Last02.Data\\Last02.Data.csproj|e:\\last02-app\\backend\\last02.data\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C670BA4D-9EE1-4F4A-AA5F-FFA1EF756CBD}|Last02.Data\\Last02.Data.csproj|solutionrelative:last02.data\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D11DF398-1840-4805-A41A-A53C5041DF81}|Last02.Web\\Last02.Web.csproj|e:\\last02-app\\backend\\last02.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D11DF398-1840-4805-A41A-A53C5041DF81}|Last02.Web\\Last02.Web.csproj|solutionrelative:last02.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68F0F8E0-1886-41DC-8BAA-8C92AD9B6D65}|Last02.Services\\Last02.Services.csproj|e:\\last02-app\\backend\\last02.services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68F0F8E0-1886-41DC-8BAA-8C92AD9B6D65}|Last02.Services\\Last02.Services.csproj|solutionrelative:last02.services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{98401341-B537-4C66-B34C-AF6D23DA428A}|Last02.Api\\Last02.Api.csproj|e:\\last02-app\\backend\\last02.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{98401341-B537-4C66-B34C-AF6D23DA428A}|Last02.Api\\Last02.Api.csproj|solutionrelative:last02.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68F0F8E0-1886-41DC-8BAA-8C92AD9B6D65}|Last02.Services\\Last02.Services.csproj|e:\\last02-app\\backend\\last02.services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68F0F8E0-1886-41DC-8BAA-8C92AD9B6D65}|Last02.Services\\Last02.Services.csproj|solutionrelative:last02.services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{68F0F8E0-1886-41DC-8BAA-8C92AD9B6D65}|Last02.Services\\Last02.Services.csproj|e:\\last02-app\\backend\\last02.services\\implement\\grammarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68F0F8E0-1886-41DC-8BAA-8C92AD9B6D65}|Last02.Services\\Last02.Services.csproj|solutionrelative:last02.services\\implement\\grammarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC39D58A-A5CE-4C1F-8D69-CE254BF25083}|Last02.Models\\Last02.Models.csproj|e:\\last02-app\\backend\\last02.models\\dtos\\audiodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC39D58A-A5CE-4C1F-8D69-CE254BF25083}|Last02.Models\\Last02.Models.csproj|solutionrelative:last02.models\\dtos\\audiodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98401341-B537-4C66-B34C-AF6D23DA428A}|Last02.Api\\Last02.Api.csproj|e:\\last02-app\\backend\\last02.api\\controllers\\conversationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98401341-B537-4C66-B34C-AF6D23DA428A}|Last02.Api\\Last02.Api.csproj|solutionrelative:last02.api\\controllers\\conversationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C670BA4D-9EE1-4F4A-AA5F-FFA1EF756CBD}|Last02.Data\\Last02.Data.csproj|e:\\last02-app\\backend\\last02.data\\repositories\\implements\\audiorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C670BA4D-9EE1-4F4A-AA5F-FFA1EF756CBD}|Last02.Data\\Last02.Data.csproj|solutionrelative:last02.data\\repositories\\implements\\audiorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C670BA4D-9EE1-4F4A-AA5F-FFA1EF756CBD}|Last02.Data\\Last02.Data.csproj|e:\\last02-app\\backend\\last02.data\\entities\\audio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C670BA4D-9EE1-4F4A-AA5F-FFA1EF756CBD}|Last02.Data\\Last02.Data.csproj|solutionrelative:last02.data\\entities\\audio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +86,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,88 +106,232 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Last02-App\\backend\\Last02.Api\\Program.cs",
-              "RelativeDocumentMoniker": "Last02.Api\\Program.cs",
-              "ToolTip": "E:\\Last02-App\\backend\\Last02.Api\\Program.cs",
-              "RelativeToolTip": "Last02.Api\\Program.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAAFEAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T05:55:04.132Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "E:\\Last02-App\\backend\\Last02.Data\\UnitOfWork\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "Last02.Data\\UnitOfWork\\UnitOfWork.cs",
-              "ToolTip": "E:\\Last02-App\\backend\\Last02.Data\\UnitOfWork\\UnitOfWork.cs",
-              "RelativeToolTip": "Last02.Data\\UnitOfWork\\UnitOfWork.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAUwDAAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T05:50:17.646Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "E:\\Last02-App\\backend\\Last02.Services\\Interfaces\\IUserService.cs",
-              "RelativeDocumentMoniker": "Last02.Services\\Interfaces\\IUserService.cs",
-              "ToolTip": "E:\\Last02-App\\backend\\Last02.Services\\Interfaces\\IUserService.cs",
-              "RelativeToolTip": "Last02.Services\\Interfaces\\IUserService.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAUwBIAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T05:47:48.249Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IAuthService.cs",
-              "DocumentMoniker": "E:\\Last02-App\\backend\\Last02.Services\\Interfaces\\IAuthService.cs",
-              "RelativeDocumentMoniker": "Last02.Services\\Interfaces\\IAuthService.cs",
-              "ToolTip": "E:\\Last02-App\\backend\\Last02.Services\\Interfaces\\IAuthService.cs",
-              "RelativeToolTip": "Last02.Services\\Interfaces\\IAuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T05:47:24.154Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "E:\\Last02-App\\backend\\Last02.Api\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Last02.Api\\Controllers\\AuthController.cs",
-              "ToolTip": "E:\\Last02-App\\backend\\Last02.Api\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Last02.Api\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAwwEoAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T05:02:51.555Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "E:\\Last02-App\\backend\\Last02.Services\\Implement\\AuthService.cs",
-              "RelativeDocumentMoniker": "Last02.Services\\Implement\\AuthService.cs",
-              "ToolTip": "E:\\Last02-App\\backend\\Last02.Services\\Implement\\AuthService.cs",
-              "RelativeToolTip": "Last02.Services\\Implement\\AuthService.cs",
-              "ViewState": "AgIAAOEAAAAAAAAAAAAUwN4AAAAQAAAAAAAAAA==",
+              "Title": "FlashcardUpdateHistoryService.cs",
+              "DocumentMoniker": "E:\\Last02-App\\backend\\Last02.Services\\Implement\\FlashcardUpdateHistoryService.cs",
+              "RelativeDocumentMoniker": "Last02.Services\\Implement\\FlashcardUpdateHistoryService.cs",
+              "ToolTip": "E:\\Last02-App\\backend\\Last02.Services\\Implement\\FlashcardUpdateHistoryService.cs",
+              "RelativeToolTip": "Last02.Services\\Implement\\FlashcardUpdateHistoryService.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAAAIMAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-20T15:54:12.609Z",
+              "WhenOpened": "2026-01-10T17:07:33.973Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "E:\\Last02-App\\backend\\Last02.Services\\Implement\\UserService.cs",
-              "RelativeDocumentMoniker": "Last02.Services\\Implement\\UserService.cs",
-              "ToolTip": "E:\\Last02-App\\backend\\Last02.Services\\Implement\\UserService.cs",
-              "RelativeToolTip": "Last02.Services\\Implement\\UserService.cs",
-              "ViewState": "AgIAAOUAAAAAAAAAAAAAwDMBAAAQAAAAAAAAAA==",
+              "Title": "FlashcardHistoryController.cs",
+              "DocumentMoniker": "E:\\Last02-App\\backend\\Last02.Web\\Controllers\\FlashcardHistoryController.cs",
+              "RelativeDocumentMoniker": "Last02.Web\\Controllers\\FlashcardHistoryController.cs",
+              "ToolTip": "E:\\Last02-App\\backend\\Last02.Web\\Controllers\\FlashcardHistoryController.cs",
+              "RelativeToolTip": "Last02.Web\\Controllers\\FlashcardHistoryController.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAIwGEAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-20T15:18:04.097Z"
+              "WhenOpened": "2026-01-10T17:07:13.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "audio_gen_history.js",
+              "DocumentMoniker": "E:\\Last02-App\\backend\\Last02.Web\\wwwroot\\js\\audio_gen_history.js",
+              "RelativeDocumentMoniker": "Last02.Web\\wwwroot\\js\\audio_gen_history.js",
+              "ToolTip": "E:\\Last02-App\\backend\\Last02.Web\\wwwroot\\js\\audio_gen_history.js",
+              "RelativeToolTip": "Last02.Web\\wwwroot\\js\\audio_gen_history.js",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-01-10T14:34:40.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ServiceCollectionExtension.cs",
+              "DocumentMoniker": "E:\\Last02-App\\backend\\Last02.Services\\DI\\ServiceCollectionExtension.cs",
+              "RelativeDocumentMoniker": "Last02.Services\\DI\\ServiceCollectionExtension.cs",
+              "ToolTip": "E:\\Last02-App\\backend\\Last02.Services\\DI\\ServiceCollectionExtension.cs",
+              "RelativeToolTip": "Last02.Services\\DI\\ServiceCollectionExtension.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAiwEIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T14:11:29.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Last02-App\\backend\\Last02.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Last02.Api\\Program.cs",
+              "ToolTip": "E:\\Last02-App\\backend\\Last02.Api\\Program.cs",
+              "RelativeToolTip": "Last02.Api\\Program.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T14:10:59.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Last02-App\\backend\\Last02.Web\\Program.cs",
+              "RelativeDocumentMoniker": "Last02.Web\\Program.cs",
+              "ToolTip": "E:\\Last02-App\\backend\\Last02.Web\\Program.cs",
+              "RelativeToolTip": "Last02.Web\\Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAABYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T14:10:47.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IStorageService.cs",
+              "DocumentMoniker": "E:\\Last02-App\\backend\\Last02.Services\\Interfaces\\IStorageService.cs",
+              "RelativeDocumentMoniker": "Last02.Services\\Interfaces\\IStorageService.cs",
+              "ToolTip": "E:\\Last02-App\\backend\\Last02.Services\\Interfaces\\IStorageService.cs",
+              "RelativeToolTip": "Last02.Services\\Interfaces\\IStorageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T14:00:14.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "S3StorageService.cs",
+              "DocumentMoniker": "E:\\Last02-App\\backend\\Last02.Services\\Implement\\S3StorageService.cs",
+              "RelativeDocumentMoniker": "Last02.Services\\Implement\\S3StorageService.cs",
+              "ToolTip": "E:\\Last02-App\\backend\\Last02.Services\\Implement\\S3StorageService.cs",
+              "RelativeToolTip": "Last02.Services\\Implement\\S3StorageService.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAwwEkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T13:57:56.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GrammarService.cs",
+              "DocumentMoniker": "E:\\Last02-App\\backend\\Last02.Services\\Implement\\GrammarService.cs",
+              "RelativeDocumentMoniker": "Last02.Services\\Implement\\GrammarService.cs",
+              "ToolTip": "E:\\Last02-App\\backend\\Last02.Services\\Implement\\GrammarService.cs",
+              "RelativeToolTip": "Last02.Services\\Implement\\GrammarService.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAwwIsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T16:20:10.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AudioGenHistoryController.cs",
+              "DocumentMoniker": "E:\\Last02-App\\backend\\Last02.Web\\Controllers\\AudioGenHistoryController.cs",
+              "RelativeDocumentMoniker": "Last02.Web\\Controllers\\AudioGenHistoryController.cs",
+              "ToolTip": "E:\\Last02-App\\backend\\Last02.Web\\Controllers\\AudioGenHistoryController.cs",
+              "RelativeToolTip": "Last02.Web\\Controllers\\AudioGenHistoryController.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAwwGkAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T15:35:06.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Last02-App\\backend\\Last02.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "Last02.Web\\appsettings.json",
+              "ToolTip": "E:\\Last02-App\\backend\\Last02.Web\\appsettings.json",
+              "RelativeToolTip": "Last02.Web\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-09T15:25:01.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Last02-App\\backend\\Last02.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "Last02.Api\\appsettings.json",
+              "ToolTip": "E:\\Last02-App\\backend\\Last02.Api\\appsettings.json",
+              "RelativeToolTip": "Last02.Api\\appsettings.json",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-09T14:39:21.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ConversationService.cs",
+              "DocumentMoniker": "E:\\Last02-App\\backend\\Last02.Services\\Implement\\ConversationService.cs",
+              "RelativeDocumentMoniker": "Last02.Services\\Implement\\ConversationService.cs",
+              "ToolTip": "E:\\Last02-App\\backend\\Last02.Services\\Implement\\ConversationService.cs",
+              "RelativeToolTip": "Last02.Services\\Implement\\ConversationService.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAIwEcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T16:58:25.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ConversationDto.cs",
+              "DocumentMoniker": "E:\\Last02-App\\backend\\Last02.Models\\Dtos\\ConversationDto.cs",
+              "RelativeDocumentMoniker": "Last02.Models\\Dtos\\ConversationDto.cs",
+              "ToolTip": "E:\\Last02-App\\backend\\Last02.Models\\Dtos\\ConversationDto.cs",
+              "RelativeToolTip": "Last02.Models\\Dtos\\ConversationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T16:58:13.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ConversationController.cs",
+              "DocumentMoniker": "E:\\Last02-App\\backend\\Last02.Api\\Controllers\\ConversationController.cs",
+              "RelativeDocumentMoniker": "Last02.Api\\Controllers\\ConversationController.cs",
+              "ToolTip": "E:\\Last02-App\\backend\\Last02.Api\\Controllers\\ConversationController.cs",
+              "RelativeToolTip": "Last02.Api\\Controllers\\ConversationController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwDUAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T16:57:59.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AudioDto.cs",
+              "DocumentMoniker": "E:\\Last02-App\\backend\\Last02.Models\\Dtos\\AudioDto.cs",
+              "RelativeDocumentMoniker": "Last02.Models\\Dtos\\AudioDto.cs",
+              "ToolTip": "E:\\Last02-App\\backend\\Last02.Models\\Dtos\\AudioDto.cs",
+              "RelativeToolTip": "Last02.Models\\Dtos\\AudioDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T16:53:50.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AudioRepository.cs",
+              "DocumentMoniker": "E:\\Last02-App\\backend\\Last02.Data\\Repositories\\Implements\\AudioRepository.cs",
+              "RelativeDocumentMoniker": "Last02.Data\\Repositories\\Implements\\AudioRepository.cs",
+              "ToolTip": "E:\\Last02-App\\backend\\Last02.Data\\Repositories\\Implements\\AudioRepository.cs",
+              "RelativeToolTip": "Last02.Data\\Repositories\\Implements\\AudioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T16:57:07.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Audio.cs",
+              "DocumentMoniker": "E:\\Last02-App\\backend\\Last02.Data\\Entities\\Audio.cs",
+              "RelativeDocumentMoniker": "Last02.Data\\Entities\\Audio.cs",
+              "ToolTip": "E:\\Last02-App\\backend\\Last02.Data\\Entities\\Audio.cs",
+              "RelativeToolTip": "Last02.Data\\Entities\\Audio.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwBUAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T16:53:55.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AudioGenHistoryService.cs",
+              "DocumentMoniker": "E:\\Last02-App\\backend\\Last02.Services\\Implement\\AudioGenHistoryService.cs",
+              "RelativeDocumentMoniker": "Last02.Services\\Implement\\AudioGenHistoryService.cs",
+              "ToolTip": "E:\\Last02-App\\backend\\Last02.Services\\Implement\\AudioGenHistoryService.cs",
+              "RelativeToolTip": "Last02.Services\\Implement\\AudioGenHistoryService.cs",
+              "ViewState": "AgIAAJ4AAAAAAAAAAAAcwJAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T16:53:02.211Z"
             }
           ]
         }

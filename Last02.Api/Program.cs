@@ -74,7 +74,7 @@ services.AddSwaggerGen(options =>
 
 services.AddOpenApi();
 
-// Cấu hình kết nối DB
+// DB
 var connectionString = builder.Configuration.GetConnectionString("Last02Connection")
                        ?? throw new InvalidOperationException("Connection string 'Last02Connection' not found.");
 services.AddDbContext<ApplicationDbContext>(options =>
@@ -83,12 +83,12 @@ services.AddDbContext<ApplicationDbContext>(options =>
         sqlOptions.CommandTimeout(60);
     }));
 
-// Cấu hình Identity
+// Identity
 services.AddIdentity<Users, IdentityRole<int>>()
     .AddEntityFrameworkStores<ApplicationDbContext>()
     .AddDefaultTokenProviders();
 
-// Cấu hình Services
+//  Services
 services.Configure<GoogleAuthSettings>(builder.Configuration.GetSection("Google"));
 services.AddHttpClient();
 services.AddMemoryCache();
@@ -156,21 +156,11 @@ services.AddServiceCollection(builder.Configuration, builder.Host);
 
 var app = builder.Build();
 
-//app.UseStaticFiles(new StaticFileOptions
-//{
-//    FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), "Files")),
-//    RequestPath = "/api/files",
-//    ServeUnknownFileTypes = true,
-//    DefaultContentType = "application/octet-stream"
-//});
+app.UseStaticFiles();
 
-// Configure the HTTP request pipeline.
-//if (app.Environment.IsDevelopment())
-//{
 app.UseSwagger();
 app.UseSwaggerUI();
 app.MapOpenApi();
-//}
 
 app.UseRequestLocalization();
 

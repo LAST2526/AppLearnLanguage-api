@@ -1,0 +1,2916 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Common.errorMessage.errorCompareDate" xml:space="preserve">
+    <value>Error compare date!</value>
+  </data>
+  <data name="Common.errorMessage.noUser" xml:space="preserve">
+    <value>User not found!</value>
+  </data>
+  <data name="Common.errorMessage.userAlreadyExisted" xml:space="preserve">
+    <value>This user is already existed!</value>
+  </data>
+  <data name="Common.errorMessage.userNameOrEmailExisted" xml:space="preserve">
+    <value>Username or email is already existed!</value>
+  </data>
+  <data name="Common.label.accept" xml:space="preserve">
+    <value>Accept</value>
+  </data>
+  <data name="Common.label.active" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="Common.label.add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Common.label.addAsset" xml:space="preserve">
+    <value>Add Asset</value>
+  </data>
+  <data name="Common.label.addAttribute" xml:space="preserve">
+    <value>Add Attribute</value>
+  </data>
+  <data name="Common.label.additionalAddress" xml:space="preserve">
+    <value>Additional Address</value>
+  </data>
+  <data name="Common.label.additionalDocuments" xml:space="preserve">
+    <value>Additional Documents</value>
+  </data>
+  <data name="Common.label.addMember" xml:space="preserve">
+    <value>Add Member</value>
+  </data>
+  <data name="Common.label.address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="Common.label.addressUser" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="Common.label.addUser" xml:space="preserve">
+    <value>Add New User</value>
+  </data>
+  <data name="Common.label.addWarehouse" xml:space="preserve">
+    <value>Add Warehouse</value>
+  </data>
+  <data name="Common.label.agreeTermsAndConditions" xml:space="preserve">
+    <value>I agree with the Terms and Conditions</value>
+  </data>
+  <data name="Common.label.assetProperty" xml:space="preserve">
+    <value>Asset Property</value>
+  </data>
+  <data name="Common.label.assetType" xml:space="preserve">
+    <value>Asset Type</value>
+  </data>
+  <data name="Common.label.assignment" xml:space="preserve">
+    <value>Assignment</value>
+  </data>
+  <data name="Common.label.assignTag" xml:space="preserve">
+    <value>Assign tag</value>
+  </data>
+  <data name="Common.label.attribute" xml:space="preserve">
+    <value>Attribute</value>
+  </data>
+  <data name="Common.label.availablestock" xml:space="preserve">
+    <value>Available Stock</value>
+  </data>
+  <data name="Common.label.birthday" xml:space="preserve">
+    <value>Birthday</value>
+  </data>
+  <data name="Common.label.book" xml:space="preserve">
+    <value>Book</value>
+  </data>
+  <data name="Common.label.bookType" xml:space="preserve">
+    <value>Book Type</value>
+  </data>
+  <data name="Common.label.borrower" xml:space="preserve">
+    <value>Borrower</value>
+  </data>
+  <data name="Common.label.brandId" xml:space="preserve">
+    <value>Brand </value>
+  </data>
+  <data name="Common.label.cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Common.label.cashamount" xml:space="preserve">
+    <value>Cash Amount</value>
+  </data>
+  <data name="Common.label.channel" xml:space="preserve">
+    <value>Channel</value>
+  </data>
+  <data name="Common.label.city" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="Common.label.close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Common.label.code" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="Common.label.commenter" xml:space="preserve">
+    <value>Commenter</value>
+  </data>
+  <data name="Common.label.comments" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="Common.label.commentText" xml:space="preserve">
+    <value>Comment Text</value>
+  </data>
+  <data name="Common.label.commentType" xml:space="preserve">
+    <value>Comment Type</value>
+  </data>
+  <data name="Common.label.companyInfo" xml:space="preserve">
+    <value>Company</value>
+  </data>
+  <data name="Common.label.condition" xml:space="preserve">
+    <value>Condition</value>
+  </data>
+  <data name="Common.label.confirmDelete" xml:space="preserve">
+    <value>Are you sure you wish to delete this item?</value>
+  </data>
+  <data name="Common.label.countryName" xml:space="preserve">
+    <value>Home address - country</value>
+  </data>
+  <data name="Common.label.coupon" xml:space="preserve">
+    <value>Coupon</value>
+  </data>
+  <data name="Common.label.couponcategory" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="Common.label.Currency" xml:space="preserve">
+    <value>Currrency</value>
+  </data>
+  <data name="Common.label.dataType" xml:space="preserve">
+    <value>Data Type</value>
+  </data>
+  <data name="Common.label.dateAdded" xml:space="preserve">
+    <value>Date Added</value>
+  </data>
+  <data name="Common.label.day" xml:space="preserve">
+    <value>Day</value>
+  </data>
+  <data name="Common.label.department" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="Common.label.departmentUser" xml:space="preserve">
+    <value>Department User</value>
+  </data>
+  <data name="Common.label.description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Common.label.displayOrder" xml:space="preserve">
+    <value>Display Order</value>
+  </data>
+  <data name="Common.label.district" xml:space="preserve">
+    <value>District</value>
+  </data>
+  <data name="Common.label.dob" xml:space="preserve">
+    <value>Date Of Birth</value>
+  </data>
+  <data name="Common.label.documentName" xml:space="preserve">
+    <value>Document Name</value>
+  </data>
+  <data name="Common.label.documentType" xml:space="preserve">
+    <value>Document Type</value>
+  </data>
+  <data name="Common.label.dontHaveAnAccount" xml:space="preserve">
+    <value>Don't Have An Account?</value>
+  </data>
+  <data name="Common.label.downgradePoint" xml:space="preserve">
+    <value>Downgrade Point</value>
+  </data>
+  <data name="Common.Label.Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Common.label.email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Common.label.endDate" xml:space="preserve">
+    <value>End Date</value>
+  </data>
+  <data name="Common.label.female" xml:space="preserve">
+    <value>Female</value>
+  </data>
+  <data name="Common.label.firstName" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="Common.label.forgotYourPassword" xml:space="preserve">
+    <value>Forgot Your Password?</value>
+  </data>
+  <data name="Common.label.fullName" xml:space="preserve">
+    <value>Full Name</value>
+  </data>
+  <data name="Common.label.giftcategory" xml:space="preserve">
+    <value>Gift Category</value>
+  </data>
+  <data name="Common.label.homeAddressAddress" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="Common.label.homeAddressCity" xml:space="preserve">
+    <value>Home address - city</value>
+  </data>
+  <data name="Common.label.homeAddressDetails" xml:space="preserve">
+    <value>Home address - details</value>
+  </data>
+  <data name="Common.label.homeAddressZipCode" xml:space="preserve">
+    <value>Home address - zip code</value>
+  </data>
+  <data name="Common.label.id" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Common.label.idRegisteredDate" xml:space="preserve">
+    <value>ID Registered Date</value>
+  </data>
+  <data name="Common.label.idRegisteredPlace" xml:space="preserve">
+    <value>ID Registered Place</value>
+  </data>
+  <data name="Common.label.image" xml:space="preserve">
+    <value>Images</value>
+  </data>
+  <data name="Common.label.ImageUrl" xml:space="preserve">
+    <value>Image URL</value>
+  </data>
+  <data name="Common.label.jobTitle" xml:space="preserve">
+    <value>Job Title</value>
+  </data>
+  <data name="Common.label.keyword" xml:space="preserve">
+    <value>Keyword</value>
+  </data>
+  <data name="Common.label.lastName" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="Common.label.lead" xml:space="preserve">
+    <value>Lead</value>
+  </data>
+  <data name="Common.label.leads" xml:space="preserve">
+    <value>Leads</value>
+  </data>
+  <data name="Common.label.loan" xml:space="preserve">
+    <value>Loan</value>
+  </data>
+  <data name="Common.label.loanInfo" xml:space="preserve">
+    <value>Loan</value>
+  </data>
+  <data name="Common.label.location" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="Common.label.login" xml:space="preserve">
+    <value>Log In</value>
+  </data>
+  <data name="Common.label.male" xml:space="preserve">
+    <value>Male</value>
+  </data>
+  <data name="Common.label.manager" xml:space="preserve">
+    <value>Manager</value>
+  </data>
+  <data name="Common.label.member" xml:space="preserve">
+    <value>Member</value>
+  </data>
+  <data name="Common.label.member.Code.Automatically" xml:space="preserve">
+    <value>Generate member code automatically</value>
+  </data>
+  <data name="Common.label.members" xml:space="preserve">
+    <value>Members</value>
+  </data>
+  <data name="Common.label.membertagcategory" xml:space="preserve">
+    <value>Member Tag Category</value>
+  </data>
+  <data name="Common.label.month" xml:space="preserve">
+    <value>Month</value>
+  </data>
+  <data name="Common.label.name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Common.label.no" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Common.label.numberredeemed" xml:space="preserve">
+    <value>Number Redeemed</value>
+  </data>
+  <data name="Common.label.occupation" xml:space="preserve">
+    <value>Occupation</value>
+  </data>
+  <data name="Common.label.open" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="Common.label.operation" xml:space="preserve">
+    <value>Operation</value>
+  </data>
+  <data name="Common.label.organization" xml:space="preserve">
+    <value>Organization</value>
+  </data>
+  <data name="Common.label.organizationName" xml:space="preserve">
+    <value>Organization Name</value>
+  </data>
+  <data name="Common.label.password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Common.label.personalId" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Common.label.phone" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="Common.label.point" xml:space="preserve">
+    <value>Point</value>
+  </data>
+  <data name="Common.label.pointMax" xml:space="preserve">
+    <value>Point Max</value>
+  </data>
+  <data name="Common.label.pointMin" xml:space="preserve">
+    <value>Point Min</value>
+  </data>
+  <data name="Common.label.preferredBrand" xml:space="preserve">
+    <value>Preferred brand</value>
+  </data>
+  <data name="Common.label.preferredProduct" xml:space="preserve">
+    <value>Preferred product</value>
+  </data>
+  <data name="Common.label.preferredStore" xml:space="preserve">
+    <value>Preferred store</value>
+  </data>
+  <data name="Common.label.price" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="Common.label.productCategory" xml:space="preserve">
+    <value>Product Category</value>
+  </data>
+  <data name="Common.label.productCategoryId" xml:space="preserve">
+    <value>Product Category Id</value>
+  </data>
+  <data name="Common.label.productProperties" xml:space="preserve">
+    <value>Product Properties</value>
+  </data>
+  <data name="Common.label.productProperty" xml:space="preserve">
+    <value>Product Property</value>
+  </data>
+  <data name="Common.label.province" xml:space="preserve">
+    <value>Province</value>
+  </data>
+  <data name="Common.label.provinceName" xml:space="preserve">
+    <value>Province</value>
+  </data>
+  <data name="Common.label.PurchasedPrice" xml:space="preserve">
+    <value>Purchased Price</value>
+  </data>
+  <data name="Common.label.purchaseprice" xml:space="preserve">
+    <value>Purchase Price</value>
+  </data>
+  <data name="Common.label.recruitMember" xml:space="preserve">
+    <value>Add Member</value>
+  </data>
+  <data name="Common.label.referralMember" xml:space="preserve">
+    <value>Referral member</value>
+  </data>
+  <data name="Common.label.registrationChannel" xml:space="preserve">
+    <value>Channel</value>
+  </data>
+  <data name="Common.label.registrationDate" xml:space="preserve">
+    <value>Register Date</value>
+  </data>
+  <data name="Common.label.registrationEmployee" xml:space="preserve">
+    <value> Employee</value>
+  </data>
+  <data name="Common.label.registrationStore" xml:space="preserve">
+    <value>Store</value>
+  </data>
+  <data name="Common.label.reject" xml:space="preserve">
+    <value>Reject</value>
+  </data>
+  <data name="Common.label.remark" xml:space="preserve">
+    <value>Remark</value>
+  </data>
+  <data name="Common.label.remarkInfo" xml:space="preserve">
+    <value>Remark</value>
+  </data>
+  <data name="Common.label.rememberMe" xml:space="preserve">
+    <value>Remember me</value>
+  </data>
+  <data name="Common.label.reset" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="Common.label.resetPassword" xml:space="preserve">
+    <value>Reset Password</value>
+  </data>
+  <data name="Common.label.retailmarketprice" xml:space="preserve">
+    <value>Retail Market Price</value>
+  </data>
+  <data name="Common.label.RetailPrice" xml:space="preserve">
+    <value>Retail Price</value>
+  </data>
+  <data name="Common.label.role" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="Common.label.roleGroups" xml:space="preserve">
+    <value>Role Group</value>
+  </data>
+  <data name="Common.label.roles" xml:space="preserve">
+    <value>Roles</value>
+  </data>
+  <data name="Common.label.save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Common.label.search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Common.label.searchAdvanced" xml:space="preserve">
+    <value>Advanced Search</value>
+  </data>
+  <data name="Common.label.select" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="Common.label.sex" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="Common.label.shortName" xml:space="preserve">
+    <value>Short Name</value>
+  </data>
+  <data name="Common.label.signUpNow" xml:space="preserve">
+    <value>Sign up now</value>
+  </data>
+  <data name="Common.label.specification" xml:space="preserve">
+    <value>Specification</value>
+  </data>
+  <data name="Common.label.standardType" xml:space="preserve">
+    <value>Standard Type</value>
+  </data>
+  <data name="Common.label.startDate" xml:space="preserve">
+    <value>Start Date</value>
+  </data>
+  <data name="Common.label.stockadjustment" xml:space="preserve">
+    <value>Stock Adjustment</value>
+  </data>
+  <data name="Common.label.store" xml:space="preserve">
+    <value>Store</value>
+  </data>
+  <data name="Common.label.storeAddress" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="Common.label.tagname" xml:space="preserve">
+    <value>Tag Name</value>
+  </data>
+  <data name="Common.label.tagtype" xml:space="preserve">
+    <value>Tag Type</value>
+  </data>
+  <data name="Common.label.teamUser" xml:space="preserve">
+    <value>Team User</value>
+  </data>
+  <data name="Common.label.templatebanner" xml:space="preserve">
+    <value>Template Banner</value>
+  </data>
+  <data name="Common.label.termsOfUse" xml:space="preserve">
+    <value>I've read and agree with the Terms &amp; Conditions and Privacy notice</value>
+  </data>
+  <data name="Common.label.tier" xml:space="preserve">
+    <value>Tier</value>
+  </data>
+  <data name="Common.label.tierLevel" xml:space="preserve">
+    <value>Tier Level</value>
+  </data>
+  <data name="Common.label.totalmembers" xml:space="preserve">
+    <value>Total Members</value>
+  </data>
+  <data name="Common.label.type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Common.label.unitId" xml:space="preserve">
+    <value>Unit </value>
+  </data>
+  <data name="Common.label.upgradePoint" xml:space="preserve">
+    <value>Upgrade Point</value>
+  </data>
+  <data name="Common.label.username" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="Common.label.users" xml:space="preserve">
+    <value>Users</value>
+  </data>
+  <data name="Common.label.validityperiod" xml:space="preserve">
+    <value>Validity Period</value>
+  </data>
+  <data name="Common.label.value" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="Common.label.vouchercategoryId" xml:space="preserve">
+    <value>Voucher Category</value>
+  </data>
+  <data name="Common.label.warehouse" xml:space="preserve">
+    <value>Warehouse</value>
+  </data>
+  <data name="Common.label.weddingAnniversary" xml:space="preserve">
+    <value>Wedding anniversary</value>
+  </data>
+  <data name="Common.label.yearOfBirth" xml:space="preserve">
+    <value>Year Of Birth</value>
+  </data>
+  <data name="Common.label.yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Common.lable.Import" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="Common.message.passwordChanged" xml:space="preserve">
+    <value>Password changed</value>
+  </data>
+  <data name="Common.notify.addAttributeSuccessfully" xml:space="preserve">
+    <value>Add attribute successfully!</value>
+  </data>
+  <data name="Common.notify.addSuccessfully" xml:space="preserve">
+    <value>Add successfully!</value>
+  </data>
+  <data name="Common.notify.addUserSuccessfully" xml:space="preserve">
+    <value>Add user successfully!</value>
+  </data>
+  <data name="Common.notify.deleteAttributeSuccessfully" xml:space="preserve">
+    <value>Delete attribute successfully!</value>
+  </data>
+  <data name="Common.notify.deleteSuccessfully" xml:space="preserve">
+    <value>Delete successfully!</value>
+  </data>
+  <data name="Common.notify.deleteUserSuccessfully" xml:space="preserve">
+    <value>Delete user successfully!</value>
+  </data>
+  <data name="Common.notify.updateAttributeSuccessfully" xml:space="preserve">
+    <value>Update attribute successfully!</value>
+  </data>
+  <data name="Common.notify.updateSuccessfully" xml:space="preserve">
+    <value>Update successfully!</value>
+  </data>
+  <data name="Common.notify.updateUserSuccessfully" xml:space="preserve">
+    <value>Update user successfully!</value>
+  </data>
+  <data name="EN" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="Lead.import.description" xml:space="preserve">
+    <value>A powerful importing tool that supports excel files</value>
+  </data>
+  <data name="Lead.import.fail" xml:space="preserve">
+    <value>Import Fail</value>
+  </data>
+  <data name="Lead.import.leadManagement" xml:space="preserve">
+    <value>Lead Management</value>
+  </data>
+  <data name="Lead.import.successful" xml:space="preserve">
+    <value>Import Success</value>
+  </data>
+  <data name="Lead.import.title.column" xml:space="preserve">
+    <value>Column</value>
+  </data>
+  <data name="Lead.import.title.default" xml:space="preserve">
+    <value>Default value</value>
+  </data>
+  <data name="Lead.import.title.Field" xml:space="preserve">
+    <value>Field</value>
+  </data>
+  <data name="Lead.import.title.mapping" xml:space="preserve">
+    <value>Setting mapping</value>
+  </data>
+  <data name="Lead.import.title.value" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="Lead.import.totalRowFail" xml:space="preserve">
+    <value>Total row import fail: </value>
+  </data>
+  <data name="Lead.import.totalRowSuccess" xml:space="preserve">
+    <value>Total row import successful: </value>
+  </data>
+  <data name="Lead.import.veltrix" xml:space="preserve">
+    <value>Veltrix</value>
+  </data>
+  <data name="Lead.improt.header" xml:space="preserve">
+    <value>Import lead</value>
+  </data>
+  <data name="ManageLead.form.label.amount" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="ManageLead.form.label.bankAccount" xml:space="preserve">
+    <value>Bank Account</value>
+  </data>
+  <data name="ManageLead.form.label.companyName" xml:space="preserve">
+    <value>Company Name</value>
+  </data>
+  <data name="ManageLead.form.label.creationdate" xml:space="preserve">
+    <value>Creation Date</value>
+  </data>
+  <data name="ManageLead.form.label.electricityBill" xml:space="preserve">
+    <value>Electricity Bill</value>
+  </data>
+  <data name="ManageLead.form.label.healthInsurance" xml:space="preserve">
+    <value>Health Insurance</value>
+  </data>
+  <data name="ManageLead.form.label.incomeAmount" xml:space="preserve">
+    <value>Salary Per Month</value>
+  </data>
+  <data name="ManageLead.form.label.incomeReceivedMethod" xml:space="preserve">
+    <value>Income Received Method</value>
+  </data>
+  <data name="ManageLead.form.label.incomeStream" xml:space="preserve">
+    <value>Income Stream</value>
+  </data>
+  <data name="ManageLead.form.label.internetBill" xml:space="preserve">
+    <value>Internet Bill</value>
+  </data>
+  <data name="ManageLead.form.label.lastupdate" xml:space="preserve">
+    <value>Last Update</value>
+  </data>
+  <data name="ManageLead.form.label.leadDate" xml:space="preserve">
+    <value>Lead Date</value>
+  </data>
+  <data name="ManageLead.form.label.leadSource" xml:space="preserve">
+    <value>Lead Source</value>
+  </data>
+  <data name="ManageLead.form.label.lifeInsurance" xml:space="preserve">
+    <value>Life Insurance</value>
+  </data>
+  <data name="ManageLead.form.label.loanAmount" xml:space="preserve">
+    <value>Amount </value>
+  </data>
+  <data name="ManageLead.form.label.loanPeriod" xml:space="preserve">
+    <value>Loan Peroid</value>
+  </data>
+  <data name="ManageLead.form.label.loanProduct" xml:space="preserve">
+    <value>Loan Product</value>
+  </data>
+  <data name="ManageLead.form.label.loanPurpose" xml:space="preserve">
+    <value>Loan Purpose</value>
+  </data>
+  <data name="ManageLead.form.label.maritalStatus" xml:space="preserve">
+    <value>Marital Status</value>
+  </data>
+  <data name="ManageLead.form.label.originalFile1" xml:space="preserve">
+    <value>Original File1</value>
+  </data>
+  <data name="ManageLead.form.label.originalFile2" xml:space="preserve">
+    <value>Orginal File 2</value>
+  </data>
+  <data name="ManageLead.form.label.position" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="ManageLead.form.label.registerNumber" xml:space="preserve">
+    <value>Register No.</value>
+  </data>
+  <data name="ManageLead.form.label.simCard" xml:space="preserve">
+    <value>SIM Card</value>
+  </data>
+  <data name="ManageLead.form.label.vehicleRegistrationCertificate" xml:space="preserve">
+    <value>Vehicle Registration Certificate</value>
+  </data>
+  <data name="ManageLead.form.title.AdditionalInformation" xml:space="preserve">
+    <value>Additional Information</value>
+  </data>
+  <data name="ManageLead.form.title.JobIncome" xml:space="preserve">
+    <value>Income</value>
+  </data>
+  <data name="ManageMember.form.title.communicationPreferences" xml:space="preserve">
+    <value>Communication Preferences</value>
+  </data>
+  <data name="ManageMember.form.title.memberTags" xml:space="preserve">
+    <value>Member Tags</value>
+  </data>
+  <data name="ManageMember.form.title.personalDetails" xml:space="preserve">
+    <value>Personal Details</value>
+  </data>
+  <data name="ManageMember.form.title.RegistrationInformation" xml:space="preserve">
+    <value>Registration information</value>
+  </data>
+  <data name="ManageMember.formtitle.termsOfUse" xml:space="preserve">
+    <value>Terms Of Use</value>
+  </data>
+  <data name="ManageMember_form_title_brandPreferences" xml:space="preserve">
+    <value>Brand Preferences</value>
+  </data>
+  <data name="Sidebar.borrowerManagement.manageBorrowers" xml:space="preserve">
+    <value>Manage Borrowers</value>
+  </data>
+  <data name="Sidebar.campaign.lifecycle" xml:space="preserve">
+    <value>Lifecycle Campaign</value>
+  </data>
+  <data name="Sidebar.campaign.recurring" xml:space="preserve">
+    <value>Recurring Campaign</value>
+  </data>
+  <data name="Sidebar.campaign.spot" xml:space="preserve">
+    <value>Spot Campaign</value>
+  </data>
+  <data name="Sidebar.campaign.trigger" xml:space="preserve">
+    <value>Trigger Campaign</value>
+  </data>
+  <data name="Sidebar.configurations.brand" xml:space="preserve">
+    <value>Brand</value>
+  </data>
+  <data name="Sidebar.configurations.category" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="Sidebar.configurations.channel" xml:space="preserve">
+    <value>Channel</value>
+  </data>
+  <data name="Sidebar.configurations.coupon" xml:space="preserve">
+    <value>Coupon</value>
+  </data>
+  <data name="Sidebar.configurations.couponCategory" xml:space="preserve">
+    <value>Coupon Category</value>
+  </data>
+  <data name="Sidebar.configurations.departments" xml:space="preserve">
+    <value>Departments</value>
+  </data>
+  <data name="Sidebar.configurations.giftCategory" xml:space="preserve">
+    <value>Gift Category</value>
+  </data>
+  <data name="Sidebar.configurations.jobTitle" xml:space="preserve">
+    <value>Job Title</value>
+  </data>
+  <data name="Sidebar.configurations.loyaltyPointType" xml:space="preserve">
+    <value>Loyalty Point Type</value>
+  </data>
+  <data name="Sidebar.configurations.loyaltyTier" xml:space="preserve">
+    <value>Loyalty Tier</value>
+  </data>
+  <data name="Sidebar.configurations.occupation" xml:space="preserve">
+    <value>Occupation</value>
+  </data>
+  <data name="Sidebar.configurations.organization" xml:space="preserve">
+    <value>Organization</value>
+  </data>
+  <data name="Sidebar.configurations.originalFile" xml:space="preserve">
+    <value>Original File 1</value>
+  </data>
+  <data name="Sidebar.configurations.originalFileAddition" xml:space="preserve">
+    <value>Original File 2</value>
+  </data>
+  <data name="Sidebar.configurations.product" xml:space="preserve">
+    <value>Product</value>
+  </data>
+  <data name="Sidebar.configurations.productCat" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="Sidebar.configurations.productMng" xml:space="preserve">
+    <value>Product</value>
+  </data>
+  <data name="Sidebar.configurations.roleGroups" xml:space="preserve">
+    <value>Role Groups</value>
+  </data>
+  <data name="Sidebar.configurations.store" xml:space="preserve">
+    <value>Store</value>
+  </data>
+  <data name="Sidebar.configurations.teams" xml:space="preserve">
+    <value>Team</value>
+  </data>
+  <data name="Sidebar.configurations.unit" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="Sidebar.configurations.userMng" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="Sidebar.configurations.users" xml:space="preserve">
+    <value>Users</value>
+  </data>
+  <data name="Sidebar.configurations.voucherCategory" xml:space="preserve">
+    <value>Voucher Category</value>
+  </data>
+  <data name="Sidebar.configurations.warehouse" xml:space="preserve">
+    <value>Warehouse</value>
+  </data>
+  <data name="Sidebar.configurations.warehouseMng" xml:space="preserve">
+    <value>Warehouse</value>
+  </data>
+  <data name="Sidebar.help.faq" xml:space="preserve">
+    <value>FAQ</value>
+  </data>
+  <data name="Sidebar.help.tutorial" xml:space="preserve">
+    <value>Tutorial</value>
+  </data>
+  <data name="Sidebar.leadManagement.compaigns" xml:space="preserve">
+    <value>Compaigns</value>
+  </data>
+  <data name="Sidebar.leadManagement.importLeads" xml:space="preserve">
+    <value>Import Leads</value>
+  </data>
+  <data name="Sidebar.leadManagement.manageLeads" xml:space="preserve">
+    <value>Manage Leads</value>
+  </data>
+  <data name="Sidebar.loyalty.pointRule" xml:space="preserve">
+    <value>Point Rule</value>
+  </data>
+  <data name="Sidebar.loyalty.referral" xml:space="preserve">
+    <value>Referral</value>
+  </data>
+  <data name="Sidebar.loyalty.tierRule" xml:space="preserve">
+    <value>Tier Rule</value>
+  </data>
+  <data name="Sidebar.main.dashboard" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="Sidebar.main.search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Sidebar.main.search.searchContacts" xml:space="preserve">
+    <value>Search Contacts</value>
+  </data>
+  <data name="Sidebar.main.search.searchLeads" xml:space="preserve">
+    <value>Search Leads</value>
+  </data>
+  <data name="Sidebar.member.management" xml:space="preserve">
+    <value>Import Member</value>
+  </data>
+  <data name="Sidebar.member.memberQuery" xml:space="preserve">
+    <value>Member Query</value>
+  </data>
+  <data name="Sidebar.member.recruitment" xml:space="preserve">
+    <value>Add Member</value>
+  </data>
+  <data name="Sidebar.member.search" xml:space="preserve">
+    <value>Seach</value>
+  </data>
+  <data name="Sidebar.memberManagement.manageMembers" xml:space="preserve">
+    <value>Member view</value>
+  </data>
+  <data name="Sidebar.member.tag" xml:space="preserve">
+    <value>Member Tag</value>
+  </data>
+  <data name="Sidebar.productMng.product" xml:space="preserve">
+    <value>Product</value>
+  </data>
+  <data name="Sidebar.productMng.productCategory" xml:space="preserve">
+    <value>Product Category</value>
+  </data>
+  <data name="Sidebar.productMng.productProperty" xml:space="preserve">
+    <value>Product Property</value>
+  </data>
+  <data name="Sidebar.reporting.member" xml:space="preserve">
+    <value>Member Report</value>
+  </data>
+  <data name="Sidebar.reporting.rewards" xml:space="preserve">
+    <value>Reward Report</value>
+  </data>
+  <data name="Sidebar.reports.leads" xml:space="preserve">
+    <value>Leads</value>
+  </data>
+  <data name="Sidebar.rewards.center" xml:space="preserve">
+    <value>Reward Center</value>
+  </data>
+  <data name="Sidebar.rewards.coupon" xml:space="preserve">
+    <value>Coupon</value>
+  </data>
+  <data name="Sidebar.rewards.gift" xml:space="preserve">
+    <value>Gift</value>
+  </data>
+  <data name="Sidebar.rewards.redemption" xml:space="preserve">
+    <value>Redemption</value>
+  </data>
+  <data name="Sidebar.rewards.voucher" xml:space="preserve">
+    <value>Voucher</value>
+  </data>
+  <data name="Sidebar.title.borrowerManagement" xml:space="preserve">
+    <value>Borrower Management</value>
+  </data>
+  <data name="Sidebar.title.campaign" xml:space="preserve">
+    <value>Campaign</value>
+  </data>
+  <data name="Sidebar.title.configurations" xml:space="preserve">
+    <value>Configurations</value>
+  </data>
+  <data name="Sidebar.title.help" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="Sidebar.title.leadManagement" xml:space="preserve">
+    <value>Lead Management</value>
+  </data>
+  <data name="Sidebar.title.loyalty" xml:space="preserve">
+    <value>Loyalty</value>
+  </data>
+  <data name="Sidebar.title.main" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="Sidebar.title.member" xml:space="preserve">
+    <value>Member</value>
+  </data>
+  <data name="Sidebar.title.membertag" xml:space="preserve">
+    <value>Member Tag</value>
+  </data>
+  <data name="Sidebar.title.reports" xml:space="preserve">
+    <value>Reports</value>
+  </data>
+  <data name="Sidebar.title.rewards" xml:space="preserve">
+    <value>Rewards</value>
+  </data>
+  <data name="Sidebar.title.tools" xml:space="preserve">
+    <value>Tools</value>
+  </data>
+  <data name="Sidebar.title.wallets" xml:space="preserve">
+    <value>Wallets</value>
+  </data>
+  <data name="Sidebar.tools.fileImport" xml:space="preserve">
+    <value>File Import</value>
+  </data>
+  <data name="Sidebar.tools.transactions" xml:space="preserve">
+    <value>Import Transactions (CSV)</value>
+  </data>
+  <data name="Sidebar.wallets.wallets" xml:space="preserve">
+    <value>Wallets</value>
+  </data>
+  <data name="Sidebar.warehouseMng.asset" xml:space="preserve">
+    <value>Asset</value>
+  </data>
+  <data name="Sidebar.warehouseMng.assetProperty" xml:space="preserve">
+    <value>Asset Property</value>
+  </data>
+  <data name="Sidebar.warehouseMng.assetType" xml:space="preserve">
+    <value>Asset Type</value>
+  </data>
+  <data name="VI" xml:space="preserve">
+    <value>Vietnamese</value>
+  </data>
+  <data name="Common.label.codeStore" xml:space="preserve">
+    <value>Store Code</value>
+  </data>
+  <data name="Common.label.RegistrationStoreCode" xml:space="preserve">
+    <value>Store code</value>
+  </data>
+  <data name="Common.label.memberCode" xml:space="preserve">
+    <value>Member Code</value>
+  </data>
+  <data name="Sidebar.configurations.memberTagCategory" xml:space="preserve">
+    <value>Member Tag Category</value>
+  </data>
+  <data name="Common.label.typename" xml:space="preserve">
+    <value>Type name</value>
+  </data>
+  <data name="Common.label.membertag.category.name" xml:space="preserve">
+    <value>Membertag Category Name</value>
+  </data>
+  <data name="Common.label.blacklist" xml:space="preserve">
+    <value>BlackList</value>
+  </data>
+  <data name="Common.label.pointcustomrule" xml:space="preserve">
+    <value>Point Custom Rules</value>
+  </data>
+  <data name="Common.label.pointlimitationrule" xml:space="preserve">
+    <value>Point Limitation Rules</value>
+  </data>
+  <data name="Common.label.pointrule" xml:space="preserve">
+    <value>Point Rule</value>
+  </data>
+  <data name="Common.label.pointstandardrule" xml:space="preserve">
+    <value>Standard Point Rule</value>
+  </data>
+  <data name="Common.label.tierrule" xml:space="preserve">
+    <value>Tier Rule</value>
+  </data>
+  <data name="Common.label.registrationEmployees" xml:space="preserve">
+    <value>Employee</value>
+  </data>
+  <data name="Common.label.after" xml:space="preserve">
+    <value>After</value>
+  </data>
+  <data name="Common.label.atmostget" xml:space="preserve">
+    <value>At most get</value>
+  </data>
+  <data name="Common.label.atmostredeem" xml:space="preserve">
+    <value>At most redeem</value>
+  </data>
+  <data name="Common.label.decimalplaces" xml:space="preserve">
+    <value>Decimal places</value>
+  </data>
+  <data name="Common.label.decimalprecisionmethod" xml:space="preserve">
+    <value>Decimal precision method</value>
+  </data>
+  <data name="Common.label.expireafter" xml:space="preserve">
+    <value>Expire after</value>
+  </data>
+  <data name="Common.label.expireon" xml:space="preserve">
+    <value>Expire on</value>
+  </data>
+  <data name="Common.label.Expirethelastdayofthemonthafter" xml:space="preserve">
+    <value>Expire the last day of the month after</value>
+  </data>
+  <data name="Common.label.limitearnedpoints" xml:space="preserve">
+    <value>Limit the earned points</value>
+  </data>
+  <data name="Common.label.Limitredeemedpoints" xml:space="preserve">
+    <value>Limit the redeemed points</value>
+  </data>
+  <data name="Common.label.neverexpire" xml:space="preserve">
+    <value>Never expire</value>
+  </data>
+  <data name="Common.label.nolimit" xml:space="preserve">
+    <value>No limit</value>
+  </data>
+  <data name="Common.label.pointearnrule" xml:space="preserve">
+    <value>Point Earn Rule</value>
+  </data>
+  <data name="Common.label.pointexpiryrule" xml:space="preserve">
+    <value>Point Expiry Rule</value>
+  </data>
+  <data name="Common.label.pointname" xml:space="preserve">
+    <value>Point Name</value>
+  </data>
+  <data name="Common.label.pointredemptionrule" xml:space="preserve">
+    <value>Point Redemption Rule</value>
+  </data>
+  <data name="Common.label.year" xml:space="preserve">
+    <value>Year(s)</value>
+  </data>
+  <data name="Common.label.range" xml:space="preserve">
+    <value>Birthday </value>
+  </data>
+  <data name="Common.label.registrationRangeDate" xml:space="preserve">
+    <value>Register </value>
+  </data>
+  <data name="Common.label.setting" xml:space="preserve">
+    <value>Setting</value>
+  </data>
+  <data name="Common.label.settingchange" xml:space="preserve">
+    <value>Change settings</value>
+  </data>
+  <data name="Common.label.usedefaultvalue" xml:space="preserve">
+    <value>Use default value</value>
+  </data>
+  <data name="Common_label_ifday293031" xml:space="preserve">
+    <value>If day 29, 30, 31 doesn't fall in the month, the points will expire on the month's last day.</value>
+  </data>
+  <data name="Common_label_spend" xml:space="preserve">
+    <value>spend 1000 VNĐ get</value>
+  </data>
+  <data name="Common.label.aspecificbranch" xml:space="preserve">
+    <value>A specific branch</value>
+  </data>
+  <data name="Common.label.aspecificcategory" xml:space="preserve">
+    <value>A specific category</value>
+  </data>
+  <data name="Common.label.aspecificproduct" xml:space="preserve">
+    <value>A specific product</value>
+  </data>
+  <data name="Common.label.aspecificstore" xml:space="preserve">
+    <value>A specific store</value>
+  </data>
+  <data name="Common.label.aspecificsubcategory" xml:space="preserve">
+    <value>A specific sub-category</value>
+  </data>
+  <data name="Common.label.atmost" xml:space="preserve">
+    <value>At most</value>
+  </data>
+  <data name="Common.label.creationdate" xml:space="preserve">
+    <value>Creation date</value>
+  </data>
+  <data name="Common.label.earnrule" xml:space="preserve">
+    <value>Earn rule</value>
+  </data>
+  <data name="Common.label.for1sgd" xml:space="preserve">
+    <value>for 1000 VNĐ (20,000 VND = 1 point)</value>
+  </data>
+  <data name="Common.label.get" xml:space="preserve">
+    <value>get</value>
+  </data>
+  <data name="Common.label.lastupdate" xml:space="preserve">
+    <value>Last Update</value>
+  </data>
+  <data name="Common.label.per" xml:space="preserve">
+    <value>per</value>
+  </data>
+  <data name="Common.label.redeem" xml:space="preserve">
+    <value>Redeem</value>
+  </data>
+  <data name="Common.label.rulename" xml:space="preserve">
+    <value>Rule Name</value>
+  </data>
+  <data name="Common.label.state" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="Common.label.storecode" xml:space="preserve">
+    <value>Store code</value>
+  </data>
+  <data name="Common.label.storename" xml:space="preserve">
+    <value>Store name</value>
+  </data>
+  <data name="Common.label.telephone" xml:space="preserve">
+    <value>Telephone</value>
+  </data>
+  <data name="Common.label.conditions" xml:space="preserve">
+    <value>Conditions</value>
+  </data>
+  <data name="Common.label.selectabrand" xml:space="preserve">
+    <value>Select a brand</value>
+  </data>
+  <data name="Common.label.selectacategory" xml:space="preserve">
+    <value>Select a category</value>
+  </data>
+  <data name="Common.label.selectaproduct" xml:space="preserve">
+    <value>Select a product</value>
+  </data>
+  <data name="Common.label.selectastore" xml:space="preserve">
+    <value>Select a store</value>
+  </data>
+  <data name="Common.label.selectasubcategory" xml:space="preserve">
+    <value>Select a subcategory</value>
+  </data>
+  <data name="Member.import.description" xml:space="preserve">
+    <value>A powerful importing tool that supports excel files</value>
+  </data>
+  <data name="Member.import.fail" xml:space="preserve">
+    <value>Import Fail</value>
+  </data>
+  <data name="Member.import.successful" xml:space="preserve">
+    <value>Import Success</value>
+  </data>
+  <data name="Member.import.title.colum" xml:space="preserve">
+    <value>Column</value>
+  </data>
+  <data name="Member.import.title.default" xml:space="preserve">
+    <value>Default value</value>
+  </data>
+  <data name="Member.import.title.Field" xml:space="preserve">
+    <value>Field</value>
+  </data>
+  <data name="Member.import.title.mapping" xml:space="preserve">
+    <value>Setting mapping</value>
+  </data>
+  <data name="Member.import.title.value" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="Member.import.totalRowFail" xml:space="preserve">
+    <value>Total row import fail:</value>
+  </data>
+  <data name="Member.import.totalRowSuccess" xml:space="preserve">
+    <value>Total row import successful:</value>
+  </data>
+  <data name="Member.import.veltrix" xml:space="preserve">
+    <value>Panda Loyalty</value>
+  </data>
+  <data name="Member.improt.header" xml:space="preserve">
+    <value>Import member</value>
+  </data>
+  <data name="Common.label.advancesearch" xml:space="preserve">
+    <value>Advance Search</value>
+  </data>
+  <data name="Common.label.couponcode" xml:space="preserve">
+    <value>Coupon Code</value>
+  </data>
+  <data name="Common.label.couponname" xml:space="preserve">
+    <value>Coupon Name</value>
+  </data>
+  <data name="Common.label.coupontype" xml:space="preserve">
+    <value>Coupon Type</value>
+  </data>
+  <data name="Common.label.effectivefrom" xml:space="preserve">
+    <value>Effective From</value>
+  </data>
+  <data name="Common.label.effectiveto" xml:space="preserve">
+    <value>Effective To</value>
+  </data>
+  <data name="Common.label.usedincampaign" xml:space="preserve">
+    <value>Used in campaign</value>
+  </data>
+  <data name="Common.label.usedinredeemption" xml:space="preserve">
+    <value>Used in redeemption</value>
+  </data>
+  <data name="Sidebar.tools.importMemberCsv" xml:space="preserve">
+    <value>Import member (CSV)</value>
+  </data>
+  <data name="Sidebar.member.group" xml:space="preserve">
+    <value>Member Group</value>
+  </data>
+  <data name="Sidebar.member.segment" xml:space="preserve">
+    <value>Member Segment</value>
+  </data>
+  <data name="Sidebar.member.lifecycle" xml:space="preserve">
+    <value>Member Lifecycle</value>
+  </data>
+  <data name="Common.label.conditional" xml:space="preserve">
+    <value>Conditional</value>
+  </data>
+  <data name="Common.label.memberGroup" xml:space="preserve">
+    <value>Member Group Name</value>
+  </data>
+  <data name="Sidebar.configurations.memberGroup" xml:space="preserve">
+    <value>Member Group</value>
+  </data>
+  <data name="Common.label.conditionalTag" xml:space="preserve">
+    <value>Conditional Tag</value>
+  </data>
+  <data name="Common.label.unConditionalTag" xml:space="preserve">
+    <value>Un-conditional Tag</value>
+  </data>
+  <data name="Sidebar.configurations.memberGroupTag" xml:space="preserve">
+    <value>MemberGroupTag</value>
+  </data>
+  <data name="Common.label.memberGroupName" xml:space="preserve">
+    <value>Member Group Name</value>
+  </data>
+  <data name="Common.label.memberTagName" xml:space="preserve">
+    <value>Member Tag Name</value>
+  </data>
+  <data name="Common.label.memberSegment" xml:space="preserve">
+    <value>Segment Name</value>
+  </data>
+  <data name="Member.Segment" xml:space="preserve">
+    <value>Member Segment</value>
+  </data>
+  <data name="Sidebar.member.memberSegment" xml:space="preserve">
+    <value>Member Segment</value>
+  </data>
+  <data name="Common.label.age" xml:space="preserve">
+    <value>Age</value>
+  </data>
+  <data name="Common.label.amountOfTransaction" xml:space="preserve">
+    <value>Amount of transaction</value>
+  </data>
+  <data name="Common.label.analysis" xml:space="preserve">
+    <value>Analysis</value>
+  </data>
+  <data name="Common.label.and" xml:space="preserve">
+    <value>and</value>
+  </data>
+  <data name="Common.label.availablePoint" xml:space="preserve">
+    <value>Available point</value>
+  </data>
+  <data name="Common.label.averageBasket" xml:space="preserve">
+    <value>Average Basket</value>
+  </data>
+  <data name="Common.label.averageItems" xml:space="preserve">
+    <value>Average Items</value>
+  </data>
+  <data name="Common.label.birthdaymonth" xml:space="preserve">
+    <value>Birthday month</value>
+  </data>
+  <data name="Common.label.communicationPreferrences" xml:space="preserve">
+    <value>Communication Preferrences</value>
+  </data>
+  <data name="Common.label.defaultpersonaldetails" xml:space="preserve">
+    <value>Default Personal Details</value>
+  </data>
+  <data name="Common.Label.Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Common.label.downgraderule" xml:space="preserve">
+    <value>Downgrade rule</value>
+  </data>
+  <data name="Common.label.emailAddress" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Common.label.firstTransactionDate" xml:space="preserve">
+    <value>First transaction date</value>
+  </data>
+  <data name="Common.label.gender" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="Common.label.lastmonth" xml:space="preserve">
+    <value>Last Month</value>
+  </data>
+  <data name="Common.label.lastTransactionDate" xml:space="preserve">
+    <value>Last transaction date</value>
+  </data>
+  <data name="Common.label.loyalty" xml:space="preserve">
+    <value>Loyalty</value>
+  </data>
+  <data name="Common.label.loyaltypointrule" xml:space="preserve">
+    <value>Loyalty Point Rule</value>
+  </data>
+  <data name="Common.label.maratialStatus" xml:space="preserve">
+    <value>Maratial status</value>
+  </data>
+  <data name="Common.label.marriedYear" xml:space="preserve">
+    <value>Married year</value>
+  </data>
+  <data name="Common.label.memberimport" xml:space="preserve">
+    <value>Member Import</value>
+  </data>
+  <data name="Common.label.memberlifecycle" xml:space="preserve">
+    <value>Member Life Cycle</value>
+  </data>
+  <data name="Common.label.memberTag" xml:space="preserve">
+    <value>Member Tag</value>
+  </data>
+  <data name="Common.label.noDataLimitation" xml:space="preserve">
+    <value>No Data Limitation</value>
+  </data>
+  <data name="Common.label.numberOfTransaction" xml:space="preserve">
+    <value>Number of transaction</value>
+  </data>
+  <data name="Common.label.pointearnl" xml:space="preserve">
+    <value>Point Earnl</value>
+  </data>
+  <data name="Common.label.province-city" xml:space="preserve">
+    <value>Province/City</value>
+  </data>
+  <data name="Common.label.purchasedBrand" xml:space="preserve">
+    <value>Purchased Brand</value>
+  </data>
+  <data name="Common.label.purchasedCategory" xml:space="preserve">
+    <value>Purchased Category</value>
+  </data>
+  <data name="Common.label.recruit" xml:space="preserve">
+    <value>Add Member</value>
+  </data>
+  <data name="Common.label.referee" xml:space="preserve">
+    <value>Referee</value>
+  </data>
+  <data name="Common.label.referer" xml:space="preserve">
+    <value>Referer</value>
+  </data>
+  <data name="Common.label.referersWhoRefered" xml:space="preserve">
+    <value>Referers Who Refered</value>
+  </data>
+  <data name="Common.label.referral" xml:space="preserve">
+    <value>Referral</value>
+  </data>
+  <data name="Common.label.selectbrand" xml:space="preserve">
+    <value>Selected Brand</value>
+  </data>
+  <data name="Common.label.selectcat" xml:space="preserve">
+    <value>Selected Categories</value>
+  </data>
+  <data name="Common.label.selectchannel" xml:space="preserve">
+    <value>Selected Channels</value>
+  </data>
+  <data name="Common.label.selectproduct" xml:space="preserve">
+    <value>Select Product</value>
+  </data>
+  <data name="Common.label.selectstore" xml:space="preserve">
+    <value>Selected Store</value>
+  </data>
+  <data name="Common.label.selectsubcat" xml:space="preserve">
+    <value>Selected CatCategories</value>
+  </data>
+  <data name="Common.label.tiergenerosity" xml:space="preserve">
+    <value>Tier Generosity</value>
+  </data>
+  <data name="Common.label.tierInformation" xml:space="preserve">
+    <value>Tier Information</value>
+  </data>
+  <data name="Common.label.transaction" xml:space="preserve">
+    <value>Transaction</value>
+  </data>
+  <data name="Common.label.upgraderule" xml:space="preserve">
+    <value>Upgrade rule</value>
+  </data>
+  <data name="Common.label.validityPeriodType" xml:space="preserve">
+    <value>ValidityPeriodType</value>
+  </data>
+  <data name="Common.label.weddingMonth" xml:space="preserve">
+    <value>Wedding month</value>
+  </data>
+  <data name="Sidebar.configurations.memberSegment" xml:space="preserve">
+    <value>Member Segment</value>
+  </data>
+  <data name="Common.label.memberReport" xml:space="preserve">
+    <value>New Members Report</value>
+  </data>
+  <data name="Common.label.redemption" xml:space="preserve">
+    <value>Redemption</value>
+  </data>
+  <data name="Common.label.redemptionReport" xml:space="preserve">
+    <value>Redemption Report</value>
+  </data>
+  <data name="Common.label.reports" xml:space="preserve">
+    <value>Reports</value>
+  </data>
+  <data name="Common.label.rewards" xml:space="preserve">
+    <value>Rewards</value>
+  </data>
+  <data name="Common.label.rewardsCenter" xml:space="preserve">
+    <value>Rewards Center</value>
+  </data>
+  <data name="Common.label.fileImport" xml:space="preserve">
+    <value>File Import</value>
+  </data>
+  <data name="Common.label.tools" xml:space="preserve">
+    <value>Tools</value>
+  </data>
+  <data name="Common.label.action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="Common.label.addnewcoupon" xml:space="preserve">
+    <value>ADD NEW COUPON</value>
+  </data>
+  <data name="Common.label.amount" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="Common.label.anotheraction" xml:space="preserve">
+    <value>An other action</value>
+  </data>
+  <data name="Common.label.applicabletospecificstore" xml:space="preserve">
+    <value>Applicable to specific store</value>
+  </data>
+  <data name="Common.label.balance" xml:space="preserve">
+    <value>Balance</value>
+  </data>
+  <data name="Common.label.campaign" xml:space="preserve">
+    <value>Campaign</value>
+  </data>
+  <data name="Common.label.chicagoMap" xml:space="preserve">
+    <value>Chicago Map</value>
+  </data>
+  <data name="Common.label.createAt" xml:space="preserve">
+    <value>Create At</value>
+  </data>
+  <data name="Common.label.date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Common.label.delivered" xml:space="preserve">
+    <value>Delivered</value>
+  </data>
+  <data name="Common.label.exampleofgooglemaps" xml:space="preserve">
+    <value>Example of google maps.</value>
+  </data>
+  <data name="Common.label.exampleofvectormap" xml:space="preserve">
+    <value>Example of vector map</value>
+  </data>
+  <data name="Common.label.from" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="Common.label.latestTrasaction" xml:space="preserve">
+    <value>Latest Trasaction</value>
+  </data>
+  <data name="Common.label.lifecycleCampaign" xml:space="preserve">
+    <value>LifeCycle Campaign</value>
+  </data>
+  <data name="Common.label.map" xml:space="preserve">
+    <value>Maps</value>
+  </data>
+  <data name="Common.label.maptypes" xml:space="preserve">
+    <value>Maptypes</value>
+  </data>
+  <data name="Common.label.markers" xml:space="preserve">
+    <value>Markers</value>
+  </data>
+  <data name="Common.label.overlay" xml:space="preserve">
+    <value>Overlays</value>
+  </data>
+  <data name="Common.label.recurringCampaign" xml:space="preserve">
+    <value>Recurring Campaign</value>
+  </data>
+  <data name="Common.label.separatedlink" xml:space="preserve">
+    <value>Separated link</value>
+  </data>
+  <data name="Common.label.somethingelsehere" xml:space="preserve">
+    <value>Something else here</value>
+  </data>
+  <data name="Common.label.spotCampaign" xml:space="preserve">
+    <value>Spot Campaign</value>
+  </data>
+  <data name="Common.label.streetViewPanoramas" xml:space="preserve">
+    <value>Street View Panoramas</value>
+  </data>
+  <data name="Common.label.surname" xml:space="preserve">
+    <value>Surname</value>
+  </data>
+  <data name="Common.label.to" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="Common.label.transfer" xml:space="preserve">
+    <value>Transfer</value>
+  </data>
+  <data name="Common.label.triggerCampaign" xml:space="preserve">
+    <value>Trigger Campaign</value>
+  </data>
+  <data name="Common.label.ukMap" xml:space="preserve">
+    <value>UK Map</value>
+  </data>
+  <data name="Common.label.usaMap" xml:space="preserve">
+    <value>USA Map</value>
+  </data>
+  <data name="Common.label.vectorMap" xml:space="preserve">
+    <value>Vector Map</value>
+  </data>
+  <data name="Common.label.wallet" xml:space="preserve">
+    <value>Wallet</value>
+  </data>
+  <data name="Common.label.worldMap" xml:space="preserve">
+    <value>World Map</value>
+  </data>
+  <data name="Common.label.alerts" xml:space="preserve">
+    <value>Alerts</value>
+  </data>
+  <data name="Common.label.calendar" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="Common.label.uiElements" xml:space="preserve">
+    <value>UI Elements</value>
+  </data>
+  <data name="Common.label.customerPersonalDetails" xml:space="preserve">
+    <value>Customer Personal Details</value>
+  </data>
+  <data name="Common.label.selectoneormore" xml:space="preserve">
+    <value>Select one or more conditions to create a conditional tag</value>
+  </data>
+  <data name="Common.label.dayaftereffective" xml:space="preserve">
+    <value>Day(s) a fter effective</value>
+  </data>
+  <data name="Common.label.dayafterreceptio" xml:space="preserve">
+    <value>Day(s) after receptio</value>
+  </data>
+  <data name="Common.label.endto" xml:space="preserve">
+    <value>End to</value>
+  </data>
+  <data name="Common.label.minimumpurchaseof" xml:space="preserve">
+    <value>Minimum purchase</value>
+  </data>
+  <data name="Common.label.redemptionconditions" xml:space="preserve">
+    <value>Redemption conditions</value>
+  </data>
+  <data name="Common.label.startfrom" xml:space="preserve">
+    <value>Start from</value>
+  </data>
+  <data name="Common.label.termsconditions" xml:space="preserve">
+    <value>Terms &amp; Conditions</value>
+  </data>
+  <data name="Common.label.validityperiot" xml:space="preserve">
+    <value>Validity Period</value>
+  </data>
+  <data name="Common.label.canotfind" xml:space="preserve">
+    <value>Can't find what you are looking for?</value>
+  </data>
+  <data name="Common.label.emailUs" xml:space="preserve">
+    <value>Email Us</value>
+  </data>
+  <data name="Common.label.estimatedaudience" xml:space="preserve">
+    <value>Estimated Audience</value>
+  </data>
+  <data name="Common.label.everyonerealizes" xml:space="preserve">
+    <value>Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators. To achieve this, it would be necessary to have uniform grammar</value>
+  </data>
+  <data name="Common.label.extrapages" xml:space="preserve">
+    <value>Extra Pages</value>
+  </data>
+  <data name="Common.label.faqs" xml:space="preserve">
+    <value>Faqs</value>
+  </data>
+  <data name="Common.label.generalQuestions" xml:space="preserve">
+    <value>General Questions</value>
+  </data>
+  <data name="Common.label.ifseverallanguages" xml:space="preserve">
+    <value>If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages. The new common language will be more simple</value>
+  </data>
+  <data name="Common.label.ifseverallanguagescoalesce" xml:space="preserve">
+    <value>If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages.</value>
+  </data>
+  <data name="Common.label.lifecyclestage" xml:space="preserve">
+    <value>Lifecycle Stage</value>
+  </data>
+  <data name="Common.label.pricingPlans" xml:space="preserve">
+    <value>Pricing  &amp; Plans</value>
+  </data>
+  <data name="Common.label.sendusatweet" xml:space="preserve">
+    <value>Send us a tweet</value>
+  </data>
+  <data name="Common.label.thenewcommonlanguage" xml:space="preserve">
+    <value>The new common language will be more simple and regular than the existing European languages. It will be as simple as Occidental; in fact, it will be Occidental.</value>
+  </data>
+  <data name="Common.label.whatisLoremIpsum" xml:space="preserve">
+    <value>What is Lorem Ipsum ?</value>
+  </data>
+  <data name="Common.label.wherecanIgetsome" xml:space="preserve">
+    <value>Where can I get some?</value>
+  </data>
+  <data name="Common.label.wheredoesitcomefrom" xml:space="preserve">
+    <value>Where does it come from ?</value>
+  </data>
+  <data name="Common.label.whydoweuseit" xml:space="preserve">
+    <value>Why do we use it ?</value>
+  </data>
+  <data name="Sidebar.title.Memberwallets" xml:space="preserve">
+    <value>Member Wallets</value>
+  </data>
+  <data name="Common.label.autogenerated" xml:space="preserve">
+    <value>Auto generated member code</value>
+  </data>
+  <data name="Common.label.discountRate" xml:space="preserve">
+    <value>Discount Rate</value>
+  </data>
+  <data name="Sidebar.title.MemberwalletsHistory" xml:space="preserve">
+    <value>Member Wallets History</value>
+  </data>
+  <data name="Member.AcceptToBeContactedViaMobileEmail" xml:space="preserve">
+    <value>Yes, I accept to be contacted via email.</value>
+  </data>
+  <data name="Member.AcceptToBeContactedViaMobilePhone" xml:space="preserve">
+    <value>Yes, I accept to be contacted via mobile phone.</value>
+  </data>
+  <data name="Member.AcceptToReceiveLoyaltyInformation" xml:space="preserve">
+    <value>Yes, I accept to receive loyalty-related information (point status, loyalty update, redemption notifications, birthday greeting, ...).</value>
+  </data>
+  <data name="Member.AcceptToReceiveMarketing" xml:space="preserve">
+    <value>Yes, I accept to receive marketing-related communication and offer (news, special deals, coupons, ...).</value>
+  </data>
+  <data name="Member.NotAcceptAnyContact" xml:space="preserve">
+    <value>No, I would not like to receive any type of communication/information, neither by mobile phone nor email.</value>
+  </data>
+  <data name="Before.12months" xml:space="preserve">
+    <value>Before 12 months</value>
+  </data>
+  <data name="Before.1months" xml:space="preserve">
+    <value>Before 1 months</value>
+  </data>
+  <data name="Before.3months" xml:space="preserve">
+    <value>Before 3 months</value>
+  </data>
+  <data name="Before.6months" xml:space="preserve">
+    <value>Before 6 months</value>
+  </data>
+  <data name="Before.9months" xml:space="preserve">
+    <value>Before 9 months</value>
+  </data>
+  <data name="Last.10days" xml:space="preserve">
+    <value>Last 10 days</value>
+  </data>
+  <data name="Last.12months" xml:space="preserve">
+    <value>Last 12 months</value>
+  </data>
+  <data name="Last.15days" xml:space="preserve">
+    <value>Last 15 days</value>
+  </data>
+  <data name="Last.1months" xml:space="preserve">
+    <value>Last 1 months</value>
+  </data>
+  <data name="Last.1weeks" xml:space="preserve">
+    <value>Last 1 weeks</value>
+  </data>
+  <data name="Last.2months" xml:space="preserve">
+    <value>Last 2 months</value>
+  </data>
+  <data name="Last.2weeks" xml:space="preserve">
+    <value>Last 2 weeks</value>
+  </data>
+  <data name="Last.30days" xml:space="preserve">
+    <value>Last 30 days</value>
+  </data>
+  <data name="Last.3months" xml:space="preserve">
+    <value>Last 3 months</value>
+  </data>
+  <data name="Last.6months" xml:space="preserve">
+    <value>Last 6 months</value>
+  </data>
+  <data name="Last.7days" xml:space="preserve">
+    <value>Last 7 days</value>
+  </data>
+  <data name="Last.9months" xml:space="preserve">
+    <value>Last 9 months</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>---Select---</value>
+  </data>
+  <data name="Common.label.effectivedatebegin" xml:space="preserve">
+    <value>Effective Date Begin</value>
+  </data>
+  <data name="Common.label.effectivedateend" xml:space="preserve">
+    <value>Effective Date End</value>
+  </data>
+  <data name="Common.label.expirycoupon" xml:space="preserve">
+    <value>Expiry Coupon</value>
+  </data>
+  <data name="Common.label.effectiveBegin" xml:space="preserve">
+    <value>Effective Begin</value>
+  </data>
+  <data name="Common.label.effectiveEnd" xml:space="preserve">
+    <value>Effective End</value>
+  </data>
+  <data name="Common.label.addSpotCampaign" xml:space="preserve">
+    <value>Add spot campaign</value>
+  </data>
+  <data name="Common.label.campaignName" xml:space="preserve">
+    <value>Campaign Name</value>
+  </data>
+  <data name="Common.label.campaignType" xml:space="preserve">
+    <value>Campaign Type</value>
+  </data>
+  <data name="Common.label.Draft" xml:space="preserve">
+    <value>Draft</value>
+  </data>
+  <data name="Common.label.rewardType" xml:space="preserve">
+    <value>Reward Type</value>
+  </data>
+  <data name="Common.label.sendDate" xml:space="preserve">
+    <value>Send Date</value>
+  </data>
+  <data name="Common.label.sologanSpotCampaign" xml:space="preserve">
+    <value>Highly targeted one-shot campaigns with a variety of rewards used to drive sales</value>
+  </data>
+  <data name="Common.label.View" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="Common.label. rewardType" xml:space="preserve">
+    <value>Reward type</value>
+  </data>
+  <data name="Common.label.afterEffective" xml:space="preserve">
+    <value>day(s) after effective</value>
+  </data>
+  <data name="Common.label.afterReception" xml:space="preserve">
+    <value>day(s) after reception</value>
+  </data>
+  <data name="Common.label.campaignMemberType" xml:space="preserve">
+    <value>Campaign member type</value>
+  </data>
+  <data name="Common.label.chooseYourRewardType" xml:space="preserve">
+    <value>Choose your reward type</value>
+  </data>
+  <data name="Common.label.defineYourMemberTargets" xml:space="preserve">
+    <value>Define your member targets</value>
+  </data>
+  <data name="Common.label.How" xml:space="preserve">
+    <value>How</value>
+  </data>
+  <data name="Common.label.selectYourChannel" xml:space="preserve">
+    <value>Select your channel</value>
+  </data>
+  <data name="Common.label.selectYourTimePeriod" xml:space="preserve">
+    <value>Select your time period</value>
+  </data>
+  <data name="Common.label.ValidityPeriodd" xml:space="preserve">
+    <value>Validity Period</value>
+  </data>
+  <data name="Common.label.What" xml:space="preserve">
+    <value>What</value>
+  </data>
+  <data name="Common.label.When" xml:space="preserve">
+    <value>When</value>
+  </data>
+  <data name="Common.label.Who" xml:space="preserve">
+    <value>Who</value>
+  </data>
+  <data name="Common.label.onGoing" xml:space="preserve">
+    <value>Ongoing</value>
+  </data>
+  <data name="Common.label.Past" xml:space="preserve">
+    <value>Past</value>
+  </data>
+  <data name="Common.label.Schedule" xml:space="preserve">
+    <value>Scheduled</value>
+  </data>
+  <data name="Common.label.gifName" xml:space="preserve">
+    <value>Gift Name</value>
+  </data>
+  <data name="Common.label.giftCode" xml:space="preserve">
+    <value>Gift Code</value>
+  </data>
+  <data name="Common.label.addGift" xml:space="preserve">
+    <value>Add Gift</value>
+  </data>
+  <data name="Common.label.addvoucher" xml:space="preserve">
+    <value>ADD VOUCHER</value>
+  </data>
+  <data name="Common.label.afteractivation" xml:space="preserve">
+    <value>day(s) after activation</value>
+  </data>
+  <data name="Common.label.category" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="Common.label.dayafterreception" xml:space="preserve">
+    <value>Day(s) after reception</value>
+  </data>
+  <data name="Common.label.editvoucher" xml:space="preserve">
+    <value>EDIT VOUCHER</value>
+  </data>
+  <data name="Common.label.relativeDate" xml:space="preserve">
+    <value>Relative date</value>
+  </data>
+  <data name="Common.label.specificDate" xml:space="preserve">
+    <value>Specific date</value>
+  </data>
+  <data name="Common.label.voucherAvailableStock" xml:space="preserve">
+    <value>Available Stock</value>
+  </data>
+  <data name="Common.label.voucherCategory" xml:space="preserve">
+    <value>Voucher Category</value>
+  </data>
+  <data name="Common.label.voucherCode" xml:space="preserve">
+    <value>Voucher Code</value>
+  </data>
+  <data name="Common.label.voucherFaceValue" xml:space="preserve">
+    <value>Face Value</value>
+  </data>
+  <data name="Common.label.voucherminimumnumberof" xml:space="preserve">
+    <value>Minimum number of items purchased</value>
+  </data>
+  <data name="Common.label.voucherName" xml:space="preserve">
+    <value>Voucher Name</value>
+  </data>
+  <data name="Common.label.voucherredemptionvaliditytiming" xml:space="preserve">
+    <value>Redemption validity timing</value>
+  </data>
+  <data name="Common.label.voucherTemplate" xml:space="preserve">
+    <value>Voucher Template</value>
+  </data>
+  <data name="Common.label.voucherTemplateBanner" xml:space="preserve">
+    <value>Template Banner</value>
+  </data>
+  <data name="Common.label.vouchertype" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Common.label.detail" xml:space="preserve">
+    <value>Detail</value>
+  </data>
+  <data name="Common.label.detailGift" xml:space="preserve">
+    <value>Detail Gift</value>
+  </data>
+  <data name="Common.label.giftType" xml:space="preserve">
+    <value>Gift Type</value>
+  </data>
+  <data name="Common.label.autogeneratedGift" xml:space="preserve">
+    <value>Auto-generated gift code</value>
+  </data>
+  <data name="Sidebar.rewards.redeemPoint" xml:space="preserve">
+    <value>Redeem Point</value>
+  </data>
+  <data name="Common.label.memberName" xml:space="preserve">
+    <value>Member Name</value>
+  </data>
+  <data name="Common.label.mobile" xml:space="preserve">
+    <value>Mobile</value>
+  </data>
+  <data name="Common.label.AvailablePoints" xml:space="preserve">
+    <value>Available Points</value>
+  </data>
+  <data name="Common.label.discount" xml:space="preserve">
+    <value>Discount</value>
+  </data>
+  <data name="Common.label.MemberInformation" xml:space="preserve">
+    <value>Member Information</value>
+  </data>
+  <data name="Common.label.PointInformation" xml:space="preserve">
+    <value>Point Information</value>
+  </data>
+  <data name="Common.label.PointRedemption" xml:space="preserve">
+    <value>Point Redemption</value>
+  </data>
+  <data name="Common.label.remarks" xml:space="preserve">
+    <value>Remarks</value>
+  </data>
+  <data name="Common_label.ReceiveCodeViaEmail" xml:space="preserve">
+    <value>Receive the verification code via email</value>
+  </data>
+  <data name="Common_label.ReceiveCodeViaMobile" xml:space="preserve">
+    <value>Receive the verification code via mobile</value>
+  </data>
+  <data name="Common.label.autogeneratedvoucher" xml:space="preserve">
+    <value>Auto generated voucher code</value>
+  </data>
+  <data name="Common.label.earningRate" xml:space="preserve">
+    <value>Earning Rate</value>
+  </data>
+  <data name="Common.label.pointRuleBrand" xml:space="preserve">
+    <value>Point Rule Brand</value>
+  </data>
+  <data name="Common.label.pointRuleCategory" xml:space="preserve">
+    <value>Point Rule Category</value>
+  </data>
+  <data name="Common.label.pointRuleChannel" xml:space="preserve">
+    <value>Point Rule Channel</value>
+  </data>
+  <data name="Common.label.pointRuleProduct" xml:space="preserve">
+    <value>Point Rule Product</value>
+  </data>
+  <data name="Common.label.pointRuleStores" xml:space="preserve">
+    <value>Point Rule Stores</value>
+  </data>
+  <data name="Commom.Label.Channel" xml:space="preserve">
+    <value>CHANNEL</value>
+  </data>
+  <data name="Commom.Label.DateCreate" xml:space="preserve">
+    <value>DATE CREATE</value>
+  </data>
+  <data name="Commom.Label.Level" xml:space="preserve">
+    <value>LEVEL</value>
+  </data>
+  <data name="Commom.Label.MemberDetail" xml:space="preserve">
+    <value>MEMBER</value>
+  </data>
+  <data name="Commom.Label.Score" xml:space="preserve">
+    <value>SCORE</value>
+  </data>
+  <data name="Commom.Label.Store" xml:space="preserve">
+    <value>STORE</value>
+  </data>
+  <data name="Comom.Label.INFORMATION" xml:space="preserve">
+    <value>INFORMATION</value>
+  </data>
+  <data name="Common.label.Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="Common.label.productCollection" xml:space="preserve">
+    <value>Product Collection</value>
+  </data>
+  <data name="Common.label.productCollectionName" xml:space="preserve">
+    <value>Product Collection Name</value>
+  </data>
+  <data name="Common.label.addProductCollectionItem" xml:space="preserve">
+    <value>Add Product Collection Item</value>
+  </data>
+  <data name="Common.label.selectaproductCollectionItem" xml:space="preserve">
+    <value>Select a Product Collection Item</value>
+  </data>
+  <data name="Common.label.AmountDiscount" xml:space="preserve">
+    <value>Amount/ Discount %</value>
+  </data>
+  <data name="Common.label.GiftCouponVoucher" xml:space="preserve">
+    <value>GIFT CARD/ VOUCHER/ COUPON</value>
+  </data>
+  <data name="Common.label.typeGiftCouponVoucher" xml:space="preserve">
+    <value>Type (Gift/ Voucher/ Coupon)</value>
+  </data>
+  <data name="Common.label.Expired" xml:space="preserve">
+    <value>Expired</value>
+  </data>
+  <data name="Common.label.Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Common.label.RedemptionSearchPlaceholder" xml:space="preserve">
+    <value>Please enter the Code, Name</value>
+  </data>
+  <data name="Common.label.addproductstothecollection" xml:space="preserve">
+    <value>Add products to the collection</value>
+  </data>
+  <data name="Common.label.collectionname" xml:space="preserve">
+    <value>Collection Name</value>
+  </data>
+  <data name="Common.label.productcode" xml:space="preserve">
+    <value>Product Code</value>
+  </data>
+  <data name="Common.label.productname" xml:space="preserve">
+    <value>Product Name</value>
+  </data>
+  <data name="Common.label.productsofthecollection" xml:space="preserve">
+    <value>Products Of The Collection</value>
+  </data>
+  <data name="Sidebar.configurations.collection" xml:space="preserve">
+    <value>Collection</value>
+  </data>
+  <data name="Sidebar.configurations.order" xml:space="preserve">
+    <value>Order</value>
+  </data>
+  <data name="Common.label.RedeemedDate" xml:space="preserve">
+    <value>Redeemed Date</value>
+  </data>
+  <data name="Common.notify.addFailed" xml:space="preserve">
+    <value>Add failed! You don't have enough points.</value>
+  </data>
+  <data name="Common.label.redemptionRate" xml:space="preserve">
+    <value>Redemption Rate</value>
+  </data>
+  <data name="Comom.Label.Bill" xml:space="preserve">
+    <value>Bill</value>
+  </data>
+  <data name="Comom.Label.EARN.REDEEM POINT" xml:space="preserve">
+    <value>EARN/ REDEEM POINT</value>
+  </data>
+  <data name="Comom.Label.LOYALTY" xml:space="preserve">
+    <value>LOYALTY</value>
+  </data>
+  <data name="Common.label.activated" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="Common.label.deactive" xml:space="preserve">
+    <value>Inactive</value>
+  </data>
+  <data name="Common.label.collectionItem" xml:space="preserve">
+    <value>Collection Item</value>
+  </data>
+  <data name="Common.label.comeBack" xml:space="preserve">
+    <value>Return</value>
+  </data>
+  <data name="Common.label.createOrder" xml:space="preserve">
+    <value>Create Order</value>
+  </data>
+  <data name="Common.label.editOrder" xml:space="preserve">
+    <value>Edit Order</value>
+  </data>
+  <data name="Common.label.listOrder" xml:space="preserve">
+    <value>List Order</value>
+  </data>
+  <data name="Common.label.order" xml:space="preserve">
+    <value>Order</value>
+  </data>
+  <data name="Common.label.orderStatus" xml:space="preserve">
+    <value>Order Status</value>
+  </data>
+  <data name="Common.label.pointofMember" xml:space="preserve">
+    <value>Point of Member</value>
+  </data>
+  <data name="Common.label.productItem" xml:space="preserve">
+    <value>Product Item</value>
+  </data>
+  <data name="Common.label.productOrder" xml:space="preserve">
+    <value>Product Order</value>
+  </data>
+  <data name="Common.label.Quantity" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="Common.label.selectMember" xml:space="preserve">
+    <value>Select Member</value>
+  </data>
+  <data name="Common.label.shippingAddress" xml:space="preserve">
+    <value>Shipping Address</value>
+  </data>
+  <data name="Commom.label.addProduct" xml:space="preserve">
+    <value>Add Product</value>
+  </data>
+  <data name="Commom.Label.addBrandToPointRuleBrand" xml:space="preserve">
+    <value>Point Rule Brand</value>
+  </data>
+  <data name="Commom.Label.addChanneltoPointRuleChannel" xml:space="preserve">
+    <value>Point Rule Channel</value>
+  </data>
+  <data name="Commom.Label.addPointRuleBrand" xml:space="preserve">
+    <value>Add Point Rule Brand</value>
+  </data>
+  <data name="Commom.Label.addPointRuleCategories" xml:space="preserve">
+    <value>Add Point Rule Categories</value>
+  </data>
+  <data name="Commom.Label.addPointRuleChannel" xml:space="preserve">
+    <value>Add Point Rule Channel</value>
+  </data>
+  <data name="Commom.Label.addPointRuleProduct" xml:space="preserve">
+    <value>Add Point Rule Product</value>
+  </data>
+  <data name="Commom.Label.addPointRuleStore" xml:space="preserve">
+    <value>Add Point Rule Store</value>
+  </data>
+  <data name="Commom.Label.addProductCategoriestoPointRuleCategory" xml:space="preserve">
+    <value>Point Rule Product Categories</value>
+  </data>
+  <data name="Commom.Label.addProducttoPointRuleProduct" xml:space="preserve">
+    <value>Point Rule Product</value>
+  </data>
+  <data name="Commom.Label.addStoretoPointRuleStore" xml:space="preserve">
+    <value>Point Rule Store</value>
+  </data>
+  <data name="Commom.Label.createItemPointRuleProduct" xml:space="preserve">
+    <value>Create Item Point Rule Product</value>
+  </data>
+  <data name="Commom.Label.createItemPointRuleStore" xml:space="preserve">
+    <value>Create Item Point Rule Store</value>
+  </data>
+  <data name="Commom.Label.editItemPointRuleProduct" xml:space="preserve">
+    <value>Edit Item Point Rule Store</value>
+  </data>
+  <data name="Commom.Label.editItemPointRuleStore" xml:space="preserve">
+    <value>Edit Item Point Rule Store</value>
+  </data>
+  <data name="Commom.Label.loyaltyPointRuleName" xml:space="preserve">
+    <value>Loyalty Point Rule Name</value>
+  </data>
+  <data name="Commom.Label.selectLoyatyPointRule" xml:space="preserve">
+    <value>Select Loyalty Point Rule</value>
+  </data>
+  <data name="Common.label.createItemPointRuleBrand" xml:space="preserve">
+    <value>Create Item Point Rule Brand</value>
+  </data>
+  <data name="Common.label.createItemPointRuleCategory" xml:space="preserve">
+    <value>Create Item Point Rule Product Category</value>
+  </data>
+  <data name="Common.label.createItemPointRuleChannel" xml:space="preserve">
+    <value>Create Item Point Rule Channel</value>
+  </data>
+  <data name="Common.label.editItemPointRuleBrand" xml:space="preserve">
+    <value>Edit Item Point Rule Brand</value>
+  </data>
+  <data name="Common.label.editItemPointRuleCategory" xml:space="preserve">
+    <value>Edit Item Point Rule Product Category</value>
+  </data>
+  <data name="Common.label.editItemPointRuleChannel" xml:space="preserve">
+    <value>Edit Item Point Rule Channel</value>
+  </data>
+  <data name="Common.label.selectProductCategory" xml:space="preserve">
+    <value>Product Category</value>
+  </data>
+  <data name="Common.errorMessage.brandAlreadyExisted" xml:space="preserve">
+    <value>This Brand is already existed!</value>
+  </data>
+  <data name="Common.errorMessage.channelAlreadyExisted" xml:space="preserve">
+    <value>This Channel is already existed!</value>
+  </data>
+  <data name="Common.errorMessage.productAlreadyExisted" xml:space="preserve">
+    <value>This Product is already existed!</value>
+  </data>
+  <data name="Common.errorMessage.productCateAlreadyExisted" xml:space="preserve">
+    <value>This Product Category is already existed!</value>
+  </data>
+  <data name="Common.errorMessage.storeAlreadyExisted" xml:space="preserve">
+    <value>This Store is already existed!</value>
+  </data>
+  <data name="Common.label.AddressCol" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="Common.label.BrandCode" xml:space="preserve">
+    <value>Brand Code</value>
+  </data>
+  <data name="Common.label.BrandName" xml:space="preserve">
+    <value>Brand Name</value>
+  </data>
+  <data name="Common.label.ChannelName" xml:space="preserve">
+    <value>Channel Name</value>
+  </data>
+  <data name="Common.label.ProductCate" xml:space="preserve">
+    <value>Prodcut Category Name</value>
+  </data>
+  <data name="Common.label.StoreNameCol" xml:space="preserve">
+    <value>Store Name</value>
+  </data>
+  <data name="Common.notify.deleteFailed" xml:space="preserve">
+    <value>Delete Failed</value>
+  </data>
+  <data name="Common.label.specialoffers" xml:space="preserve">
+    <value>Special offers</value>
+  </data>
+  <data name="Common.errorMessage.CreateMemberCodeNotFound" xml:space="preserve">
+    <value>Membership code already exists</value>
+  </data>
+  <data name="Comom.Label.earningAmount" xml:space="preserve">
+    <value>Earning amount</value>
+  </data>
+  <data name="Comom.Label.earningRate" xml:space="preserve">
+    <value>Earning Rate</value>
+  </data>
+  <data name="Common.errorMessage.brandSelectedErr" xml:space="preserve">
+    <value>You have not selected a brand</value>
+  </data>
+  <data name="Common.errorMessage.channelSelectedErr" xml:space="preserve">
+    <value>You have not selected a channel</value>
+  </data>
+  <data name="Common.errorMessage.productCateSelectedErr" xml:space="preserve">
+    <value>You have not selected a product category</value>
+  </data>
+  <data name="Common.errorMessage.productSelectedErr" xml:space="preserve">
+    <value>You have not selected a product</value>
+  </data>
+  <data name="Common.errorMessage.storeSelectedErr" xml:space="preserve">
+    <value>You have not selected a store</value>
+  </data>
+  <data name="Today" xml:space="preserve">
+    <value>Today</value>
+  </data>
+  <data name="Comom.Label.earningPoint" xml:space="preserve">
+    <value>Earning Point</value>
+  </data>
+  <data name="Comom.Label.fixedPoint" xml:space="preserve">
+    <value>Fixed Point</value>
+  </data>
+  <data name="Comom.Label.points" xml:space="preserve">
+    <value>VND = 1 Points</value>
+  </data>
+  <data name="Comom.Label.rate" xml:space="preserve">
+    <value>Rate</value>
+  </data>
+  <data name="Comom.Label.redemptionPoint" xml:space="preserve">
+    <value>Redemption point</value>
+  </data>
+  <data name="Comom.Label.redemptionRate" xml:space="preserve">
+    <value>Redemption Rate</value>
+  </data>
+  <data name="Comom.Label.ruleType" xml:space="preserve">
+    <value>Rule Type</value>
+  </data>
+  <data name="Commom.label.createdate" xml:space="preserve">
+    <value>Create Date</value>
+  </data>
+  <data name="Commom.Label.cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Commom.Label.complete" xml:space="preserve">
+    <value>Complete</value>
+  </data>
+  <data name="Commom.Label.new" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="Commom.Label.on-delivery" xml:space="preserve">
+    <value>In Transit</value>
+  </data>
+  <data name="Commom.Label.phoneno" xml:space="preserve">
+    <value>Phone No.</value>
+  </data>
+  <data name="Commom.Label.receiver" xml:space="preserve">
+    <value>Receiver</value>
+  </data>
+  <data name="Common.errorMessage.SelectYourTimePeriod" xml:space="preserve">
+    <value>Please Select your correct time period</value>
+  </data>
+  <data name="Common.label.AllowEarnPoint" xml:space="preserve">
+    <value>Allow EarnPoint</value>
+  </data>
+  <data name="Common.label.AllowRedeem" xml:space="preserve">
+    <value>Allow Redeem</value>
+  </data>
+  <data name="Page.title.EditProduct" xml:space="preserve">
+    <value>Edit Product</value>
+  </data>
+  <data name="Common.label.browsing" xml:space="preserve">
+    <value>Browsing</value>
+  </data>
+  <data name="Common.label.cancelled" xml:space="preserve">
+    <value>Cancelled</value>
+  </data>
+  <data name="Common.label.complete" xml:space="preserve">
+    <value>Complete</value>
+  </data>
+  <data name="Common.label.delivering" xml:space="preserve">
+    <value>Delivering</value>
+  </data>
+  <data name="Common.label.enoughpoints" xml:space="preserve">
+    <value>You do not have enough points to redeem this product</value>
+  </data>
+  <data name="Common.label.ordercancel" xml:space="preserve">
+    <value>Canceled</value>
+  </data>
+  <data name="Common.label.ordercomplete" xml:space="preserve">
+    <value>Completed</value>
+  </data>
+  <data name="Common.label.orderdelivery" xml:space="preserve">
+    <value>In Transit</value>
+  </data>
+  <data name="Common.label.ordernew" xml:space="preserve">
+    <value>New Orders</value>
+  </data>
+  <data name="Common.label.selectamember" xml:space="preserve">
+    <value>Please select a member for the order</value>
+  </data>
+  <data name="Common.label.selectaproductfor" xml:space="preserve">
+    <value>Please select a product for the order</value>
+  </data>
+  <data name="Common.label.selectmembersandproducts" xml:space="preserve">
+    <value>Please select members and products</value>
+  </data>
+  <data name="Common.label.addCoupon" xml:space="preserve">
+    <value>Add Coupon</value>
+  </data>
+  <data name="Common.title.CustomPointRule" xml:space="preserve">
+    <value>Custom Point Rule</value>
+  </data>
+  <data name="common.label.DateFrom" xml:space="preserve">
+    <value>Date From</value>
+  </data>
+  <data name="common.label.DateTo" xml:space="preserve">
+    <value>Date To</value>
+  </data>
+  <data name="Common.label.QrCode" xml:space="preserve">
+    <value>UUID QR Code</value>
+  </data>
+  <data name="Common.label.QrScanDate" xml:space="preserve">
+    <value>QR Code Scan Date</value>
+  </data>
+  <data name="Common.Select.SelectProduct" xml:space="preserve">
+    <value>---- Select Product ----</value>
+  </data>
+  <data name="Sidebar.title.history" xml:space="preserve">
+    <value>Transaction history</value>
+  </data>
+  <data name="Common.label.autogeneratedstorecode" xml:space="preserve">
+    <value>Store code is automatically generated</value>
+  </data>
+  <data name="Sidebar.configurations.user" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="Sidebar.report.ProductQrScanReports" xml:space="preserve">
+    <value>Product Scan Report</value>
+  </data>
+  <data name="Common.label.Generate" xml:space="preserve">
+    <value>Generate</value>
+  </data>
+  <data name="Common.label.SelectProductCollection" xml:space="preserve">
+    <value>Select Product Collection</value>
+  </data>
+  <data name="Common.label.TotalCanceled" xml:space="preserve">
+    <value>Total canceled</value>
+  </data>
+  <data name="Common.label.TotalCompleted" xml:space="preserve">
+    <value>Total completed</value>
+  </data>
+  <data name="Common.label.TotalInTransit" xml:space="preserve">
+    <value>Total in transit</value>
+  </data>
+  <data name="Common.label.TotalNewOrders" xml:space="preserve">
+    <value>Total new orders</value>
+  </data>
+  <data name="Sidebar.title.RedemptionReport" xml:space="preserve">
+    <value>Redemption Report</value>
+  </data>
+  <data name="Common.label.GiftReport" xml:space="preserve">
+    <value>Redemption Report</value>
+  </data>
+  <data name="Common.label.ControlPannel" xml:space="preserve">
+    <value>Report Control Panel</value>
+  </data>
+  <data name="Common.label.DateRange" xml:space="preserve">
+    <value>Date Range</value>
+  </data>
+  <data name="Common_label_deleteMessage" xml:space="preserve">
+    <value>Are you sure?</value>
+  </data>
+  <data name="Common_label_deleteMessages" xml:space="preserve">
+    <value>Do you really want to delete these records? This process cannot be undone.</value>
+  </data>
+  <data name="Common.label.tableOrderStatus" xml:space="preserve">
+    <value>Order status</value>
+  </data>
+  <data name="Common.label.Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="Common.td.Point" xml:space="preserve">
+    <value>Point(s)</value>
+  </data>
+  <data name="Sidebar.Title.createPointRule" xml:space="preserve">
+    <value>Create Point Rule</value>
+  </data>
+  <data name="Sidebar.Title.editPointRule" xml:space="preserve">
+    <value>Edit Point Rule</value>
+  </data>
+  <data name="Sidebar.title.preferredBrand" xml:space="preserve">
+    <value>Preferred Brand</value>
+  </data>
+  <data name="Common.label.send" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="Common.label.time" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="Common.label.uploadFile" xml:space="preserve">
+    <value>Upload File</value>
+  </data>
+  <data name="Comom.Label.invoiceNo" xml:space="preserve">
+    <value>Invoice no</value>
+  </data>
+  <data name="Comom.Label.verificationCode" xml:space="preserve">
+    <value>Verification Code</value>
+  </data>
+  <data name="Common.label.CodeScans" xml:space="preserve">
+    <value>Code Scans</value>
+  </data>
+  <data name="Common.label.Stt" xml:space="preserve">
+    <value>No.</value>
+  </data>
+  <data name="Common.label.ThereAre" xml:space="preserve">
+    <value>There Are</value>
+  </data>
+  <data name="common.prCode" xml:space="preserve">
+    <value>Product code</value>
+  </data>
+  <data name="common.prName" xml:space="preserve">
+    <value>Product name</value>
+  </data>
+  <data name="Common.label.Activatedmembers" xml:space="preserve">
+    <value>Activated</value>
+  </data>
+  <data name="Common.label.Dashboard" xml:space="preserve">
+    <value>DASHBOARD</value>
+  </data>
+  <data name="Common.label.daterangestatistical" xml:space="preserve">
+    <value>Date Range</value>
+  </data>
+  <data name="Common.label.Inactived" xml:space="preserve">
+    <value>Inactived</value>
+  </data>
+  <data name="Common.label.Newmembers" xml:space="preserve">
+    <value>New Member In</value>
+  </data>
+  <data name="Common.label.NewMembersChart" xml:space="preserve">
+    <value>New Members Chart</value>
+  </data>
+  <data name="Common.label.Numberofcodescans" xml:space="preserve">
+    <value>NUMBER OF CODE SCANS</value>
+  </data>
+  <data name="Common.label.Numberofnewmembers" xml:space="preserve">
+    <value>NUMBER OF NEW MEMBERS</value>
+  </data>
+  <data name="Common.label.Numberofredemptions" xml:space="preserve">
+    <value>NUMBER OF REDEMPTIONS</value>
+  </data>
+  <data name="Common.label.WelcometoMegapointDashboard" xml:space="preserve">
+    <value>Welcome to Panda Loyalty Dashboard</value>
+  </data>
+  <data name="Common.404" xml:space="preserve">
+    <value>Sorry we can't find the page you're looking for...</value>
+  </data>
+  <data name="Commom.label.403" xml:space="preserve">
+    <value>Sorry! You do not have access to this page...</value>
+  </data>
+  <data name="Commom.label.Analyst" xml:space="preserve">
+    <value>Analyst</value>
+  </data>
+  <data name="Commom.label.TotalMember" xml:space="preserve">
+    <value>Total Members</value>
+  </data>
+  <data name="Commom.label.ThisYear" xml:space="preserve">
+    <value>This Year</value>
+  </data>
+  <data name="Commom.placeholder.EnterMember" xml:space="preserve">
+    <value>Please enter the member code, name, email or phone no.</value>
+  </data>
+  <data name="Commom.placeholder.EnterProduct" xml:space="preserve">
+    <value>Please enter the product code, product name...</value>
+  </data>
+  <data name="Commom.label.DeleteInactiveMember" xml:space="preserve">
+    <value>Delete inactive member</value>
+  </data>
+  <data name="Commom.placeholder.EnterBrand" xml:space="preserve">
+    <value>Please enter the brand name...</value>
+  </data>
+  <data name="Commom.placeholder.EnterCollection" xml:space="preserve">
+    <value>Please enter the collection name...</value>
+  </data>
+  <data name="Commom.placeholder.EnterOrder" xml:space="preserve">
+    <value>Please enter product name or member code, name, phone no.</value>
+  </data>
+  <data name="Commom.placeholder.EnterProductCate" xml:space="preserve">
+    <value>Please enter the product category name...</value>
+  </data>
+  <data name="Commom.label.ActivationNotices" xml:space="preserve">
+    <value>The number of members on your system is about to reach the allowable threshold. Please contact Aegona Ltd. to be upgraded.</value>
+  </data>
+  <data name="Commom.lable.CreateMemberNoti" xml:space="preserve">
+    <value>Can't add new members because threshold has been reached</value>
+  </data>
+  <data name="Commom.label.ExportExcel" xml:space="preserve">
+    <value>Export Excel</value>
+  </data>
+  <data name="Commom.label.ThereAreNewMembers1" xml:space="preserve">
+    <value>There are</value>
+  </data>
+  <data name="Commom.label.ThereAreNewMembers2" xml:space="preserve">
+    <value>new members</value>
+  </data>
+  <data name="Commom.label.TransactionDate" xml:space="preserve">
+    <value>Transaction Date</value>
+  </data>
+  <data name="ViewBag.Title.Member.AddMember" xml:space="preserve">
+    <value>Add Member | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Member.Detail" xml:space="preserve">
+    <value>Member Details | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Member.EditMember" xml:space="preserve">
+    <value>Edit Member | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Member.ImportMember" xml:space="preserve">
+    <value>Member Import | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Member.Index" xml:space="preserve">
+    <value>Member Search | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.MemberTag.Edit" xml:space="preserve">
+    <value>Edit Member Tag | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.MemberTag.Index" xml:space="preserve">
+    <value>Member Tag | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Coupon.Create" xml:space="preserve">
+    <value>Create Coupon  | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Coupon.Detail" xml:space="preserve">
+    <value>Coupon Details | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Coupon.Edit" xml:space="preserve">
+    <value>Edit Coupon | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Coupon.Index" xml:space="preserve">
+    <value>Coupon | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.CustomPointRule.Create" xml:space="preserve">
+    <value>Create Custom Point Rule  | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.CustomPointRule.Edit" xml:space="preserve">
+    <value>Edit Custom Point Rule  | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.CustomPointRule.Index" xml:space="preserve">
+    <value>Custom Point Rule  | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Gift.Create" xml:space="preserve">
+    <value>Create Gift  | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.GIft.Detail" xml:space="preserve">
+    <value>Gift Details  | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Gift.Edit" xml:space="preserve">
+    <value>Edit Gift | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Gift.Index" xml:space="preserve">
+    <value>Gift | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.MemberGroup.Create" xml:space="preserve">
+    <value>Create Member Group  | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.MemberGroup.Edit" xml:space="preserve">
+    <value>Edit Member Group | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.MemberGroup.Index" xml:space="preserve">
+    <value>Member Group | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.MemberLifecycle.Create" xml:space="preserve">
+    <value>Create Member Lifecycle  | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.MemberLifecycle.Detail" xml:space="preserve">
+    <value>Member Lifecycle Details  | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.MemberLifecycle.Edit" xml:space="preserve">
+    <value>Edit Member Lifecycle | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.MemberLifecycle.Index" xml:space="preserve">
+    <value>Member Lifecycle | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.MemberSegment.Create" xml:space="preserve">
+    <value>Create Member Segment  | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.MemberSegment.Edit" xml:space="preserve">
+    <value>Edit Member Segment | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.MemberSegment.Index" xml:space="preserve">
+    <value>Member Segment | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.MemberTag.Create" xml:space="preserve">
+    <value>Create Member Tag  | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.PointRuleBrand.Create" xml:space="preserve">
+    <value>Create Point Rule Brand | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.PointRuleBrand.Edit" xml:space="preserve">
+    <value>Edit Point Rule Brand | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.PointRuleCate.Create" xml:space="preserve">
+    <value>Create Point Rule Category | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.PointRuleCate.Edit" xml:space="preserve">
+    <value>Edit Point Rule Category   | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.PointRuleChannel.Create" xml:space="preserve">
+    <value>Create Point Rule Channel | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.PointRuleChannel.Edit" xml:space="preserve">
+    <value>Edit Point Rule Channel | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.PointRuleProduct.Create" xml:space="preserve">
+    <value>Create Point Rule Product| Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.PointRuleProduct.Edit" xml:space="preserve">
+    <value>Edit Point Rule Product | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.PointRuleStandard.Index" xml:space="preserve">
+    <value>Standard Point Rule  | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.PointRuleStore.Create" xml:space="preserve">
+    <value>Create Point Rule Store | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.PointRuleStore.Edit" xml:space="preserve">
+    <value>Edit Point Rule Store | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Referral.Index" xml:space="preserve">
+    <value>Referral | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Rewards.Center" xml:space="preserve">
+    <value>Rewards Center | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Rewards.RedeemPoint" xml:space="preserve">
+    <value>RedeemPoint | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Rewards.Redemption" xml:space="preserve">
+    <value>Redemption | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.TierRule.Index" xml:space="preserve">
+    <value>Tier Rule | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Voucher.Create" xml:space="preserve">
+    <value>Create Voucher  | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Voucher.Detail" xml:space="preserve">
+    <value>Voucher Details  | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Voucher.Edit" xml:space="preserve">
+    <value>Edit Voucher | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Voucher.Index" xml:space="preserve">
+    <value>Voucher | Panda Loyalty</value>
+  </data>
+  <data name="Common.errorMessage.MemberPhoneNotFound" xml:space="preserve">
+    <value>This phone number has already been taken</value>
+  </data>
+  <data name="ViewBag.Title.Brand.Index" xml:space="preserve">
+    <value>Brand | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Channel.Index" xml:space="preserve">
+    <value>Channel | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.CouponCategory.Index" xml:space="preserve">
+    <value>Coupon Category | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.DashBoard.Index" xml:space="preserve">
+    <value>Dash Board | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Department.CreateDepUser" xml:space="preserve">
+    <value>Create Department User | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Department.Edit" xml:space="preserve">
+    <value>Edit Department | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Department.EditDepUser" xml:space="preserve">
+    <value>Eidt Department User | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Department.Index" xml:space="preserve">
+    <value>Department | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.GiftCategory.Index" xml:space="preserve">
+    <value>Gift Category | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.GroupRole.Edit" xml:space="preserve">
+    <value>Edit Group Role | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.GroupRole.Index" xml:space="preserve">
+    <value>Group Role | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Import.FileImport" xml:space="preserve">
+    <value>File Import | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.JobTitle.Index" xml:space="preserve">
+    <value>JobTitle | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.LoyaltyTier.Index" xml:space="preserve">
+    <value>Loyalty Tier | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.LoyaltyType.Index" xml:space="preserve">
+    <value>Loyalty Point Type | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.MemberTagCategory.Index" xml:space="preserve">
+    <value>Member Tag Category | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.NewMemberReport.Index" xml:space="preserve">
+    <value>New Member Report | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Occupation.Index" xml:space="preserve">
+    <value>Occupation | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Organization.Edit" xml:space="preserve">
+    <value>Edit Organization | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Organization.Index" xml:space="preserve">
+    <value>Organization | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Product.Edit" xml:space="preserve">
+    <value>Edit Product  | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Product.Index" xml:space="preserve">
+    <value>Product  | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.ProductCate.Index" xml:space="preserve">
+    <value>Create Product Category  | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.ProductOrder.Create" xml:space="preserve">
+    <value>Create Order | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.ProductOrder.Detail" xml:space="preserve">
+    <value>Order Details | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.ProductOrder.Edit" xml:space="preserve">
+    <value>Edit Order | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.ProductOrder.Index" xml:space="preserve">
+    <value>Order | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.ProductOrder.SelectMember" xml:space="preserve">
+    <value>Select Member | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.ProductOrder.SelectProduct" xml:space="preserve">
+    <value>Select Product | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.ProductScanReport.Index" xml:space="preserve">
+    <value>Product Scan Report | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.RedemptionReport.Index" xml:space="preserve">
+    <value>Redemption Report | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.SpotCampaign.Create" xml:space="preserve">
+    <value>Create Campaign Details | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.SpotCampaign.Detail" xml:space="preserve">
+    <value>Spot Campaign Details | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.SpotCampaign.Edit" xml:space="preserve">
+    <value>Edit Spot Campaign | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.SpotCampaign.Index" xml:space="preserve">
+    <value>Spot Campaign | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Store.Create" xml:space="preserve">
+    <value>Create Store | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Store.Edit" xml:space="preserve">
+    <value>Edit Store | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Store.Index" xml:space="preserve">
+    <value>Store  | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Team.CreateDep" xml:space="preserve">
+    <value>Add Team User | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Team.Edit" xml:space="preserve">
+    <value>Edit Team | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Team.EditDep" xml:space="preserve">
+    <value>Edit Team User | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Team.Index" xml:space="preserve">
+    <value>Team | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Unit.Index" xml:space="preserve">
+    <value>Unit | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.User.Edit" xml:space="preserve">
+    <value>Edit User  | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.User.Index" xml:space="preserve">
+    <value>User | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.VoucherCategory.Index" xml:space="preserve">
+    <value>Voucher Category  | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Wallet.History" xml:space="preserve">
+    <value>Member Wallet History | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Wallet.Index" xml:space="preserve">
+    <value>Member Wallet | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.AdminDashboard" xml:space="preserve">
+    <value>Admin Dashboard</value>
+  </data>
+  <data name="commom.label.Redeemed" xml:space="preserve">
+    <value>Redeemed</value>
+  </data>
+  <data name="commom.label.RedeemedStatus" xml:space="preserve">
+    <value>Redeemed Status</value>
+  </data>
+  <data name="commom.label.Unredeemed" xml:space="preserve">
+    <value>Unredeemed</value>
+  </data>
+  <data name="commom.lablel.onclickDeleteinactivemember" xml:space="preserve">
+    <value>Are you sure you want to delete the inactive member?</value>
+  </data>
+  <data name="commom.notifi.deleteInactiveMemberSuccessfully" xml:space="preserve">
+    <value>inactive member</value>
+  </data>
+  <data name="Sidebar.Title.List.User" xml:space="preserve">
+    <value>List User</value>
+  </data>
+  <data name="Commom.Placeholder.ListUser" xml:space="preserve">
+    <value>名前またはメールアドレスを入力してください</value>
+  </data>
+  <data name="Sidebar.Title.Courses" xml:space="preserve">
+    <value>Course</value>
+  </data>
+  <data name="Common.Label.Create" xml:space="preserve">
+    <value>Create</value>
+    <comment>Tạo mới</comment>
+  </data>
+  <data name="Common.Error.File.Required" xml:space="preserve">
+    <value>File is required</value>
+    <comment>File is required</comment>
+  </data>
+  <data name="Common.Error.File.Maxsize" xml:space="preserve">
+    <value>File must be less than 10MB</value>
+    <comment>File must be less than 10MB</comment>
+  </data>
+  <data name="Common.Error.File.Must.Csv" xml:space="preserve">
+    <value>File must be a CSV file</value>
+    <comment>File must be a CSV file</comment>
+  </data>
+  <data name="Common.Error.Course.Required" xml:space="preserve">
+    <value>Course is required</value>
+    <comment>Course is required</comment>
+  </data>
+  <data name="Common.Error.Title.Required" xml:space="preserve">
+    <value>Title is required</value>
+    <comment>Title is required</comment>
+  </data>
+  <data name="Common.Error.AudioType.Required" xml:space="preserve">
+    <value>Audio type is required</value>
+    <comment>Audio type is required</comment>
+  </data>
+  <data name="Common.Error.AudioCode.Required" xml:space="preserve">
+    <value>Audio code is required</value>
+    <comment>Audio code is required</comment>
+  </data>
+  <data name="Common.Error.Url.Required" xml:space="preserve">
+    <value>File URL is required</value>
+    <comment>File URL is required</comment>
+  </data>
+  <data name="Common.Error.Url.Invalid" xml:space="preserve">
+    <value>File URL is not valid</value>
+  </data>
+  <data name="Common.Error.File.Empty" xml:space="preserve">
+    <value>File is not empty</value>
+    <comment>File is not empty</comment>
+  </data>
+  <data name="Common.Error.Upload" xml:space="preserve">
+    <value>There was an error uploading.</value>
+    <comment>There was an error uploading.</comment>
+  </data>
+  <data name="Common.Error.Course.Invalid" xml:space="preserve">
+    <value>Invalid course</value>
+    <comment>Invalid course</comment>
+  </data>
+</root>

@@ -18,6 +18,11 @@ namespace Last02.Data.Entities
         [Required]
         [StringLength(200)]
         public string Title { get; set; } = string.Empty;
+        [StringLength(200)]
+        public string? TitleVi { get; set; } = string.Empty;
+
+        [StringLength(200)]
+        public string? TitleEn { get; set; } = string.Empty;
         [StringLength(1000)]
         public string Description { get; set; } = string.Empty;
         public string? HexColorCode { get; set; }

@@ -19,13 +19,15 @@ namespace Last02.Services.Implement
         private readonly IUnitOfWork _uow;
         ILogger<GrammarService> _logger;
         private ILocalizedMessageService _messageService = null!;
+        private IStorageService _storageService = null!;
 
         public GrammarService(IUnitOfWork unitOfWork, ILogger<GrammarService> logger,
-            ILocalizedMessageService messageService) : base(unitOfWork)
+            ILocalizedMessageService messageService, IStorageService storageService) : base(unitOfWork)
         {
             _uow = unitOfWork;
             _logger = logger;
             _messageService = messageService;
+            _storageService = storageService;
         }
 
         public async Task<IEnumerable<Audio>> GetAllGrammarsAsync()
@@ -122,14 +124,21 @@ namespace Last02.Services.Implement
         //private async Task<string> GetBaseUrlAsync(CancellationToken ct = default)
         //    => (await _appSettingService.GetAudioBaseUrlAsync(ct)).TrimEnd('/');
 
-        public static GrammarDto ConvertToDto(Audio audio)
-            => new GrammarDto
+        private GrammarDto ConvertToDto(Audio audio)
+        {
+            var fileUrl = string.IsNullOrWhiteSpace(audio.FileUrl)
+                ? string.Empty
+                : _storageService.GenerateDownloadUrl(audio.FileUrl);
+
+            return new GrammarDto
             {
                 Id = audio.Id,
                 AudioCode = audio.AudioCode,
                 AudioType = audio.AudioType ?? AudioType.Grammar,
                 Title = audio.Title,
-                FileUrl = audio.FileUrl,
+                TitleVi = audio.TitleVi,
+                TitleEn = audio.TitleEn,
+                FileUrl = fileUrl,
                 SortOrder = audio.SortOrder,
                 IsFree = audio.IsFree,
                 Script = audio.Script,
@@ -137,5 +146,6 @@ namespace Last02.Services.Implement
                 ScriptVi = audio.ScriptVi,
                 CourseId = audio.CourseId,
             };
+        }
     }
 }

@@ -1,0 +1,90 @@
+﻿@model IEnumerable<Last02.Data.Entities.AudioGenHistory>
+
+@{
+	ViewData["Title"] = "AudioGen - Admin";
+}
+<div class="page-content">
+	<div class="w-100 pt-3 pb-3">
+		<button type="button" class="btn btn-primary btn-sm" id="audioGenHistoryCreateBtn">
+			<i class="fa-solid fa-file-arrow-up"></i>
+            Upload Audio Metadata
+		</button>
+	</div>
+	<div class="border border-secondary p-2 pb-3 rounded">
+		<table id="audioGenHistoryTable" class="table table-striped table-hover table-bordered">
+			<thead>
+				<tr>
+					<th class="text-center text-nowrap">
+                        Course Name
+					</th>
+					<th class="text-center text-nowrap">
+                        File Name
+					</th>
+					<th class="text-center text-nowrap">
+                        Upload Date
+					</th>
+				</tr>
+			</thead>
+		</table>
+	</div>
+</div>
+
+<div class="modal fade" id="audioGenHistoryModal" data-bs-backdrop="static" data-bs-keyboard="false" aria-hidden="true"
+	 tabindex="-1">
+	<div class="modal-dialog modal-md modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Audio Gen Genistory</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+				<form id="audioGenHistoryCreateForm" enctype="multipart/form-data">
+					<div class="row mb-3">
+						<div class="col-md-12">
+							<label for="CourseIds" class="form-label">Course</label>
+							<select id="CourseIds" name="CourseIds" class="form-select" required
+									aria-describedby="CourseIdsInvalidFeedback">
+							</select>
+							<div class="invalid-feedback" id="CourseIdsInvalidFeedback"></div>
+						</div>
+					</div>
+
+					<div class="row mb-3">
+						<div class="mb-3">
+							<label for="FileContent" class="form-label">Excel File</label>
+							<input class="form-control" type="file" id="FileContent" name="FileContent" accept=".xlsx">
+							<div class="invalid-feedback" id="FileContentInvalidFeedback"></div>
+						</div>
+						<div class="mb-3 d-none" id="uploadFileContainer">
+							<div class="progress w-100">
+								<div id="uploadFile" class="progress-bar" role="progressbar" style="width: 0%">0%</div>
+							</div>
+						</div>
+						<div class="text-danger modal-error-max-height" id="Error"></div>
+					</div>
+				</form>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary course-btn-width" data-bs-dismiss="modal">Close</button>
+				<button type="button" class="btn btn-primary course-btn-width" id="audioGenQRCodeFormSubmitBtn">Save</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="audioGenQRCodeMessageModal" data-bs-backdrop="static" data-bs-keyboard="false" aria-hidden="true"
+	 tabindex="-1">
+	<div class="modal-dialog modal-sm modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Message</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body text-center">
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary course-btn-width" data-bs-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div> 
