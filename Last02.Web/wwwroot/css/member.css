@@ -1,0 +1,14 @@
+.member-btn-width {
+    width: 90px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.member-table-height {
+    height: 68vh;
+    overflow-y: auto;
+}
+
+.member-modal-button-width {
+    width: 110px;
+}

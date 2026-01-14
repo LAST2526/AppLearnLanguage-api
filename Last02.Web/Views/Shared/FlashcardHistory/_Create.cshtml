@@ -1,0 +1,31 @@
+﻿<form id="flashcardHistoryCreateForm" novalidate>
+    <div class="row mb-3">
+        <div class="col-md-12">
+            <label for="CourseIds" class="form-label">Course</label>
+            <select id="CourseIds" name="CourseIds" class="form-select" required
+                    aria-describedby="CourseIdsInvalidFeedback">
+            </select>
+            <div class="invalid-feedback" id="CourseIdsInvalidFeedback"></div>
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <div class="col-md-12">
+            <label for="FileContent" class="form-label">File Excel</label>
+            <input type="file" class="form-control" id="FileContent" name="FileContent" accept=".xlsx" required
+                   aria-describedby="FileContentInvalidFeedback">
+            <div class="invalid-feedback" id="FileContentInvalidFeedback"></div>
+        </div>
+    </div>
+    <div class="row mb-3 align-items-center d-none" id="uploadFileContainer">
+        <div class="col-md-12">
+            <div class="progress" role="progressbar" aria-label="upload progress" aria-valuenow="0"
+                 aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" id="uploadFile" style="width: 20%">20%</div>
+            </div>
+        </div>
+    </div>
+    <div class="row mb-3">
+        <div class="text-danger modal-error-max-height" id="Error"></div>
+    </div>
+</form>

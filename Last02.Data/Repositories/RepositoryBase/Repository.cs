@@ -23,17 +23,17 @@ namespace Last02.Data.Repositories.RepositoryBase
             await dbSet.AddAsync(entity);
         }
 
-        public async Task<T> GetAsync(string id)
+        public async Task<T?> GetAsync(string id)
         {
             return await dbSet.FindAsync(id);
         }
 
-        public async Task<T> GetIdAsync(int id)
+        public async Task<T?> GetIdAsync(int id)
         {
             return await dbSet.FindAsync(id);
         }
 
-        public async Task<List<T>> GetAllAsync(Expression<Func<T, bool>> filter = null, Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null, string includeProperties = null)
+        public async Task<List<T>> GetAllAsync(Expression<Func<T, bool>>? filter = null, Func<IQueryable<T>, IOrderedQueryable<T>>? orderBy = null, string? includeProperties = null)
         {
             IQueryable<T> query = dbSet;
 
@@ -57,7 +57,7 @@ namespace Last02.Data.Repositories.RepositoryBase
             return (await query.ToListAsync());
         }
 
-        public async Task<List<T>> GetWithPagingAsync(Expression<Func<T, bool>> filter = null, Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null, string includeProperties = null,
+        public async Task<List<T>> GetWithPagingAsync(Expression<Func<T, bool>>? filter = null, Func<IQueryable<T>, IOrderedQueryable<T>>? orderBy = null, string? includeProperties = null,
             int pageNumber = 1, int pageSize = 10)
         {
             IQueryable<T> query = dbSet;
@@ -85,7 +85,7 @@ namespace Last02.Data.Repositories.RepositoryBase
             return items;
         }
 
-        public async Task<T> GetEntityWithMaxKeyAsync<TKey>(Expression<Func<T, TKey>> keySelector, Expression<Func<T, bool>> filter = null, string includeProperties = null)
+        public async Task<T?> GetEntityWithMaxKeyAsync<TKey>(Expression<Func<T, TKey>> keySelector, Expression<Func<T, bool>>? filter = null, string? includeProperties = null)
         {
             IQueryable<T> query = dbSet;
             if (filter != null)
@@ -106,7 +106,7 @@ namespace Last02.Data.Repositories.RepositoryBase
                 .FirstOrDefaultAsync();
         }
 
-        public async Task<T> GetFirstOrDefaultAsync(Expression<Func<T, bool>> filter = null, string includeProperties = null)
+        public async Task<T?> GetFirstOrDefaultAsync(Expression<Func<T, bool>>? filter = null, string? includeProperties = null)
         {
             IQueryable<T> query = dbSet;
 
@@ -126,7 +126,7 @@ namespace Last02.Data.Repositories.RepositoryBase
             return await query.FirstOrDefaultAsync();
         }
 
-        public IQueryable<T> GetQueryable(Expression<Func<T, bool>> filter = null, string includeProperties = null)
+        public IQueryable<T> GetQueryable(Expression<Func<T, bool>>? filter = null, string? includeProperties = null)
         {
             IQueryable<T> query = dbSet;
 
@@ -153,8 +153,9 @@ namespace Last02.Data.Repositories.RepositoryBase
 
         public async Task Remove(string id)
         {
-            T entity = await dbSet.FindAsync(id);
-            Remove(entity);
+            var entity = await dbSet.FindAsync(id);
+            if (entity != null)
+                Remove(entity);
         }
 
         public void Remove(T entity)
@@ -180,12 +181,12 @@ namespace Last02.Data.Repositories.RepositoryBase
             return _dbContext.Set<T>();
         }
 
-        public T GetById(object id, params Expression<Func<T, object>>[] includes)
+        public T? GetById(object id, params Expression<Func<T, object>>[] includes)
         {
-            return _dbContext.Set<T>().Find(id);
+            return dbSet.Find(id);
         }
 
-        public async Task<T> GetAsync(Expression<Func<T, bool>> predicate, Func<IQueryable<T>, IQueryable<T>> include = null)
+        public async Task<T?> GetAsync(Expression<Func<T, bool>> predicate, Func<IQueryable<T>, IQueryable<T>>? include = null)
         {
             IQueryable<T> query = dbSet;
 

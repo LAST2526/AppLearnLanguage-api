@@ -1,0 +1,2902 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Common.errorMessage.errorCompareDate" xml:space="preserve">
+    <value>Ngày kết thúc không thể sớm hơn ngày bắt đầu!</value>
+  </data>
+  <data name="Common.errorMessage.noUser" xml:space="preserve">
+    <value>Không tìm thấy nhân viên!</value>
+  </data>
+  <data name="Common.errorMessage.userAlreadyExisted" xml:space="preserve">
+    <value>Nhân viên đã tồn tại!</value>
+  </data>
+  <data name="Common.errorMessage.userNameOrEmailExisted" xml:space="preserve">
+    <value>Tên đăng nhập hoặc địa chỉ email đã tồn tại!</value>
+  </data>
+  <data name="Common.label.accept" xml:space="preserve">
+    <value>Đồng Ý</value>
+  </data>
+  <data name="Common.label.active" xml:space="preserve">
+    <value>Kích Hoạt</value>
+  </data>
+  <data name="Common.label.add" xml:space="preserve">
+    <value>Thêm</value>
+  </data>
+  <data name="Common.label.addAsset" xml:space="preserve">
+    <value>Thêm Tài Sản</value>
+  </data>
+  <data name="Common.label.addAttribute" xml:space="preserve">
+    <value>Thêm Thuộc Tính</value>
+  </data>
+  <data name="Common.label.additionalAddress" xml:space="preserve">
+    <value>Địa Chỉ Khác</value>
+  </data>
+  <data name="Common.label.additionalDocuments" xml:space="preserve">
+    <value>Tài Liệu Đính Kèm</value>
+  </data>
+  <data name="Common.label.addMember" xml:space="preserve">
+    <value>Thêm Thành Viên</value>
+  </data>
+  <data name="Common.label.address" xml:space="preserve">
+    <value>Địa Chỉ Hộ Khẩu</value>
+  </data>
+  <data name="Common.label.addressUser" xml:space="preserve">
+    <value>Địa Chỉ</value>
+  </data>
+  <data name="Common.label.addUser" xml:space="preserve">
+    <value>Thêm Nhân Viên</value>
+  </data>
+  <data name="Common.label.addWarehouse" xml:space="preserve">
+    <value>Thêm Nhà Kho</value>
+  </data>
+  <data name="Common.label.agreeTermsAndConditions" xml:space="preserve">
+    <value>Tôi đồng ý với các Điều khoản và Điều kiện</value>
+  </data>
+  <data name="Common.label.assetProperty" xml:space="preserve">
+    <value>Thuộc Tính Tài Sản</value>
+  </data>
+  <data name="Common.label.assetType" xml:space="preserve">
+    <value>Loại Tài Sản</value>
+  </data>
+  <data name="Common.label.assignment" xml:space="preserve">
+    <value>Phân Công</value>
+  </data>
+  <data name="Common.label.assignTag" xml:space="preserve">
+    <value>Gán thẻ</value>
+  </data>
+  <data name="Common.label.attribute" xml:space="preserve">
+    <value>Thuộc Tính</value>
+  </data>
+  <data name="Common.label.availablestock" xml:space="preserve">
+    <value>Cổ Phiếu Có Sẳn</value>
+  </data>
+  <data name="Common.label.birthday" xml:space="preserve">
+    <value>Ngày Sinh</value>
+  </data>
+  <data name="Common.label.book" xml:space="preserve">
+    <value>Đặt Hồ Sơ</value>
+  </data>
+  <data name="Common.label.bookType" xml:space="preserve">
+    <value>Book Type</value>
+  </data>
+  <data name="Common.label.borrower" xml:space="preserve">
+    <value>Hồ Sơ Vay</value>
+  </data>
+  <data name="Common.label.brandId" xml:space="preserve">
+    <value>Nhãn Hàng</value>
+  </data>
+  <data name="Common.label.cancel" xml:space="preserve">
+    <value>Hủy Bỏ</value>
+  </data>
+  <data name="Common.label.cashamount" xml:space="preserve">
+    <value>Số Tiền Mặt</value>
+  </data>
+  <data name="Common.label.channel" xml:space="preserve">
+    <value>Kênh</value>
+  </data>
+  <data name="Common.label.city" xml:space="preserve">
+    <value>Thành Phố</value>
+  </data>
+  <data name="Common.label.close" xml:space="preserve">
+    <value>Đóng</value>
+  </data>
+  <data name="Common.label.code" xml:space="preserve">
+    <value>Mã Số</value>
+  </data>
+  <data name="Common.label.commenter" xml:space="preserve">
+    <value>Người Bình Luận</value>
+  </data>
+  <data name="Common.label.comments" xml:space="preserve">
+    <value>Bình Luận</value>
+  </data>
+  <data name="Common.label.commentText" xml:space="preserve">
+    <value>Bình Luận</value>
+  </data>
+  <data name="Common.label.commentType" xml:space="preserve">
+    <value>Loại Bình Luận</value>
+  </data>
+  <data name="Common.label.companyInfo" xml:space="preserve">
+    <value>Thông Tin Công Ty</value>
+  </data>
+  <data name="Common.label.condition" xml:space="preserve">
+    <value>Tình Trạng</value>
+  </data>
+  <data name="Common.label.confirmDelete" xml:space="preserve">
+    <value>Bạn có chắc chắn muốn xóa không?</value>
+  </data>
+  <data name="Common.label.countryName" xml:space="preserve">
+    <value> Quốc Gia</value>
+  </data>
+  <data name="Common.label.coupon" xml:space="preserve">
+    <value>Phiếu Mua Hàng</value>
+  </data>
+  <data name="Common.label.couponcategory" xml:space="preserve">
+    <value>Loại Phiếu Giảm Giá</value>
+  </data>
+  <data name="Common.label.Currency" xml:space="preserve">
+    <value>Mệnh Giá</value>
+  </data>
+  <data name="Common.label.dataType" xml:space="preserve">
+    <value>Kiểu Dữ Liệu </value>
+  </data>
+  <data name="Common.label.dateAdded" xml:space="preserve">
+    <value>Ngày Tạo</value>
+  </data>
+  <data name="Common.label.day" xml:space="preserve">
+    <value>Ngày</value>
+  </data>
+  <data name="Common.label.department" xml:space="preserve">
+    <value>Phòng Ban</value>
+  </data>
+  <data name="Common.label.departmentUser" xml:space="preserve">
+    <value>Thành Viên Phòng Ban</value>
+  </data>
+  <data name="Common.label.description" xml:space="preserve">
+    <value>Mô Tả</value>
+  </data>
+  <data name="Common.label.displayOrder" xml:space="preserve">
+    <value>Sắp Xếp</value>
+  </data>
+  <data name="Common.label.district" xml:space="preserve">
+    <value>Quận/Huyện</value>
+  </data>
+  <data name="Common.label.dob" xml:space="preserve">
+    <value>Ngày Sinh</value>
+  </data>
+  <data name="Common.label.documentName" xml:space="preserve">
+    <value>Tên Tài Liệu</value>
+  </data>
+  <data name="Common.label.documentType" xml:space="preserve">
+    <value>Loại Tài Liệu</value>
+  </data>
+  <data name="Common.label.dontHaveAnAccount" xml:space="preserve">
+    <value>Chưa có tài khoản?</value>
+  </data>
+  <data name="Common.label.downgradePoint" xml:space="preserve">
+    <value>Điểm hạ thấp</value>
+  </data>
+  <data name="Common.Label.Edit" xml:space="preserve">
+    <value>Chỉnh Sửa</value>
+  </data>
+  <data name="Common.label.email" xml:space="preserve">
+    <value>Địa Chỉ Email</value>
+  </data>
+  <data name="Common.label.endDate" xml:space="preserve">
+    <value>Ngày Kết Thúc</value>
+  </data>
+  <data name="Common.label.female" xml:space="preserve">
+    <value>Nữ</value>
+  </data>
+  <data name="Common.label.firstName" xml:space="preserve">
+    <value>Tên</value>
+  </data>
+  <data name="Common.label.forgotYourPassword" xml:space="preserve">
+    <value>Quên mật khẩu</value>
+  </data>
+  <data name="Common.label.fullName" xml:space="preserve">
+    <value>Họ Và Tên</value>
+  </data>
+  <data name="Common.label.giftcategory" xml:space="preserve">
+    <value>Loại Giảm Giá</value>
+  </data>
+  <data name="Common.label.homeAddressAddress" xml:space="preserve">
+    <value>Địa chỉ nhà </value>
+  </data>
+  <data name="Common.label.homeAddressCity" xml:space="preserve">
+    <value>Địa chỉ thành phố</value>
+  </data>
+  <data name="Common.label.homeAddressDetails" xml:space="preserve">
+    <value>Địa chỉ nhà chi tết</value>
+  </data>
+  <data name="Common.label.homeAddressZipCode" xml:space="preserve">
+    <value>Home address - zip code</value>
+  </data>
+  <data name="Common.label.id" xml:space="preserve">
+    <value>Mã</value>
+  </data>
+  <data name="Common.label.idRegisteredDate" xml:space="preserve">
+    <value>Ngày Cấp</value>
+  </data>
+  <data name="Common.label.idRegisteredPlace" xml:space="preserve">
+    <value>Nơi Cấp</value>
+  </data>
+  <data name="Common.label.image" xml:space="preserve">
+    <value>Hình Ảnh</value>
+  </data>
+  <data name="Common.label.ImageUrl" xml:space="preserve">
+    <value>URL hình ảnh</value>
+  </data>
+  <data name="Common.label.jobTitle" xml:space="preserve">
+    <value>Chức Danh</value>
+  </data>
+  <data name="Common.label.keyword" xml:space="preserve">
+    <value>Từ Khóa</value>
+  </data>
+  <data name="Common.label.lastName" xml:space="preserve">
+    <value>Họ</value>
+  </data>
+  <data name="Common.label.lead" xml:space="preserve">
+    <value>Hồ Sơ</value>
+  </data>
+  <data name="Common.label.leads" xml:space="preserve">
+    <value>Tất Cả Hồ Sơ</value>
+  </data>
+  <data name="Common.label.loan" xml:space="preserve">
+    <value>Vay</value>
+  </data>
+  <data name="Common.label.loanInfo" xml:space="preserve">
+    <value>Thông Tin Vay</value>
+  </data>
+  <data name="Common.label.location" xml:space="preserve">
+    <value>Vị Trí</value>
+  </data>
+  <data name="Common.label.login" xml:space="preserve">
+    <value>Đăng nhập</value>
+  </data>
+  <data name="Common.label.male" xml:space="preserve">
+    <value>Nam</value>
+  </data>
+  <data name="Common.label.manager" xml:space="preserve">
+    <value>Tên Quản Lý</value>
+  </data>
+  <data name="Common.label.member" xml:space="preserve">
+    <value>Thành Viên</value>
+  </data>
+  <data name="Common.label.member.Code.Automatically" xml:space="preserve">
+    <value>Tạo Mã Thành viên tự động</value>
+  </data>
+  <data name="Common.label.members" xml:space="preserve">
+    <value>Thành Viên</value>
+  </data>
+  <data name="Common.label.membertagcategory" xml:space="preserve">
+    <value>Danh Mục Thẻ Thành Viên</value>
+  </data>
+  <data name="Common.label.month" xml:space="preserve">
+    <value>Tháng</value>
+  </data>
+  <data name="Common.label.name" xml:space="preserve">
+    <value>Tên</value>
+  </data>
+  <data name="Common.label.no" xml:space="preserve">
+    <value>Không</value>
+  </data>
+  <data name="Common.label.numberredeemed" xml:space="preserve">
+    <value>Số Thay Đổi</value>
+  </data>
+  <data name="Common.label.occupation" xml:space="preserve">
+    <value>Nghề Nghiệp</value>
+  </data>
+  <data name="Common.label.open" xml:space="preserve">
+    <value>Mở Hồ Sơ</value>
+  </data>
+  <data name="Common.label.operation" xml:space="preserve">
+    <value>Hoạt động</value>
+  </data>
+  <data name="Common.label.organization" xml:space="preserve">
+    <value>Tổ Chức</value>
+  </data>
+  <data name="Common.label.organizationName" xml:space="preserve">
+    <value>Tên Tổ Chức</value>
+  </data>
+  <data name="Common.label.password" xml:space="preserve">
+    <value>Mật khẩu</value>
+  </data>
+  <data name="Common.label.personalId" xml:space="preserve">
+    <value>Số CMND</value>
+  </data>
+  <data name="Common.label.phone" xml:space="preserve">
+    <value>Số Điện Thoại</value>
+  </data>
+  <data name="Common.label.point" xml:space="preserve">
+    <value>Điểm</value>
+  </data>
+  <data name="Common.label.pointMax" xml:space="preserve">
+    <value>Điểm tối đa</value>
+  </data>
+  <data name="Common.label.pointMin" xml:space="preserve">
+    <value>Điểm tối thiểu</value>
+  </data>
+  <data name="Common.label.preferredBrand" xml:space="preserve">
+    <value>Thương hiệu ưa thích</value>
+  </data>
+  <data name="Common.label.preferredProduct" xml:space="preserve">
+    <value>Sản phẩm ưu thích</value>
+  </data>
+  <data name="Common.label.preferredStore" xml:space="preserve">
+    <value>Cửa hàng ưu thích</value>
+  </data>
+  <data name="Common.label.price" xml:space="preserve">
+    <value>Giá</value>
+  </data>
+  <data name="Common.label.productCategory" xml:space="preserve">
+    <value>Danh Mục Sản Phẩm</value>
+  </data>
+  <data name="Common.label.productCategoryId" xml:space="preserve">
+    <value>Mã Loại Sản Phẩm</value>
+  </data>
+  <data name="Common.label.productProperties" xml:space="preserve">
+    <value>Thuộc Tính Sản Phẩm</value>
+  </data>
+  <data name="Common.label.productProperty" xml:space="preserve">
+    <value>Thuộc Tính Sản Phẩm</value>
+  </data>
+  <data name="Common.label.province" xml:space="preserve">
+    <value>Tỉnh/Thành Phố</value>
+  </data>
+  <data name="Common.label.provinceName" xml:space="preserve">
+    <value>Tỉnh/Thành Phố</value>
+  </data>
+  <data name="Common.label.PurchasedPrice" xml:space="preserve">
+    <value>Giá Mua</value>
+  </data>
+  <data name="Common.label.purchaseprice" xml:space="preserve">
+    <value>Giá Mua</value>
+  </data>
+  <data name="Common.label.recruitMember" xml:space="preserve">
+    <value>Thêm Thành Viên</value>
+  </data>
+  <data name="Common.label.referralMember" xml:space="preserve">
+    <value>Thành viên giới thiệu</value>
+  </data>
+  <data name="Common.label.registrationChannel" xml:space="preserve">
+    <value>Kênh</value>
+  </data>
+  <data name="Common.label.registrationDate" xml:space="preserve">
+    <value>Ngày Đăng Ký</value>
+  </data>
+  <data name="Common.label.registrationEmployee" xml:space="preserve">
+    <value>Đăng ký Nhân viên</value>
+  </data>
+  <data name="Common.label.registrationStore" xml:space="preserve">
+    <value> Cửa hàng</value>
+  </data>
+  <data name="Common.label.reject" xml:space="preserve">
+    <value>Từ Chối</value>
+  </data>
+  <data name="Common.label.remark" xml:space="preserve">
+    <value>Ghi Chú</value>
+  </data>
+  <data name="Common.label.remarkInfo" xml:space="preserve">
+    <value>Ghi Chú</value>
+  </data>
+  <data name="Common.label.rememberMe" xml:space="preserve">
+    <value>Ghi nhớ đăng nhập</value>
+  </data>
+  <data name="Common.label.reset" xml:space="preserve">
+    <value>Làm mới</value>
+  </data>
+  <data name="Common.label.resetPassword" xml:space="preserve">
+    <value>Đặt Lại Mật Khẩu</value>
+  </data>
+  <data name="Common.label.retailmarketprice" xml:space="preserve">
+    <value>Giá Bán Lẻ</value>
+  </data>
+  <data name="Common.label.RetailPrice" xml:space="preserve">
+    <value>Giá Bán Lẻ</value>
+  </data>
+  <data name="Common.label.role" xml:space="preserve">
+    <value>Vai Trò</value>
+  </data>
+  <data name="Common.label.roleGroups" xml:space="preserve">
+    <value>Nhóm Vai Trò</value>
+  </data>
+  <data name="Common.label.roles" xml:space="preserve">
+    <value>Vai Trò</value>
+  </data>
+  <data name="Common.label.save" xml:space="preserve">
+    <value>Lưu</value>
+  </data>
+  <data name="Common.label.search" xml:space="preserve">
+    <value>Tìm Kiếm</value>
+  </data>
+  <data name="Common.label.searchAdvanced" xml:space="preserve">
+    <value>Tìm Kiếm Nâng Cao</value>
+  </data>
+  <data name="Common.label.select" xml:space="preserve">
+    <value>Chọn</value>
+  </data>
+  <data name="Common.label.sex" xml:space="preserve">
+    <value>Giới Tính</value>
+  </data>
+  <data name="Common.label.shortName" xml:space="preserve">
+    <value>Tên Viết Tắt</value>
+  </data>
+  <data name="Common.label.signUpNow" xml:space="preserve">
+    <value>Đăng Kí Ngay</value>
+  </data>
+  <data name="Common.label.specification" xml:space="preserve">
+    <value>Đặc Điểm Quà Tặng</value>
+  </data>
+  <data name="Common.label.standardType" xml:space="preserve">
+    <value>Loại Tiêu Chuẩn</value>
+  </data>
+  <data name="Common.label.startDate" xml:space="preserve">
+    <value>Ngày Bắt Đầu</value>
+  </data>
+  <data name="Common.label.stockadjustment" xml:space="preserve">
+    <value>Điều Chỉnh Cổ Phiếu</value>
+  </data>
+  <data name="Common.label.store" xml:space="preserve">
+    <value>Cửa Hàng</value>
+  </data>
+  <data name="Common.label.storeAddress" xml:space="preserve">
+    <value>Địa chỉ</value>
+  </data>
+  <data name="Common.label.tagname" xml:space="preserve">
+    <value>Tên Thẻ</value>
+  </data>
+  <data name="Common.label.tagtype" xml:space="preserve">
+    <value>Loại Thẻ</value>
+  </data>
+  <data name="Common.label.teamUser" xml:space="preserve">
+    <value>Thành Viên Nhóm</value>
+  </data>
+  <data name="Common.label.templatebanner" xml:space="preserve">
+    <value>Biểu Ngữ Mẩu</value>
+  </data>
+  <data name="Common.label.termsOfUse" xml:space="preserve">
+    <value>Tôi đã đọc và đồng ý với Điều khoản &amp; Điều kiện và thông báo về Quyền riêng tư</value>
+  </data>
+  <data name="Common.label.tier" xml:space="preserve">
+    <value>Cấp Bậc</value>
+  </data>
+  <data name="Common.label.tierLevel" xml:space="preserve">
+    <value>Cấp Bậc</value>
+  </data>
+  <data name="Common.label.totalmembers" xml:space="preserve">
+    <value>Tổng Thành Viên</value>
+  </data>
+  <data name="Common.label.type" xml:space="preserve">
+    <value>Loại</value>
+  </data>
+  <data name="Common.label.unitId" xml:space="preserve">
+    <value>Đơn Vị</value>
+  </data>
+  <data name="Common.label.upgradePoint" xml:space="preserve">
+    <value>Điểm nâng cấp</value>
+  </data>
+  <data name="Common.label.username" xml:space="preserve">
+    <value>Tên đăng nhập</value>
+  </data>
+  <data name="Common.label.users" xml:space="preserve">
+    <value>Nhân Viên</value>
+  </data>
+  <data name="Common.label.validityperiod" xml:space="preserve">
+    <value>Thời Gian Hiệu Lực</value>
+  </data>
+  <data name="Common.label.value" xml:space="preserve">
+    <value>Giá Trị</value>
+  </data>
+  <data name="Common.label.vouchercategoryId" xml:space="preserve">
+    <value>Mã Loại Giảm Giá</value>
+  </data>
+  <data name="Common.label.warehouse" xml:space="preserve">
+    <value>Nhà Kho</value>
+  </data>
+  <data name="Common.label.weddingAnniversary" xml:space="preserve">
+    <value>Kỷ Niệm Ngày Cưới</value>
+  </data>
+  <data name="Common.label.yearOfBirth" xml:space="preserve">
+    <value>Năm Sinh</value>
+  </data>
+  <data name="Common.label.yes" xml:space="preserve">
+    <value>Có</value>
+  </data>
+  <data name="Common.lable.Import" xml:space="preserve">
+    <value>Gửi</value>
+  </data>
+  <data name="Common.message.passwordChanged" xml:space="preserve">
+    <value>Mật khẩu mới</value>
+  </data>
+  <data name="Common.notify.addAttributeSuccessfully" xml:space="preserve">
+    <value>Thêm thuộc tính thành công!</value>
+  </data>
+  <data name="Common.notify.addSuccessfully" xml:space="preserve">
+    <value>Thêm mới thành công!</value>
+  </data>
+  <data name="Common.notify.addUserSuccessfully" xml:space="preserve">
+    <value>Thêm nhân viên thành công!</value>
+  </data>
+  <data name="Common.notify.deleteAttributeSuccessfully" xml:space="preserve">
+    <value>Xóa thuộc tính thành công!</value>
+  </data>
+  <data name="Common.notify.deleteSuccessfully" xml:space="preserve">
+    <value>Xóa thành công!</value>
+  </data>
+  <data name="Common.notify.deleteUserSuccessfully" xml:space="preserve">
+    <value>Xóa nhân viên thành công!</value>
+  </data>
+  <data name="Common.notify.updateAttributeSuccessfully" xml:space="preserve">
+    <value>Cập nhật thuộc tính thành công!</value>
+  </data>
+  <data name="Common.notify.updateSuccessfully" xml:space="preserve">
+    <value>Cập nhật thành công!</value>
+  </data>
+  <data name="Common.notify.updateUserSuccessfully" xml:space="preserve">
+    <value>Cập nhật nhân viên thành công!</value>
+  </data>
+  <data name="EN" xml:space="preserve">
+    <value>Tiếng Anh</value>
+  </data>
+  <data name="Lead.import.description" xml:space="preserve">
+    <value>Công cụ hỗ trợ import hồ sơ khách hàng xlsx</value>
+  </data>
+  <data name="Lead.import.fail" xml:space="preserve">
+    <value>Import thất bại</value>
+  </data>
+  <data name="Lead.import.leadManagement" xml:space="preserve">
+    <value>Quản lý hồ sơ</value>
+  </data>
+  <data name="Lead.import.successful" xml:space="preserve">
+    <value>Import thành công</value>
+  </data>
+  <data name="Lead.import.title.column" xml:space="preserve">
+    <value>Cột</value>
+  </data>
+  <data name="Lead.import.title.default" xml:space="preserve">
+    <value>Giá trị mặc định</value>
+  </data>
+  <data name="Lead.import.title.Field" xml:space="preserve">
+    <value>Trường</value>
+  </data>
+  <data name="Lead.import.title.mapping" xml:space="preserve">
+    <value>Cài đặt mapping</value>
+  </data>
+  <data name="Lead.import.title.value" xml:space="preserve">
+    <value>Giá trị</value>
+  </data>
+  <data name="Lead.import.totalRowFail" xml:space="preserve">
+    <value>Tổng số dòng import không thành công:</value>
+  </data>
+  <data name="Lead.import.totalRowSuccess" xml:space="preserve">
+    <value>Tổng số dòng import thành công:</value>
+  </data>
+  <data name="Lead.import.veltrix" xml:space="preserve">
+    <value>Veltrix</value>
+  </data>
+  <data name="Lead.improt.header" xml:space="preserve">
+    <value>Nhập hồ sơ</value>
+  </data>
+  <data name="ManageLead.form.label.amount" xml:space="preserve">
+    <value>Số Tiền Vay</value>
+  </data>
+  <data name="ManageLead.form.label.bankAccount" xml:space="preserve">
+    <value>Thẻ Ngân Hàng</value>
+  </data>
+  <data name="ManageLead.form.label.companyName" xml:space="preserve">
+    <value>Tên Công Ty</value>
+  </data>
+  <data name="ManageLead.form.label.creationdate" xml:space="preserve">
+    <value>Ngày Thành Lập</value>
+  </data>
+  <data name="ManageLead.form.label.electricityBill" xml:space="preserve">
+    <value>Hóa Đơn Điện</value>
+  </data>
+  <data name="ManageLead.form.label.healthInsurance" xml:space="preserve">
+    <value>Bảo Hiểm Y Tế</value>
+  </data>
+  <data name="ManageLead.form.label.incomeAmount" xml:space="preserve">
+    <value>Thu Nhập 1 Tháng</value>
+  </data>
+  <data name="ManageLead.form.label.incomeReceivedMethod" xml:space="preserve">
+    <value>Nhận Thu Nhập</value>
+  </data>
+  <data name="ManageLead.form.label.incomeStream" xml:space="preserve">
+    <value>Nguồn Thu Nhập</value>
+  </data>
+  <data name="ManageLead.form.label.internetBill" xml:space="preserve">
+    <value>Hóa Đơn Internet</value>
+  </data>
+  <data name="ManageLead.form.label.lastupdate" xml:space="preserve">
+    <value>Ngày Cập Nhật</value>
+  </data>
+  <data name="ManageLead.form.label.leadDate" xml:space="preserve">
+    <value>Ngày</value>
+  </data>
+  <data name="ManageLead.form.label.leadSource" xml:space="preserve">
+    <value>Nguồn Hồ Sơ</value>
+  </data>
+  <data name="ManageLead.form.label.lifeInsurance" xml:space="preserve">
+    <value>Bảo Hiểm Xã Hội</value>
+  </data>
+  <data name="ManageLead.form.label.loanAmount" xml:space="preserve">
+    <value>Tiền Vay </value>
+  </data>
+  <data name="ManageLead.form.label.loanPeriod" xml:space="preserve">
+    <value>Thời Hạn</value>
+  </data>
+  <data name="ManageLead.form.label.loanProduct" xml:space="preserve">
+    <value>Hình Thức</value>
+  </data>
+  <data name="ManageLead.form.label.loanPurpose" xml:space="preserve">
+    <value>Bạn Đang Cần?</value>
+  </data>
+  <data name="ManageLead.form.label.maritalStatus" xml:space="preserve">
+    <value>Hôn Nhân</value>
+  </data>
+  <data name="ManageLead.form.label.originalFile1" xml:space="preserve">
+    <value>Hồ Sơ Gốc 1</value>
+  </data>
+  <data name="ManageLead.form.label.originalFile2" xml:space="preserve">
+    <value>Hồ Sơ Gốc 2</value>
+  </data>
+  <data name="ManageLead.form.label.position" xml:space="preserve">
+    <value>Vị Trí</value>
+  </data>
+  <data name="ManageLead.form.label.registerNumber" xml:space="preserve">
+    <value>Mã Công Ty</value>
+  </data>
+  <data name="ManageLead.form.label.simCard" xml:space="preserve">
+    <value>Sim Điện Thoại</value>
+  </data>
+  <data name="ManageLead.form.label.vehicleRegistrationCertificate" xml:space="preserve">
+    <value>Cavet Xe</value>
+  </data>
+  <data name="ManageLead.form.title.AdditionalInformation" xml:space="preserve">
+    <value>Thông Tin Khác</value>
+  </data>
+  <data name="ManageLead.form.title.JobIncome" xml:space="preserve">
+    <value>Nghề Nghiệp &amp; Thu Nhập</value>
+  </data>
+  <data name="ManageMember.form.title.communicationPreferences" xml:space="preserve">
+    <value>Sở Thích Giao Tiếp</value>
+  </data>
+  <data name="ManageMember.form.title.memberTags" xml:space="preserve">
+    <value>Thẻ Thành Viên</value>
+  </data>
+  <data name="ManageMember.form.title.personalDetails" xml:space="preserve">
+    <value>Thông Tin Cá Nhân</value>
+  </data>
+  <data name="ManageMember.form.title.RegistrationInformation" xml:space="preserve">
+    <value>Đăng ký thông tin</value>
+  </data>
+  <data name="ManageMember.formtitle.termsOfUse" xml:space="preserve">
+    <value>Điều Khoản Sử Dụng</value>
+  </data>
+  <data name="ManageMember_form_title_brandPreferences" xml:space="preserve">
+    <value>Sở Thích Thương Hiệu</value>
+  </data>
+  <data name="Sidebar.borrowerManagement.manageBorrowers" xml:space="preserve">
+    <value>Quản Lý Hồ Sơ Vay</value>
+  </data>
+  <data name="Sidebar.campaign.lifecycle" xml:space="preserve">
+    <value>Chiến Dịch Vòng Đời</value>
+  </data>
+  <data name="Sidebar.campaign.recurring" xml:space="preserve">
+    <value>Chiến Dịch Định Kì</value>
+  </data>
+  <data name="Sidebar.campaign.spot" xml:space="preserve">
+    <value>Chiến Dịch Tại Chỗ</value>
+  </data>
+  <data name="Sidebar.campaign.trigger" xml:space="preserve">
+    <value>Kích Hoạt Chiến Dịch</value>
+  </data>
+  <data name="Sidebar.configurations.brand" xml:space="preserve">
+    <value>Nhãn Hàng</value>
+  </data>
+  <data name="Sidebar.configurations.category" xml:space="preserve">
+    <value>Danh Mục</value>
+  </data>
+  <data name="Sidebar.configurations.channel" xml:space="preserve">
+    <value>Kênh Bán Hàng</value>
+  </data>
+  <data name="Sidebar.configurations.coupon" xml:space="preserve">
+    <value>Mã Giảm Giá</value>
+  </data>
+  <data name="Sidebar.configurations.couponCategory" xml:space="preserve">
+    <value>Loại Mã Giảm Giá</value>
+  </data>
+  <data name="Sidebar.configurations.departments" xml:space="preserve">
+    <value>Phòng Ban</value>
+  </data>
+  <data name="Sidebar.configurations.giftCategory" xml:space="preserve">
+    <value>Danh Mục Quà Tặng</value>
+  </data>
+  <data name="Sidebar.configurations.jobTitle" xml:space="preserve">
+    <value>Chức Danh</value>
+  </data>
+  <data name="Sidebar.configurations.loyaltyPointType" xml:space="preserve">
+    <value>Loại Điểm</value>
+  </data>
+  <data name="Sidebar.configurations.loyaltyTier" xml:space="preserve">
+    <value>Cấp Bậc</value>
+  </data>
+  <data name="Sidebar.configurations.occupation" xml:space="preserve">
+    <value>Nghề Nghiệp</value>
+  </data>
+  <data name="Sidebar.configurations.organization" xml:space="preserve">
+    <value>Tổ Chức</value>
+  </data>
+  <data name="Sidebar.configurations.originalFile" xml:space="preserve">
+    <value>Hồ Sơ Gốc 1</value>
+  </data>
+  <data name="Sidebar.configurations.originalFileAddition" xml:space="preserve">
+    <value>Hồ Sơ Gốc 2</value>
+  </data>
+  <data name="Sidebar.configurations.product" xml:space="preserve">
+    <value>Sản Phẩm</value>
+  </data>
+  <data name="Sidebar.configurations.productCat" xml:space="preserve">
+    <value>Danh Mục</value>
+  </data>
+  <data name="Sidebar.configurations.productMng" xml:space="preserve">
+    <value>Quản Lý Sản Phẩm</value>
+  </data>
+  <data name="Sidebar.configurations.roleGroups" xml:space="preserve">
+    <value>Nhóm Vai Trò</value>
+  </data>
+  <data name="Sidebar.configurations.store" xml:space="preserve">
+    <value>Cửa Hàng</value>
+  </data>
+  <data name="Sidebar.configurations.teams" xml:space="preserve">
+    <value>Nhóm</value>
+  </data>
+  <data name="Sidebar.configurations.unit" xml:space="preserve">
+    <value>Đơn Vị</value>
+  </data>
+  <data name="Sidebar.configurations.userMng" xml:space="preserve">
+    <value>Người Dùng</value>
+  </data>
+  <data name="Sidebar.configurations.users" xml:space="preserve">
+    <value>Tài Khoản</value>
+  </data>
+  <data name="Sidebar.configurations.voucherCategory" xml:space="preserve">
+    <value>Loại Phiếu Mua Hàng</value>
+  </data>
+  <data name="Sidebar.configurations.warehouse" xml:space="preserve">
+    <value>Nhà Kho</value>
+  </data>
+  <data name="Sidebar.configurations.warehouseMng" xml:space="preserve">
+    <value>Quản Lý Kho</value>
+  </data>
+  <data name="Sidebar.help.faq" xml:space="preserve">
+    <value>Câu Hỏi Thường Gặp</value>
+  </data>
+  <data name="Sidebar.help.tutorial" xml:space="preserve">
+    <value>Hướng Dẫn</value>
+  </data>
+  <data name="Sidebar.leadManagement.compaigns" xml:space="preserve">
+    <value>Chiến Dịch</value>
+  </data>
+  <data name="Sidebar.leadManagement.importLeads" xml:space="preserve">
+    <value>Nhập Hồ Sơ</value>
+  </data>
+  <data name="Sidebar.leadManagement.manageLeads" xml:space="preserve">
+    <value>Quản Lý Hồ Sơ</value>
+  </data>
+  <data name="Sidebar.loyalty.pointRule" xml:space="preserve">
+    <value>Quy Tắc Điểm</value>
+  </data>
+  <data name="Sidebar.loyalty.referral" xml:space="preserve">
+    <value>Giới Thiệu</value>
+  </data>
+  <data name="Sidebar.loyalty.tierRule" xml:space="preserve">
+    <value>Quy Tắc Bậc</value>
+  </data>
+  <data name="Sidebar.main.dashboard" xml:space="preserve">
+    <value>Bảng Điều Khiển</value>
+  </data>
+  <data name="Sidebar.main.search" xml:space="preserve">
+    <value>Tìm Kiếm</value>
+  </data>
+  <data name="Sidebar.main.search.searchContacts" xml:space="preserve">
+    <value>Tìm Kiếm Liên Lạc</value>
+  </data>
+  <data name="Sidebar.main.search.searchLeads" xml:space="preserve">
+    <value>Tìm Kiếm Hồ Sơ</value>
+  </data>
+  <data name="Sidebar.member.management" xml:space="preserve">
+    <value>Nhập Hồ Sơ</value>
+  </data>
+  <data name="Sidebar.member.memberQuery" xml:space="preserve">
+    <value>Truy vấn Thành viên</value>
+  </data>
+  <data name="Sidebar.member.recruitment" xml:space="preserve">
+    <value>Thêm Mới</value>
+  </data>
+  <data name="Sidebar.member.search" xml:space="preserve">
+    <value>Tìm kiếm</value>
+  </data>
+  <data name="Sidebar.memberManagement.manageMembers" xml:space="preserve">
+    <value>Thành viên</value>
+  </data>
+  <data name="Sidebar.member.tag" xml:space="preserve">
+    <value>Thẻ Thành Viên</value>
+  </data>
+  <data name="Sidebar.productMng.product" xml:space="preserve">
+    <value>Sản Phẩm</value>
+  </data>
+  <data name="Sidebar.productMng.productCategory" xml:space="preserve">
+    <value>Danh Mục Sản Phẩm</value>
+  </data>
+  <data name="Sidebar.productMng.productProperty" xml:space="preserve">
+    <value>Thuộc Tính Sản Phẩm</value>
+  </data>
+  <data name="Sidebar.reporting.member" xml:space="preserve">
+    <value>Báo Cáo Thành Viên</value>
+  </data>
+  <data name="Sidebar.reporting.rewards" xml:space="preserve">
+    <value>Báo Cáo Khen Thưởng</value>
+  </data>
+  <data name="Sidebar.reports.leads" xml:space="preserve">
+    <value>Báo Cáo Hồ Sơ</value>
+  </data>
+  <data name="Sidebar.rewards.center" xml:space="preserve">
+    <value>Trung Tâm Phần Thưởng</value>
+  </data>
+  <data name="Sidebar.rewards.coupon" xml:space="preserve">
+    <value>Mã Giảm Giá</value>
+  </data>
+  <data name="Sidebar.rewards.gift" xml:space="preserve">
+    <value>Quà Tặng</value>
+  </data>
+  <data name="Sidebar.rewards.redemption" xml:space="preserve">
+    <value>Đổi Thẻ Quà Tặng, Phiếu Mua Hàng, Giảm Giá</value>
+  </data>
+  <data name="Sidebar.rewards.voucher" xml:space="preserve">
+    <value>Phiếu Mua Hàng</value>
+  </data>
+  <data name="Sidebar.title.borrowerManagement" xml:space="preserve">
+    <value>Quản Lý Hồ Sơ Vay</value>
+  </data>
+  <data name="Sidebar.title.campaign" xml:space="preserve">
+    <value>Chiến Dịch</value>
+  </data>
+  <data name="Sidebar.title.configurations" xml:space="preserve">
+    <value>Cài Đặt Chung</value>
+  </data>
+  <data name="Sidebar.title.help" xml:space="preserve">
+    <value>Trợ Giúp</value>
+  </data>
+  <data name="Sidebar.title.leadManagement" xml:space="preserve">
+    <value>Quản Lý Hồ Sơ</value>
+  </data>
+  <data name="Sidebar.title.loyalty" xml:space="preserve">
+    <value>Cấp Bậc Thành Viên</value>
+  </data>
+  <data name="Sidebar.title.main" xml:space="preserve">
+    <value>Chính</value>
+  </data>
+  <data name="Sidebar.title.member" xml:space="preserve">
+    <value>Thành Viên</value>
+  </data>
+  <data name="Sidebar.title.membertag" xml:space="preserve">
+    <value>Thẻ Thành Viên</value>
+  </data>
+  <data name="Sidebar.title.reports" xml:space="preserve">
+    <value>Báo Cáo</value>
+  </data>
+  <data name="Sidebar.title.rewards" xml:space="preserve">
+    <value>Ưu đãi</value>
+  </data>
+  <data name="Sidebar.title.tools" xml:space="preserve">
+    <value>Công Cụ</value>
+  </data>
+  <data name="Sidebar.title.wallets" xml:space="preserve">
+    <value>Quản Lý Ví</value>
+  </data>
+  <data name="Sidebar.tools.fileImport" xml:space="preserve">
+    <value>Nhập Tệp Tin</value>
+  </data>
+  <data name="Sidebar.tools.transactions" xml:space="preserve">
+    <value>Nhập Giao Dịch (CSV)</value>
+  </data>
+  <data name="Sidebar.wallets.wallets" xml:space="preserve">
+    <value>Quản Lý Ví</value>
+  </data>
+  <data name="Sidebar.warehouseMng.asset" xml:space="preserve">
+    <value>Tài Sản</value>
+  </data>
+  <data name="Sidebar.warehouseMng.assetProperty" xml:space="preserve">
+    <value>Thuộc Tính Tài Sản</value>
+  </data>
+  <data name="Sidebar.warehouseMng.assetType" xml:space="preserve">
+    <value>Loại Tài Sản</value>
+  </data>
+  <data name="VI" xml:space="preserve">
+    <value>Tiếng Việt</value>
+  </data>
+  <data name="Common.label.codeStore" xml:space="preserve">
+    <value>Mã Cửa Hàng</value>
+  </data>
+  <data name="Common.label.RegistrationStoreCode" xml:space="preserve">
+    <value>Đăng ký mã cửa hàng</value>
+  </data>
+  <data name="Common.label.memberCode" xml:space="preserve">
+    <value>Mã Thành Viên</value>
+  </data>
+  <data name="Sidebar.configurations.memberTagCategory" xml:space="preserve">
+    <value>Danh mục thẻ thành viên</value>
+  </data>
+  <data name="Common.label.typename" xml:space="preserve">
+    <value>Tên Loại</value>
+  </data>
+  <data name="Common.label.membertag.category.name" xml:space="preserve">
+    <value>Tên Danh Mục Thẻ Thành Viên</value>
+  </data>
+  <data name="Common.label.blacklist" xml:space="preserve">
+    <value>Danh Sách Đen</value>
+  </data>
+  <data name="Common.label.pointcustomrule" xml:space="preserve">
+    <value>Quy Tắc Tùy Chỉnh Điểm</value>
+  </data>
+  <data name="Common.label.pointlimitationrule" xml:space="preserve">
+    <value>Quy Tắc Giới Hạn Điểm</value>
+  </data>
+  <data name="Common.label.pointrule" xml:space="preserve">
+    <value>Quy Tắc Điểm</value>
+  </data>
+  <data name="Common.label.pointstandardrule" xml:space="preserve">
+    <value>Quy Tắc  Điểm Tiêu Chuẩn</value>
+  </data>
+  <data name="Common.label.tierrule" xml:space="preserve">
+    <value>Quy Tắc Bậc</value>
+  </data>
+  <data name="Common.label.registrationEmployees" xml:space="preserve">
+    <value>Nhân viên</value>
+  </data>
+  <data name="Common.label.after" xml:space="preserve">
+    <value>Sau</value>
+  </data>
+  <data name="Common.label.atmostget" xml:space="preserve">
+    <value>Nhiều nhất nhận được</value>
+  </data>
+  <data name="Common.label.atmostredeem" xml:space="preserve">
+    <value>Nhiều nhất là đổi</value>
+  </data>
+  <data name="Common.label.decimalplaces" xml:space="preserve">
+    <value>Vị trí thập phân</value>
+  </data>
+  <data name="Common.label.decimalprecisionmethod" xml:space="preserve">
+    <value>Phương thức thập phân</value>
+  </data>
+  <data name="Common.label.expireafter" xml:space="preserve">
+    <value>Hết hạn sau</value>
+  </data>
+  <data name="Common.label.expireon" xml:space="preserve">
+    <value>Hết hạn vào ngày</value>
+  </data>
+  <data name="Common.label.Expirethelastdayofthemonthafter" xml:space="preserve">
+    <value>Hết hạn vào ngày cuối cùng tháng sau</value>
+  </data>
+  <data name="Common.label.limitearnedpoints" xml:space="preserve">
+    <value>Giới Hạn Điểm Kiếm Được</value>
+  </data>
+  <data name="Common.label.Limitredeemedpoints" xml:space="preserve">
+    <value>Giới Hạn Số Điểm Đã Đổi</value>
+  </data>
+  <data name="Common.label.neverexpire" xml:space="preserve">
+    <value>Không bao giờ hết hạn</value>
+  </data>
+  <data name="Common.label.nolimit" xml:space="preserve">
+    <value>Không giới hạn</value>
+  </data>
+  <data name="Common.label.pointearnrule" xml:space="preserve">
+    <value>Quy Tắc Kiếm Điểm</value>
+  </data>
+  <data name="Common.label.pointexpiryrule" xml:space="preserve">
+    <value>Quy Tắc Hết Hạn Điểm</value>
+  </data>
+  <data name="Common.label.pointname" xml:space="preserve">
+    <value>Tên Điểm</value>
+  </data>
+  <data name="Common.label.pointredemptionrule" xml:space="preserve">
+    <value>Quy Tắc Đổi Điểm</value>
+  </data>
+  <data name="Common.label.year" xml:space="preserve">
+    <value>Năm</value>
+  </data>
+  <data name="Common.label.range" xml:space="preserve">
+    <value>Ngày sinh nhật</value>
+  </data>
+  <data name="Common.label.registrationRangeDate" xml:space="preserve">
+    <value>Ngày đăng ký</value>
+  </data>
+  <data name="Common.label.setting" xml:space="preserve">
+    <value>Thiết Lập</value>
+  </data>
+  <data name="Common.label.settingchange" xml:space="preserve">
+    <value>Thay đổi cài đặt</value>
+  </data>
+  <data name="Common.label.usedefaultvalue" xml:space="preserve">
+    <value>Sử dụng giá trị mặc định</value>
+  </data>
+  <data name="Common_label_ifday293031" xml:space="preserve">
+    <value>Nếu ngày 29, 30, 31 không rơi vào tháng, điểm sẽ hết hạn vào ngày cuối cùng của tháng.</value>
+  </data>
+  <data name="Common_label_spend" xml:space="preserve">
+    <value>Chi 1000 VNĐ nhận được</value>
+  </data>
+  <data name="Common.label.aspecificbranch" xml:space="preserve">
+    <value>Một chi nhánh cụ thể</value>
+  </data>
+  <data name="Common.label.aspecificcategory" xml:space="preserve">
+    <value>Một danh mục cụ thể</value>
+  </data>
+  <data name="Common.label.aspecificproduct" xml:space="preserve">
+    <value>Một sản phẩm cụ thể</value>
+  </data>
+  <data name="Common.label.aspecificstore" xml:space="preserve">
+    <value>Một cửa hàng cụ thể</value>
+  </data>
+  <data name="Common.label.aspecificsubcategory" xml:space="preserve">
+    <value>Một danh mục phụ cụ thể</value>
+  </data>
+  <data name="Common.label.atmost" xml:space="preserve">
+    <value>Nhiều nhất</value>
+  </data>
+  <data name="Common.label.creationdate" xml:space="preserve">
+    <value>Ngày thành lập</value>
+  </data>
+  <data name="Common.label.earnrule" xml:space="preserve">
+    <value>Kiếm quy tắc</value>
+  </data>
+  <data name="Common.label.for1sgd" xml:space="preserve">
+    <value>với giá 1000 VNĐ (20.000 VND = 1 điểm)</value>
+  </data>
+  <data name="Common.label.get" xml:space="preserve">
+    <value>nhận được</value>
+  </data>
+  <data name="Common.label.lastupdate" xml:space="preserve">
+    <value>Cập Nhật Cuối Cùng</value>
+  </data>
+  <data name="Common.label.per" xml:space="preserve">
+    <value>mỗi</value>
+  </data>
+  <data name="Common.label.redeem" xml:space="preserve">
+    <value>Là đổi</value>
+  </data>
+  <data name="Common.label.rulename" xml:space="preserve">
+    <value>Tên Quy Tắc</value>
+  </data>
+  <data name="Common.label.state" xml:space="preserve">
+    <value>Tiểu bang</value>
+  </data>
+  <data name="Common.label.storecode" xml:space="preserve">
+    <value>Mã cửa hàng</value>
+  </data>
+  <data name="Common.label.storename" xml:space="preserve">
+    <value>Tên cửa hàng</value>
+  </data>
+  <data name="Common.label.telephone" xml:space="preserve">
+    <value>Điện thoại</value>
+  </data>
+  <data name="Common.label.conditions" xml:space="preserve">
+    <value>Điều kiện</value>
+  </data>
+  <data name="Common.label.selectabrand" xml:space="preserve">
+    <value>Chọn Thương Hiệu</value>
+  </data>
+  <data name="Common.label.selectacategory" xml:space="preserve">
+    <value>Chọn một danh mục</value>
+  </data>
+  <data name="Common.label.selectaproduct" xml:space="preserve">
+    <value>Chọn một sản phẩm</value>
+  </data>
+  <data name="Common.label.selectastore" xml:space="preserve">
+    <value>Chọn một cửa hàng</value>
+  </data>
+  <data name="Common.label.selectasubcategory" xml:space="preserve">
+    <value>Chọn danh mục phụ</value>
+  </data>
+  <data name="Member.import.description" xml:space="preserve">
+    <value>Công cụ hỗ trợ import hồ sơ khách hàng xlsx</value>
+  </data>
+  <data name="Member.import.fail" xml:space="preserve">
+    <value>Import thất bại</value>
+  </data>
+  <data name="Member.import.successful" xml:space="preserve">
+    <value>Import thành công</value>
+  </data>
+  <data name="Member.import.title.colum" xml:space="preserve">
+    <value>Cột</value>
+  </data>
+  <data name="Member.import.title.default" xml:space="preserve">
+    <value>Giá Trị Mặc Định</value>
+  </data>
+  <data name="Member.import.title.Field" xml:space="preserve">
+    <value>Trường</value>
+  </data>
+  <data name="Member.import.title.mapping" xml:space="preserve">
+    <value>Cài Đặt mapping</value>
+  </data>
+  <data name="Member.import.title.value" xml:space="preserve">
+    <value>Giá Trị</value>
+  </data>
+  <data name="Member.import.totalRowFail" xml:space="preserve">
+    <value>Tổng số dòng import không thành công:</value>
+  </data>
+  <data name="Member.import.totalRowSuccess" xml:space="preserve">
+    <value>Tổng số dòng import thành công:</value>
+  </data>
+  <data name="Member.import.veltrix" xml:space="preserve">
+    <value>Panda Loyalty</value>
+  </data>
+  <data name="Member.improt.header" xml:space="preserve">
+    <value>Nhập hồ sơ bằng excel</value>
+  </data>
+  <data name="Common.label.advancesearch" xml:space="preserve">
+    <value>Tìm kiếm nâng cao</value>
+  </data>
+  <data name="Common.label.couponcode" xml:space="preserve">
+    <value>Mã Giảm Giá</value>
+  </data>
+  <data name="Common.label.couponname" xml:space="preserve">
+    <value>Tên Phiếu Giảm Giá</value>
+  </data>
+  <data name="Common.label.coupontype" xml:space="preserve">
+    <value>Loại Phiếu Giảm Giá</value>
+  </data>
+  <data name="Common.label.effectivefrom" xml:space="preserve">
+    <value>Có Hiệu Lực Từ</value>
+  </data>
+  <data name="Common.label.effectiveto" xml:space="preserve">
+    <value>Có Hiệu Lực Đến</value>
+  </data>
+  <data name="Common.label.usedincampaign" xml:space="preserve">
+    <value>Sử dụng trong chiến dịch</value>
+  </data>
+  <data name="Common.label.usedinredeemption" xml:space="preserve">
+    <value>Sử dụng trong việc mua lại</value>
+  </data>
+  <data name="Sidebar.tools.importMemberCsv" xml:space="preserve">
+    <value>Nhập Thành Viên (CSV)</value>
+  </data>
+  <data name="Sidebar.member.group" xml:space="preserve">
+    <value>Nhóm Thành Viên</value>
+  </data>
+  <data name="Sidebar.member.segment" xml:space="preserve">
+    <value>Phân Khúc Thành Viên</value>
+  </data>
+  <data name="Sidebar.member.lifecycle" xml:space="preserve">
+    <value>Chu Kì Thành Viên</value>
+  </data>
+  <data name="Common.label.conditional" xml:space="preserve">
+    <value>Điều Kiện</value>
+  </data>
+  <data name="Common.label.memberGroup" xml:space="preserve">
+    <value>Tên Nhóm Thành Viên</value>
+  </data>
+  <data name="Sidebar.configurations.memberGroup" xml:space="preserve">
+    <value>Nhóm Thành Viên</value>
+  </data>
+  <data name="Common.label.conditionalTag" xml:space="preserve">
+    <value>Thẻ có điều kiện</value>
+  </data>
+  <data name="Common.label.unConditionalTag" xml:space="preserve">
+    <value>Thẻ không có điều kiện</value>
+  </data>
+  <data name="Sidebar.configurations.memberGroupTag" xml:space="preserve">
+    <value>Thẻ Nhóm Thành Viên</value>
+  </data>
+  <data name="Common.label.memberGroupName" xml:space="preserve">
+    <value>Tên Nhóm Thành Viên</value>
+  </data>
+  <data name="Common.label.memberTagName" xml:space="preserve">
+    <value>Tên Thẻ Thành Viên</value>
+  </data>
+  <data name="Common.label.memberSegment" xml:space="preserve">
+    <value>Tên Bộ Phận</value>
+  </data>
+  <data name="Member.Segment" xml:space="preserve">
+    <value>Member Segment</value>
+  </data>
+  <data name="Sidebar.member.memberSegment" xml:space="preserve">
+    <value>Bộ Phận Thành Viên</value>
+  </data>
+  <data name="Common.label.age" xml:space="preserve">
+    <value>Tuổi</value>
+  </data>
+  <data name="Common.label.amountOfTransaction" xml:space="preserve">
+    <value>Số tiền giao dịch</value>
+  </data>
+  <data name="Common.label.analysis" xml:space="preserve">
+    <value>Phân Tích</value>
+  </data>
+  <data name="Common.label.and" xml:space="preserve">
+    <value>và</value>
+  </data>
+  <data name="Common.label.availablePoint" xml:space="preserve">
+    <value>Điểm khả dụng</value>
+  </data>
+  <data name="Common.label.averageBasket" xml:space="preserve">
+    <value>Giỏ trung bình</value>
+  </data>
+  <data name="Common.label.averageItems" xml:space="preserve">
+    <value>Các mặt hàng trung bình</value>
+  </data>
+  <data name="Common.label.birthdaymonth" xml:space="preserve">
+    <value>Tháng sinh nhật</value>
+  </data>
+  <data name="Common.label.communicationPreferrences" xml:space="preserve">
+    <value>Sở Thích Giao Tiếp</value>
+  </data>
+  <data name="Common.label.defaultpersonaldetails" xml:space="preserve">
+    <value>Chi Tiết Cá Nhân Mặc Định</value>
+  </data>
+  <data name="Common.Label.Delete" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="Common.label.downgraderule" xml:space="preserve">
+    <value>Quy tắc hạ cấp</value>
+  </data>
+  <data name="Common.label.emailAddress" xml:space="preserve">
+    <value>Địa chỉ Email</value>
+  </data>
+  <data name="Common.label.firstTransactionDate" xml:space="preserve">
+    <value>Ngày giao dịch đầu tiên</value>
+  </data>
+  <data name="Common.label.gender" xml:space="preserve">
+    <value>Giới tính</value>
+  </data>
+  <data name="Common.label.lastmonth" xml:space="preserve">
+    <value>Tháng trước</value>
+  </data>
+  <data name="Common.label.lastTransactionDate" xml:space="preserve">
+    <value>Ngày giao dịch cuối cùng</value>
+  </data>
+  <data name="Common.label.loyalty" xml:space="preserve">
+    <value>Cấp Bậc Thành Viên</value>
+  </data>
+  <data name="Common.label.loyaltypointrule" xml:space="preserve">
+    <value>Quy tắc điểm trung thành</value>
+  </data>
+  <data name="Common.label.maratialStatus" xml:space="preserve">
+    <value>Tình trạng hôn nhân</value>
+  </data>
+  <data name="Common.label.marriedYear" xml:space="preserve">
+    <value>Năm kết hôn</value>
+  </data>
+  <data name="Common.label.memberimport" xml:space="preserve">
+    <value>Nhập Thành Viên</value>
+  </data>
+  <data name="Common.label.memberlifecycle" xml:space="preserve">
+    <value>Vòng Đời Thành Viên</value>
+  </data>
+  <data name="Common.label.memberTag" xml:space="preserve">
+    <value>Thẻ Thành Viên</value>
+  </data>
+  <data name="Common.label.noDataLimitation" xml:space="preserve">
+    <value>Không giới hạn dữ liệu</value>
+  </data>
+  <data name="Common.label.numberOfTransaction" xml:space="preserve">
+    <value>Số lượng giao dịch</value>
+  </data>
+  <data name="Common.label.pointearnl" xml:space="preserve">
+    <value>Kiếm Điểm</value>
+  </data>
+  <data name="Common.label.province-city" xml:space="preserve">
+    <value>Tỉnh/ Thành Phố</value>
+  </data>
+  <data name="Common.label.purchasedBrand" xml:space="preserve">
+    <value>Thương hiệu đã mua</value>
+  </data>
+  <data name="Common.label.purchasedCategory" xml:space="preserve">
+    <value>Hạng mục đã mua</value>
+  </data>
+  <data name="Common.label.recruit" xml:space="preserve">
+    <value>Tuyển Dụng</value>
+  </data>
+  <data name="Common.label.referee" xml:space="preserve">
+    <value>Trọng tài</value>
+  </data>
+  <data name="Common.label.referer" xml:space="preserve">
+    <value>Người giới tiệu</value>
+  </data>
+  <data name="Common.label.referersWhoRefered" xml:space="preserve">
+    <value>Người được giới thiệu</value>
+  </data>
+  <data name="Common.label.referral" xml:space="preserve">
+    <value>Giới Thiệu</value>
+  </data>
+  <data name="Common.label.selectbrand" xml:space="preserve">
+    <value>Chọn Nhãn Hiệu</value>
+  </data>
+  <data name="Common.label.selectcat" xml:space="preserve">
+    <value>Chọn Loại</value>
+  </data>
+  <data name="Common.label.selectchannel" xml:space="preserve">
+    <value>Chọn Kênh</value>
+  </data>
+  <data name="Common.label.selectproduct" xml:space="preserve">
+    <value>Chọn Sản Phẩm</value>
+  </data>
+  <data name="Common.label.selectstore" xml:space="preserve">
+    <value>Chọn Cửa Hàng</value>
+  </data>
+  <data name="Common.label.selectsubcat" xml:space="preserve">
+    <value>Chọn Danh Mục</value>
+  </data>
+  <data name="Common.label.tiergenerosity" xml:space="preserve">
+    <value>Tier Generosity</value>
+  </data>
+  <data name="Common.label.tierInformation" xml:space="preserve">
+    <value>Thông tin cấp</value>
+  </data>
+  <data name="Common.label.transaction" xml:space="preserve">
+    <value>Giao Dịch</value>
+  </data>
+  <data name="Common.label.upgraderule" xml:space="preserve">
+    <value>Quy tắc nâng cấp</value>
+  </data>
+  <data name="Common.label.validityPeriodType" xml:space="preserve">
+    <value>Loại thời hạn hiệu lực</value>
+  </data>
+  <data name="Common.label.weddingMonth" xml:space="preserve">
+    <value>Tháng cưới</value>
+  </data>
+  <data name="Sidebar.configurations.memberSegment" xml:space="preserve">
+    <value>Phân Khúc Thành Viên</value>
+  </data>
+  <data name="Common.label.memberReport" xml:space="preserve">
+    <value>Báo Cáo Thành Viên Mới</value>
+  </data>
+  <data name="Common.label.redemption" xml:space="preserve">
+    <value>Đổi Trả</value>
+  </data>
+  <data name="Common.label.redemptionReport" xml:space="preserve">
+    <value>Báo Cáo Đổi Thưởng</value>
+  </data>
+  <data name="Common.label.reports" xml:space="preserve">
+    <value>Báo Cáo</value>
+  </data>
+  <data name="Common.label.rewards" xml:space="preserve">
+    <value>Phần Thưởng</value>
+  </data>
+  <data name="Common.label.rewardsCenter" xml:space="preserve">
+    <value>Trung Tâm Phần Thưởng</value>
+  </data>
+  <data name="Common.label.fileImport" xml:space="preserve">
+    <value>Nhập Tập Tin</value>
+  </data>
+  <data name="Common.label.tools" xml:space="preserve">
+    <value>Công Cụ</value>
+  </data>
+  <data name="Common.label.action" xml:space="preserve">
+    <value>Hoạt động</value>
+  </data>
+  <data name="Common.label.addnewcoupon" xml:space="preserve">
+    <value>THÊM PHIẾU MUA HÀNG MỚI</value>
+  </data>
+  <data name="Common.label.amount" xml:space="preserve">
+    <value>Số Lượng</value>
+  </data>
+  <data name="Common.label.anotheraction" xml:space="preserve">
+    <value>Hoạt động khác</value>
+  </data>
+  <data name="Common.label.applicabletospecificstore" xml:space="preserve">
+    <value>Áp dụng cho cửa hàng cụ thể</value>
+  </data>
+  <data name="Common.label.balance" xml:space="preserve">
+    <value>Cân Bằng</value>
+  </data>
+  <data name="Common.label.campaign" xml:space="preserve">
+    <value>Chiến Dịch</value>
+  </data>
+  <data name="Common.label.chicagoMap" xml:space="preserve">
+    <value>Bản đồ Chicago</value>
+  </data>
+  <data name="Common.label.createAt" xml:space="preserve">
+    <value>Tạo Lúc</value>
+  </data>
+  <data name="Common.label.date" xml:space="preserve">
+    <value>Ngày</value>
+  </data>
+  <data name="Common.label.delivered" xml:space="preserve">
+    <value>Đã giao hàng</value>
+  </data>
+  <data name="Common.label.exampleofgooglemaps" xml:space="preserve">
+    <value>Ví dụ về bản đồ google.</value>
+  </data>
+  <data name="Common.label.exampleofvectormap" xml:space="preserve">
+    <value>Ví dụ về bản đồ Vector</value>
+  </data>
+  <data name="Common.label.from" xml:space="preserve">
+    <value>Từ</value>
+  </data>
+  <data name="Common.label.latestTrasaction" xml:space="preserve">
+    <value>Giao Dịch Khác</value>
+  </data>
+  <data name="Common.label.lifecycleCampaign" xml:space="preserve">
+    <value>Chiến dịch vòng đời</value>
+  </data>
+  <data name="Common.label.map" xml:space="preserve">
+    <value>Bản đồ</value>
+  </data>
+  <data name="Common.label.maptypes" xml:space="preserve">
+    <value>Các loại bản đồ</value>
+  </data>
+  <data name="Common.label.markers" xml:space="preserve">
+    <value>Điểm đánh dấu</value>
+  </data>
+  <data name="Common.label.overlay" xml:space="preserve">
+    <value>Lớp phủ</value>
+  </data>
+  <data name="Common.label.recurringCampaign" xml:space="preserve">
+    <value>Chiến dịch định kỳ</value>
+  </data>
+  <data name="Common.label.separatedlink" xml:space="preserve">
+    <value>Liên kết tách biệt</value>
+  </data>
+  <data name="Common.label.somethingelsehere" xml:space="preserve">
+    <value>Một cái gì đó ở đây</value>
+  </data>
+  <data name="Common.label.spotCampaign" xml:space="preserve">
+    <value>Chiến dịch tại chỗ</value>
+  </data>
+  <data name="Common.label.streetViewPanoramas" xml:space="preserve">
+    <value>Ảnh toàn cảnh chế độ xem phố</value>
+  </data>
+  <data name="Common.label.surname" xml:space="preserve">
+    <value>Họ</value>
+  </data>
+  <data name="Common.label.to" xml:space="preserve">
+    <value>Đến</value>
+  </data>
+  <data name="Common.label.transfer" xml:space="preserve">
+    <value>Chuyển Giao</value>
+  </data>
+  <data name="Common.label.triggerCampaign" xml:space="preserve">
+    <value>Khởi động chiến dịch</value>
+  </data>
+  <data name="Common.label.ukMap" xml:space="preserve">
+    <value>Bản đồ Vương Quốc Anh</value>
+  </data>
+  <data name="Common.label.usaMap" xml:space="preserve">
+    <value>Bản đồ Hoa Kỳ</value>
+  </data>
+  <data name="Common.label.vectorMap" xml:space="preserve">
+    <value>Bản đồ Vector</value>
+  </data>
+  <data name="Common.label.wallet" xml:space="preserve">
+    <value>Ví Tiền</value>
+  </data>
+  <data name="Common.label.worldMap" xml:space="preserve">
+    <value>Bản đồ thế giới</value>
+  </data>
+  <data name="Common.label.alerts" xml:space="preserve">
+    <value>Cảnh báo</value>
+  </data>
+  <data name="Common.label.calendar" xml:space="preserve">
+    <value>Lịch</value>
+  </data>
+  <data name="Common.label.uiElements" xml:space="preserve">
+    <value>Yếu tố giao diện người dùng</value>
+  </data>
+  <data name="Common.label.customerPersonalDetails" xml:space="preserve">
+    <value>Thông Tin Khách Hàng</value>
+  </data>
+  <data name="Common.label.selectoneormore" xml:space="preserve">
+    <value>Chọn một hoặc nhiều điều kiện để tạo thẻ có điều kiện</value>
+  </data>
+  <data name="Common.label.dayaftereffective" xml:space="preserve">
+    <value>Ngày sau khi có hiệu lực</value>
+  </data>
+  <data name="Common.label.dayafterreceptio" xml:space="preserve">
+    <value>Ngày sau khi tiếp nhận</value>
+  </data>
+  <data name="Common.label.endto" xml:space="preserve">
+    <value>Kết Thúc Đến</value>
+  </data>
+  <data name="Common.label.minimumpurchaseof" xml:space="preserve">
+    <value>Mua tối thiểu</value>
+  </data>
+  <data name="Common.label.redemptionconditions" xml:space="preserve">
+    <value>Điều Kiện Quy Đổi</value>
+  </data>
+  <data name="Common.label.startfrom" xml:space="preserve">
+    <value>Bắt Đầu Từ</value>
+  </data>
+  <data name="Common.label.termsconditions" xml:space="preserve">
+    <value>Điều Khoản Và Điều Kiện</value>
+  </data>
+  <data name="Common.label.validityperiot" xml:space="preserve">
+    <value>Thời Gian Hiệu Lực</value>
+  </data>
+  <data name="Common.label.canotfind" xml:space="preserve">
+    <value>Không thể tìm thấy những gì bạn đang tìm kiếm?</value>
+  </data>
+  <data name="Common.label.emailUs" xml:space="preserve">
+    <value>Gửi email cho chúng tôi</value>
+  </data>
+  <data name="Common.label.estimatedaudience" xml:space="preserve">
+    <value>Đối Tượng Ước Tính</value>
+  </data>
+  <data name="Common.label.everyonerealizes" xml:space="preserve">
+    <value>Mọi người đều nhận ra lý do tại sao một ngôn ngữ chung mới lại được mong muốn: người ta có thể từ chối trả tiền cho những người dịch thuật đắt tiền. Để đạt được điều này, cần phải có ngữ pháp thống nhất.</value>
+  </data>
+  <data name="Common.label.extrapages" xml:space="preserve">
+    <value>Các trang bổ sung</value>
+  </data>
+  <data name="Common.label.faqs" xml:space="preserve">
+    <value>Câu hỏi thường gặp</value>
+  </data>
+  <data name="Common.label.generalQuestions" xml:space="preserve">
+    <value>Câu Hỏi Chung</value>
+  </data>
+  <data name="Common.label.ifseverallanguages" xml:space="preserve">
+    <value>Nếu một số ngôn ngữ kết hợp với nhau, ngữ pháp của ngôn ngữ kết quả sẽ đơn giản và thông thường hơn so với các ngôn ngữ riêng lẻ. Ngôn ngữ chung mới sẽ đơn giản hơn.</value>
+  </data>
+  <data name="Common.label.ifseverallanguagescoalesce" xml:space="preserve">
+    <value>Nếu một số ngôn ngữ kết hợp với nhau, ngữ pháp của ngôn ngữ kết quả sẽ đơn giản và thông thường hơn so với các ngôn ngữ riêng lẻ.</value>
+  </data>
+  <data name="Common.label.lifecyclestage" xml:space="preserve">
+    <value>Vòng Đời</value>
+  </data>
+  <data name="Common.label.pricingPlans" xml:space="preserve">
+    <value>Định Giá và Gói</value>
+  </data>
+  <data name="Common.label.sendusatweet" xml:space="preserve">
+    <value>Gửi cho chúng tôi một Tweet</value>
+  </data>
+  <data name="Common.label.thenewcommonlanguage" xml:space="preserve">
+    <value>Ngôn ngữ chung mới sẽ đơn giản và thông thường hơn các ngôn ngữ Châu Âu hiện có. Nó sẽ đơn giản như Occidental; trong thực tế, nó sẽ là ngẫu nhiên.</value>
+  </data>
+  <data name="Common.label.whatisLoremIpsum" xml:space="preserve">
+    <value>Lorem Ipsum là gì?</value>
+  </data>
+  <data name="Common.label.wherecanIgetsome" xml:space="preserve">
+    <value>Nó đến từ đâu</value>
+  </data>
+  <data name="Common.label.wheredoesitcomefrom" xml:space="preserve">
+    <value>Nó đến từ đâu?</value>
+  </data>
+  <data name="Common.label.whydoweuseit" xml:space="preserve">
+    <value>Tại sao chúng ta sử dụng nó?</value>
+  </data>
+  <data name="Sidebar.title.Memberwallets" xml:space="preserve">
+    <value>Quản Lý Ví Thành viên</value>
+  </data>
+  <data name="Common.label.autogenerated" xml:space="preserve">
+    <value>Mã thành viên được tạo tự động</value>
+  </data>
+  <data name="Common.label.discountRate" xml:space="preserve">
+    <value>Tỉ Lệ Chiếc Khấu</value>
+  </data>
+  <data name="Sidebar.title.MemberwalletsHistory" xml:space="preserve">
+    <value>Lịch Sử</value>
+  </data>
+  <data name="Member.AcceptToBeContactedViaMobileEmail" xml:space="preserve">
+    <value>Có, tôi chấp nhận được liên hệ qua email.</value>
+  </data>
+  <data name="Member.AcceptToBeContactedViaMobilePhone" xml:space="preserve">
+    <value>Có, tôi chấp nhận được liên lạc qua điện thoại di động.</value>
+  </data>
+  <data name="Member.AcceptToReceiveLoyaltyInformation" xml:space="preserve">
+    <value>Có, tôi chấp nhận nhận thông tin liên quan đến khách hàng thân thiết (trạng thái điểm, cập nhật khách hàng thân thiết, thông báo đổi điểm, lời chúc mừng sinh nhật, ...).</value>
+  </data>
+  <data name="Member.AcceptToReceiveMarketing" xml:space="preserve">
+    <value>Có, tôi chấp nhận nhận thông tin liên lạc và đề nghị liên quan đến tiếp thị (tin tức, ưu đãi đặc biệt, phiếu giảm giá, ...).</value>
+  </data>
+  <data name="Member.NotAcceptAnyContact" xml:space="preserve">
+    <value>Không, tôi không muốn nhận bất kỳ hình thức liên lạc / thông tin nào, không qua điện thoại di động hay email.</value>
+  </data>
+  <data name="Before.12months" xml:space="preserve">
+    <value>Trước 12 tháng</value>
+  </data>
+  <data name="Before.1months" xml:space="preserve">
+    <value>Trước 1 tháng</value>
+  </data>
+  <data name="Before.3months" xml:space="preserve">
+    <value>Trước 3 tháng</value>
+  </data>
+  <data name="Before.6months" xml:space="preserve">
+    <value>Trước 6 tháng</value>
+  </data>
+  <data name="Before.9months" xml:space="preserve">
+    <value>Trước 9 tháng</value>
+  </data>
+  <data name="Last.10days" xml:space="preserve">
+    <value>10 ngày qua</value>
+  </data>
+  <data name="Last.12months" xml:space="preserve">
+    <value>12 tháng qua</value>
+  </data>
+  <data name="Last.15days" xml:space="preserve">
+    <value>15 ngày qua</value>
+  </data>
+  <data name="Last.1months" xml:space="preserve">
+    <value>1 tháng qua</value>
+  </data>
+  <data name="Last.1weeks" xml:space="preserve">
+    <value>1 tuần trước</value>
+  </data>
+  <data name="Last.2months" xml:space="preserve">
+    <value>2 tháng qua</value>
+  </data>
+  <data name="Last.2weeks" xml:space="preserve">
+    <value>2 tuần trước</value>
+  </data>
+  <data name="Last.30days" xml:space="preserve">
+    <value>30 ngày qua</value>
+  </data>
+  <data name="Last.3months" xml:space="preserve">
+    <value>3 tháng qua</value>
+  </data>
+  <data name="Last.6months" xml:space="preserve">
+    <value>6 tháng qua</value>
+  </data>
+  <data name="Last.7days" xml:space="preserve">
+    <value>7 ngày qua</value>
+  </data>
+  <data name="Last.9months" xml:space="preserve">
+    <value>9 tháng qua</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>---Chọn---</value>
+  </data>
+  <data name="Common.label.effectivedatebegin" xml:space="preserve">
+    <value>Ngày Bắt Đầu Hiệu Lực</value>
+  </data>
+  <data name="Common.label.effectivedateend" xml:space="preserve">
+    <value>Ngày Kết Thúc Hiệu Lực</value>
+  </data>
+  <data name="Common.label.expirycoupon" xml:space="preserve">
+    <value>Phiếu Giảm Giá Hết Hạn</value>
+  </data>
+  <data name="Common.label.effectiveBegin" xml:space="preserve">
+    <value>Bắt Đầu Hiệu Lực</value>
+  </data>
+  <data name="Common.label.effectiveEnd" xml:space="preserve">
+    <value>Kết Thúc Hiệu Lực</value>
+  </data>
+  <data name="Common.label.addSpotCampaign" xml:space="preserve">
+    <value>Thêm Chiến Dịch</value>
+  </data>
+  <data name="Common.label.campaignName" xml:space="preserve">
+    <value>Tên Chiến Dịch</value>
+  </data>
+  <data name="Common.label.campaignType" xml:space="preserve">
+    <value>Loại Chiến Dịch</value>
+  </data>
+  <data name="Common.label.Draft" xml:space="preserve">
+    <value>Đang soạn thảo</value>
+  </data>
+  <data name="Common.label.rewardType" xml:space="preserve">
+    <value>Loại Phần Thưởng</value>
+  </data>
+  <data name="Common.label.sendDate" xml:space="preserve">
+    <value>Ngày Gửi</value>
+  </data>
+  <data name="Common.label.sologanSpotCampaign" xml:space="preserve">
+    <value>Các chiến dịch one-shot được nhắm mục tiêu cao với nhiều phần thưởng được sử dụng để thúc đẩy doanh số bán hàng</value>
+  </data>
+  <data name="Common.label.View" xml:space="preserve">
+    <value>Xem</value>
+  </data>
+  <data name="Common.label. rewardType" xml:space="preserve">
+    <value>Loại phần thưởng</value>
+  </data>
+  <data name="Common.label.afterEffective" xml:space="preserve">
+    <value>ngày sau  có hiệu lực</value>
+  </data>
+  <data name="Common.label.afterReception" xml:space="preserve">
+    <value> ngày sau  tiếp nhận</value>
+  </data>
+  <data name="Common.label.campaignMemberType" xml:space="preserve">
+    <value> Thành Viên Chiến Dịch</value>
+  </data>
+  <data name="Common.label.chooseYourRewardType" xml:space="preserve">
+    <value>Chọn loại phần thưởng của bạn</value>
+  </data>
+  <data name="Common.label.defineYourMemberTargets" xml:space="preserve">
+    <value>Xác định mục tiêu thành viên của bạn</value>
+  </data>
+  <data name="Common.label.How" xml:space="preserve">
+    <value>Thế nào</value>
+  </data>
+  <data name="Common.label.selectYourChannel" xml:space="preserve">
+    <value>Chọn kênh của bạn</value>
+  </data>
+  <data name="Common.label.selectYourTimePeriod" xml:space="preserve">
+    <value>Chọn Khoảng Thời Gian Của Bạn</value>
+  </data>
+  <data name="Common.label.ValidityPeriodd" xml:space="preserve">
+    <value>Ngày Bắt Đầu</value>
+  </data>
+  <data name="Common.label.What" xml:space="preserve">
+    <value>Cái gì</value>
+  </data>
+  <data name="Common.label.When" xml:space="preserve">
+    <value>Khi nào</value>
+  </data>
+  <data name="Common.label.Who" xml:space="preserve">
+    <value>Ai</value>
+  </data>
+  <data name="Common.label.onGoing" xml:space="preserve">
+    <value>Đang thực hiện</value>
+  </data>
+  <data name="Common.label.Past" xml:space="preserve">
+    <value>Đã xong</value>
+  </data>
+  <data name="Common.label.Schedule" xml:space="preserve">
+    <value>Đang chờ thực hiện</value>
+  </data>
+  <data name="Common.label.gifName" xml:space="preserve">
+    <value>Tên Quà Tặng</value>
+  </data>
+  <data name="Common.label.giftCode" xml:space="preserve">
+    <value>Mã Số Quà Tặng</value>
+  </data>
+  <data name="Common.label.addGift" xml:space="preserve">
+    <value>Thêm quà</value>
+  </data>
+  <data name="Common.label.addvoucher" xml:space="preserve">
+    <value>THÊM MỚI PHIẾU GIẢM GIÁ</value>
+  </data>
+  <data name="Common.label.afteractivation" xml:space="preserve">
+    <value>ngày sau khi kích hoạt</value>
+  </data>
+  <data name="Common.label.category" xml:space="preserve">
+    <value>Loại</value>
+  </data>
+  <data name="Common.label.dayafterreception" xml:space="preserve">
+    <value>Ngày sau khi tiếp nhận</value>
+  </data>
+  <data name="Common.label.editvoucher" xml:space="preserve">
+    <value>CHỈNH SỬA PHIẾU GIẢM GIÁ</value>
+  </data>
+  <data name="Common.label.relativeDate" xml:space="preserve">
+    <value>Ngày tương đối</value>
+  </data>
+  <data name="Common.label.specificDate" xml:space="preserve">
+    <value>Ngày cụ thể</value>
+  </data>
+  <data name="Common.label.voucherAvailableStock" xml:space="preserve">
+    <value>Cổ Phiếu Có Sẵn</value>
+  </data>
+  <data name="Common.label.voucherCategory" xml:space="preserve">
+    <value>Loại Phiếu Thưởng</value>
+  </data>
+  <data name="Common.label.voucherCode" xml:space="preserve">
+    <value>Mã Phiếu Thưởng</value>
+  </data>
+  <data name="Common.label.voucherFaceValue" xml:space="preserve">
+    <value>Mệnh Giá</value>
+  </data>
+  <data name="Common.label.voucherminimumnumberof" xml:space="preserve">
+    <value>Số lượng tối thiểu các mặt hàng đã mua</value>
+  </data>
+  <data name="Common.label.voucherName" xml:space="preserve">
+    <value>Tên Phiếu Thưởng</value>
+  </data>
+  <data name="Common.label.voucherredemptionvaliditytiming" xml:space="preserve">
+    <value>Thời gian hiệu lực quy đổi</value>
+  </data>
+  <data name="Common.label.voucherTemplate" xml:space="preserve">
+    <value>Mẫu Phiếu Thưởng</value>
+  </data>
+  <data name="Common.label.voucherTemplateBanner" xml:space="preserve">
+    <value>Biểu Ngữ Mẫu</value>
+  </data>
+  <data name="Common.label.vouchertype" xml:space="preserve">
+    <value>Kiểu</value>
+  </data>
+  <data name="Common.label.detail" xml:space="preserve">
+    <value>Chi Tiết</value>
+  </data>
+  <data name="Common.label.detailGift" xml:space="preserve">
+    <value>Chi tiết quà tặng</value>
+  </data>
+  <data name="Common.label.giftType" xml:space="preserve">
+    <value>Loại Quà Tặng</value>
+  </data>
+  <data name="Common.label.autogeneratedGift" xml:space="preserve">
+    <value>Mã quà tặng được tạo tự động</value>
+  </data>
+  <data name="Sidebar.rewards.redeemPoint" xml:space="preserve">
+    <value>Đổi Điểm</value>
+  </data>
+  <data name="Common.label.memberName" xml:space="preserve">
+    <value>Tên Thành Viên</value>
+  </data>
+  <data name="Common.label.mobile" xml:space="preserve">
+    <value>Số Điện Thoại</value>
+  </data>
+  <data name="Common.label.AvailablePoints" xml:space="preserve">
+    <value>Điểm Có Sẵn</value>
+  </data>
+  <data name="Common.label.discount" xml:space="preserve">
+    <value>Chiết Khấu</value>
+  </data>
+  <data name="Common.label.MemberInformation" xml:space="preserve">
+    <value>Thông Tin Thành Viên</value>
+  </data>
+  <data name="Common.label.PointInformation" xml:space="preserve">
+    <value>Thông Tin Điểm</value>
+  </data>
+  <data name="Common.label.PointRedemption" xml:space="preserve">
+    <value>Đổi Điểm</value>
+  </data>
+  <data name="Common.label.remarks" xml:space="preserve">
+    <value>Nhận Xét</value>
+  </data>
+  <data name="Common_label.ReceiveCodeViaEmail" xml:space="preserve">
+    <value>Nhận mã xác minh qua email</value>
+  </data>
+  <data name="Common_label.ReceiveCodeViaMobile" xml:space="preserve">
+    <value>Nhận mã xác minh qua điện thoại</value>
+  </data>
+  <data name="Common.label.autogeneratedvoucher" xml:space="preserve">
+    <value>Mã phiếu thưởng được tạo tự động</value>
+  </data>
+  <data name="Common.label.earningRate" xml:space="preserve">
+    <value>Tỷ Lệ Thu Nhập</value>
+  </data>
+  <data name="Common.label.pointRuleBrand" xml:space="preserve">
+    <value>Quy tắc điểm thương hiệu</value>
+  </data>
+  <data name="Common.label.pointRuleCategory" xml:space="preserve">
+    <value>Loại quy tắc điểm</value>
+  </data>
+  <data name="Common.label.pointRuleChannel" xml:space="preserve">
+    <value>Kênh quy tắc điểm</value>
+  </data>
+  <data name="Common.label.pointRuleProduct" xml:space="preserve">
+    <value>Quy tắc điểm sản phẩm</value>
+  </data>
+  <data name="Common.label.pointRuleStores" xml:space="preserve">
+    <value>Cửa hàng quy tắc điểm</value>
+  </data>
+  <data name="Commom.Label.Channel" xml:space="preserve">
+    <value>KÊNH</value>
+  </data>
+  <data name="Commom.Label.DateCreate" xml:space="preserve">
+    <value>NGÀY TẠO</value>
+  </data>
+  <data name="Commom.Label.Level" xml:space="preserve">
+    <value>CẤP ĐỘ</value>
+  </data>
+  <data name="Commom.Label.MemberDetail" xml:space="preserve">
+    <value>THÀNH VIÊN</value>
+  </data>
+  <data name="Commom.Label.Score" xml:space="preserve">
+    <value>ĐIỂM</value>
+  </data>
+  <data name="Commom.Label.Store" xml:space="preserve">
+    <value>CỬA HÀNG</value>
+  </data>
+  <data name="Comom.Label.INFORMATION" xml:space="preserve">
+    <value>THÔNG TIN</value>
+  </data>
+  <data name="Common.label.productCollection" xml:space="preserve">
+    <value>Bộ Sưu Tập Sản Phẩm</value>
+  </data>
+  <data name="Common.label.productCollectionName" xml:space="preserve">
+    <value>Tên Bộ Sưu Tập Sản Phẩm</value>
+  </data>
+  <data name="Common.label.addProductCollectionItem" xml:space="preserve">
+    <value>Thêm mục bộ sưu tập sản phẩm</value>
+  </data>
+  <data name="Common.label.selectaproductCollectionItem" xml:space="preserve">
+    <value>Chọn một mục bộ sưu tập sản phẩm</value>
+  </data>
+  <data name="Common.label.AmountDiscount" xml:space="preserve">
+    <value>Số Tiền/ Giảm Giá%</value>
+  </data>
+  <data name="Common.label.GiftCouponVoucher" xml:space="preserve">
+    <value>THẺ QUÀ TẶNG/ PHIẾU QUÀ TẶNG/ PHIẾU MUA HÀNG</value>
+  </data>
+  <data name="Common.label.typeGiftCouponVoucher" xml:space="preserve">
+    <value>Loại (Quà tặng/ Phiếu quà tặng/ Phiếu mua hàng)</value>
+  </data>
+  <data name="Common.label.Expired" xml:space="preserve">
+    <value>Hết Hạn</value>
+  </data>
+  <data name="Common.label.Status" xml:space="preserve">
+    <value>Trạng Thái</value>
+  </data>
+  <data name="Common.label.RedemptionSearchPlaceholder" xml:space="preserve">
+    <value>Vui Lòng Nhập Code Hoặc Tên  </value>
+  </data>
+  <data name="Common.label.addproductstothecollection" xml:space="preserve">
+    <value>Thêm sản phẩm vào bộ sưu tập</value>
+  </data>
+  <data name="Common.label.collectionname" xml:space="preserve">
+    <value>Tên Bộ Sưu Tập</value>
+  </data>
+  <data name="Common.label.productcode" xml:space="preserve">
+    <value>Mã Sản Phẩm</value>
+  </data>
+  <data name="Common.label.productname" xml:space="preserve">
+    <value>Tên Sản Phẩm</value>
+  </data>
+  <data name="Common.label.productsofthecollection" xml:space="preserve">
+    <value>Sản Phẩm Của Bộ Sưu Tập</value>
+  </data>
+  <data name="Sidebar.configurations.collection" xml:space="preserve">
+    <value>Bộ Sưu Tập Quà Tặng</value>
+  </data>
+  <data name="Sidebar.configurations.order" xml:space="preserve">
+    <value>Đơn Đổi Quà</value>
+  </data>
+  <data name="Common.label.RedeemedDate" xml:space="preserve">
+    <value>Ngày Đổi</value>
+  </data>
+  <data name="Common.notify.addFailed" xml:space="preserve">
+    <value>Thêm không thành công! Bạn không đủ điểm.</value>
+  </data>
+  <data name="Common.label.redemptionRate" xml:space="preserve">
+    <value>Tỷ lệ quy đổi</value>
+  </data>
+  <data name="Comom.Label.Bill" xml:space="preserve">
+    <value>Hóa Đơn Thanh Toán</value>
+  </data>
+  <data name="Comom.Label.EARN.REDEEM POINT" xml:space="preserve">
+    <value>TÍCH/ TIÊU ĐIỂM</value>
+  </data>
+  <data name="Comom.Label.LOYALTY" xml:space="preserve">
+    <value>CẤP BẬC THÀNH VIÊN</value>
+  </data>
+  <data name="Common.label.activated" xml:space="preserve">
+    <value>Đã kích hoạt</value>
+  </data>
+  <data name="Common.label.deactive" xml:space="preserve">
+    <value>Ngừng hoạt động</value>
+  </data>
+  <data name="Common.label.collectionItem" xml:space="preserve">
+    <value>Sản phẩm </value>
+  </data>
+  <data name="Common.label.comeBack" xml:space="preserve">
+    <value>Quay Lại</value>
+  </data>
+  <data name="Common.label.createOrder" xml:space="preserve">
+    <value>Tạo Đổi Điểm</value>
+  </data>
+  <data name="Common.label.editOrder" xml:space="preserve">
+    <value>Chỉnh Sửa Đổi Quà</value>
+  </data>
+  <data name="Common.label.listOrder" xml:space="preserve">
+    <value>Danh Sách Đổi Quà</value>
+  </data>
+  <data name="Common.label.order" xml:space="preserve">
+    <value>Đổi Điểm</value>
+  </data>
+  <data name="Common.label.orderStatus" xml:space="preserve">
+    <value>Chuyển trạng thái đổi quà</value>
+  </data>
+  <data name="Common.label.pointofMember" xml:space="preserve">
+    <value>Điểm của thành viên</value>
+  </data>
+  <data name="Common.label.productItem" xml:space="preserve">
+    <value>Sản Phẩm</value>
+  </data>
+  <data name="Common.label.productOrder" xml:space="preserve">
+    <value>Đơn Đổi Quà</value>
+  </data>
+  <data name="Common.label.Quantity" xml:space="preserve">
+    <value>Số lượng</value>
+  </data>
+  <data name="Common.label.selectMember" xml:space="preserve">
+    <value>Chọn Thành Viên</value>
+  </data>
+  <data name="Common.label.shippingAddress" xml:space="preserve">
+    <value>Địa Chỉ Giao Hàng</value>
+  </data>
+  <data name="Commom.label.addProduct" xml:space="preserve">
+    <value>Thêm Sản Phẩm</value>
+  </data>
+  <data name="Commom.Label.addBrandToPointRuleBrand" xml:space="preserve">
+    <value>Quy Tắc Điểm Nhãn Hiệu</value>
+  </data>
+  <data name="Commom.Label.addChanneltoPointRuleChannel" xml:space="preserve">
+    <value>Quy Tắc Điểm Kênh</value>
+  </data>
+  <data name="Commom.Label.addPointRuleBrand" xml:space="preserve">
+    <value>Thêm Thương hiệu quy tắc điểm </value>
+  </data>
+  <data name="Commom.Label.addPointRuleCategories" xml:space="preserve">
+    <value>Thêm Danh mục quy tắc điểm</value>
+  </data>
+  <data name="Commom.Label.addPointRuleChannel" xml:space="preserve">
+    <value>Thêm Kênh quy tắc điểm</value>
+  </data>
+  <data name="Commom.Label.addPointRuleProduct" xml:space="preserve">
+    <value>Thêm Sản phẩm quy tắc điểm </value>
+  </data>
+  <data name="Commom.Label.addPointRuleStore" xml:space="preserve">
+    <value>Thêm Cửa hàng quy tắc điểm</value>
+  </data>
+  <data name="Commom.Label.addProductCategoriestoPointRuleCategory" xml:space="preserve">
+    <value>Quy Tắc Điểm Danh Mục Sản Phẩm</value>
+  </data>
+  <data name="Commom.Label.addProducttoPointRuleProduct" xml:space="preserve">
+    <value>Quy Tắc Điểm Sản Phẩm</value>
+  </data>
+  <data name="Commom.Label.addStoretoPointRuleStore" xml:space="preserve">
+    <value>Quy Tắc Điểm Cửa Hàng</value>
+  </data>
+  <data name="Commom.Label.createItemPointRuleProduct" xml:space="preserve">
+    <value>Tạo Sản Phẩm Quy Tắc Điểm</value>
+  </data>
+  <data name="Commom.Label.createItemPointRuleStore" xml:space="preserve">
+    <value>Tạo Cửa Hàng Quy Tắc Điểm</value>
+  </data>
+  <data name="Commom.Label.editItemPointRuleProduct" xml:space="preserve">
+    <value>Chỉnh Sửa Cửa Hàng Quy Tắc Điểm</value>
+  </data>
+  <data name="Commom.Label.editItemPointRuleStore" xml:space="preserve">
+    <value>Chỉnh Sửa Cửa Hàng Quy Tắc Điểm</value>
+  </data>
+  <data name="Commom.Label.loyaltyPointRuleName" xml:space="preserve">
+    <value>Tên quy tắc điểm </value>
+  </data>
+  <data name="Commom.Label.selectLoyatyPointRule" xml:space="preserve">
+    <value>Chọn Quy Tắc Điểm Khách Hàng Thân Thiết</value>
+  </data>
+  <data name="Common.label.createItemPointRuleBrand" xml:space="preserve">
+    <value>Tạo Nhãn Hiệu Quy Tắc Điểm</value>
+  </data>
+  <data name="Common.label.createItemPointRuleCategory" xml:space="preserve">
+    <value>Tạo danh mục sản phẩm quy tắc điểm</value>
+  </data>
+  <data name="Common.label.createItemPointRuleChannel" xml:space="preserve">
+    <value>Tạo Kênh quy tắc điểm</value>
+  </data>
+  <data name="Common.label.editItemPointRuleBrand" xml:space="preserve">
+    <value>Chỉnh Sửa Nhãn Hiệu Quy Tắc Điểm</value>
+  </data>
+  <data name="Common.label.editItemPointRuleCategory" xml:space="preserve">
+    <value>Chỉnh Sửa Danh Mục Sản Phẩm Quy Tắc Điểm </value>
+  </data>
+  <data name="Common.label.editItemPointRuleChannel" xml:space="preserve">
+    <value>Chỉnh sửa Kênh quy tắc điểm</value>
+  </data>
+  <data name="Common.label.selectProductCategory" xml:space="preserve">
+    <value>Chọn Danh Mục Sản Phẩm</value>
+  </data>
+  <data name="Common.errorMessage.brandAlreadyExisted" xml:space="preserve">
+    <value>Thương hiệu này đã tồn tại!</value>
+  </data>
+  <data name="Common.errorMessage.channelAlreadyExisted" xml:space="preserve">
+    <value>Kênh này đã tồn tại!</value>
+  </data>
+  <data name="Common.errorMessage.productAlreadyExisted" xml:space="preserve">
+    <value>Sản phẩm này đã tồn tại!</value>
+  </data>
+  <data name="Common.errorMessage.productCateAlreadyExisted" xml:space="preserve">
+    <value>Danh mục Sản phẩm này đã tồn tại!</value>
+  </data>
+  <data name="Common.errorMessage.storeAlreadyExisted" xml:space="preserve">
+    <value>Cửa hàng này đã tồn tại!</value>
+  </data>
+  <data name="Common.label.AddressCol" xml:space="preserve">
+    <value>Địa Chỉ</value>
+  </data>
+  <data name="Common.label.BrandCode" xml:space="preserve">
+    <value>Mã Thương Hiệu</value>
+  </data>
+  <data name="Common.label.BrandName" xml:space="preserve">
+    <value>Thương Hiệu</value>
+  </data>
+  <data name="Common.label.ChannelName" xml:space="preserve">
+    <value>Tên Kênh</value>
+  </data>
+  <data name="Common.label.ProductCate" xml:space="preserve">
+    <value>Tên Loại Sản Phẩm</value>
+  </data>
+  <data name="Common.label.StoreNameCol" xml:space="preserve">
+    <value>Tên Cửa Hàng</value>
+  </data>
+  <data name="Common.notify.deleteFailed" xml:space="preserve">
+    <value>Xóa Không Thành Công</value>
+  </data>
+  <data name="Common.label.specialoffers" xml:space="preserve">
+    <value>Chương Trình Ưu Đãi</value>
+  </data>
+  <data name="Common.errorMessage.CreateMemberCodeNotFound" xml:space="preserve">
+    <value>Mã thành viên đã tồn tại</value>
+  </data>
+  <data name="Comom.Label.earningAmount" xml:space="preserve">
+    <value>Số tiền kiếm được</value>
+  </data>
+  <data name="Comom.Label.earningRate" xml:space="preserve">
+    <value>Tỷ Lệ Thu Nhập</value>
+  </data>
+  <data name="Common.errorMessage.brandSelectedErr" xml:space="preserve">
+    <value>Bạn hãy chọn một thương hiệu</value>
+  </data>
+  <data name="Common.errorMessage.channelSelectedErr" xml:space="preserve">
+    <value>Bạn hãy chọn một kênh</value>
+  </data>
+  <data name="Common.errorMessage.productCateSelectedErr" xml:space="preserve">
+    <value>Bạn hãy chọn một danh mục sản phẩm</value>
+  </data>
+  <data name="Common.errorMessage.productSelectedErr" xml:space="preserve">
+    <value>Bạn hãy chọn một sản phẩm</value>
+  </data>
+  <data name="Common.errorMessage.storeSelectedErr" xml:space="preserve">
+    <value>Bạn hãy chọn một cửa hàng</value>
+  </data>
+  <data name="Today" xml:space="preserve">
+    <value>Hôm nay</value>
+  </data>
+  <data name="Comom.Label.earningPoint" xml:space="preserve">
+    <value>Điểm Kiếm Tiền</value>
+  </data>
+  <data name="Comom.Label.fixedPoint" xml:space="preserve">
+    <value>Điểm cố định</value>
+  </data>
+  <data name="Comom.Label.points" xml:space="preserve">
+    <value>VND = 1 Điểm</value>
+  </data>
+  <data name="Comom.Label.rate" xml:space="preserve">
+    <value>Tỷ Lệ</value>
+  </data>
+  <data name="Comom.Label.redemptionPoint" xml:space="preserve">
+    <value>Điểm quy đổi</value>
+  </data>
+  <data name="Comom.Label.redemptionRate" xml:space="preserve">
+    <value>Tỷ lệ quy đổi</value>
+  </data>
+  <data name="Comom.Label.ruleType" xml:space="preserve">
+    <value>Loại Quy Tắc</value>
+  </data>
+  <data name="Commom.label.createdate" xml:space="preserve">
+    <value>Ngày Tạo</value>
+  </data>
+  <data name="Commom.Label.cancel" xml:space="preserve">
+    <value>Đã Hủy</value>
+  </data>
+  <data name="Commom.Label.complete" xml:space="preserve">
+    <value>Hoàn Thành</value>
+  </data>
+  <data name="Commom.Label.new" xml:space="preserve">
+    <value>Đang Duyệt</value>
+  </data>
+  <data name="Commom.Label.on-delivery" xml:space="preserve">
+    <value>Đang Giao</value>
+  </data>
+  <data name="Commom.Label.phoneno" xml:space="preserve">
+    <value>Số Điện Thoại</value>
+  </data>
+  <data name="Commom.Label.receiver" xml:space="preserve">
+    <value>Người Nhận</value>
+  </data>
+  <data name="Common.errorMessage.SelectYourTimePeriod" xml:space="preserve">
+    <value>Vui lòng chọn khoảng thời gian chính xác</value>
+  </data>
+  <data name="Common.label.AllowEarnPoint" xml:space="preserve">
+    <value>Cho Phép Tích Điểm</value>
+  </data>
+  <data name="Common.label.AllowRedeem" xml:space="preserve">
+    <value>Cho Phép Tiêu Điểm</value>
+  </data>
+  <data name="Page.title.EditProduct" xml:space="preserve">
+    <value>Chỉnh sửa sản phẩm</value>
+  </data>
+  <data name="Common.label.browsing" xml:space="preserve">
+    <value>Đang Duyệt</value>
+  </data>
+  <data name="Common.label.cancelled" xml:space="preserve">
+    <value>Đã Hủy</value>
+  </data>
+  <data name="Common.label.complete" xml:space="preserve">
+    <value>Hoàn Thành</value>
+  </data>
+  <data name="Common.label.delivering" xml:space="preserve">
+    <value>Đang Giao Hàng</value>
+  </data>
+  <data name="Common.label.enoughpoints" xml:space="preserve">
+    <value>Bạn không có đủ điểm để đổi sản phẩm này</value>
+  </data>
+  <data name="Common.label.ordercancel" xml:space="preserve">
+    <value>Đơn Hàng Đã Hủy</value>
+  </data>
+  <data name="Common.label.ordercomplete" xml:space="preserve">
+    <value>Đơn Hàng Hoàn Thành</value>
+  </data>
+  <data name="Common.label.orderdelivery" xml:space="preserve">
+    <value>Đơn Hàng Đang Giao</value>
+  </data>
+  <data name="Common.label.ordernew" xml:space="preserve">
+    <value>Đơn Hàng Đang Duyệt</value>
+  </data>
+  <data name="Common.label.selectamember" xml:space="preserve">
+    <value>Vui lòng chọn một thành viên cho đơn đặt hàng</value>
+  </data>
+  <data name="Common.label.selectaproductfor" xml:space="preserve">
+    <value>Vui lòng chọn một sản phẩm cho đơn đặt hàng</value>
+  </data>
+  <data name="Common.label.selectmembersandproducts" xml:space="preserve">
+    <value>Vui lòng chọn thành viên và sản phẩm</value>
+  </data>
+  <data name="Common.label.addCoupon" xml:space="preserve">
+    <value>Thêm mới</value>
+  </data>
+  <data name="Common.title.CustomPointRule" xml:space="preserve">
+    <value>Quy Tắc Điểm Tùy Chỉnh</value>
+  </data>
+  <data name="common.label.DateFrom" xml:space="preserve">
+    <value>Từ Ngày</value>
+  </data>
+  <data name="common.label.DateTo" xml:space="preserve">
+    <value>Đến Ngày</value>
+  </data>
+  <data name="Common.label.QrCode" xml:space="preserve">
+    <value>UUID Mã QR</value>
+  </data>
+  <data name="Common.label.QrScanDate" xml:space="preserve">
+    <value>Ngày Quét Mã QR</value>
+  </data>
+  <data name="Common.Select.SelectProduct" xml:space="preserve">
+    <value>---- Chọn Sản Phẩm ----</value>
+  </data>
+  <data name="Sidebar.title.history" xml:space="preserve">
+    <value>Lịch Sử Giao Dịch</value>
+  </data>
+  <data name="Common.label.autogeneratedstorecode" xml:space="preserve">
+    <value>Mã cữa hàng được tạo tự động</value>
+  </data>
+  <data name="Sidebar.configurations.user" xml:space="preserve">
+    <value>Tài Khoản</value>
+  </data>
+  <data name="Sidebar.report.ProductQrScanReports" xml:space="preserve">
+    <value>Báo Cáo Lượt Quét Tích Điểm Của Sản Phẩm</value>
+  </data>
+  <data name="Common.label.Generate" xml:space="preserve">
+    <value>Đưa Ra Kết Quả</value>
+  </data>
+  <data name="Common.label.SelectProductCollection" xml:space="preserve">
+    <value>Chọn Bộ Sưu Tập Sản Phẩm</value>
+  </data>
+  <data name="Common.label.TotalCanceled" xml:space="preserve">
+    <value>Tổng hàng hủy</value>
+  </data>
+  <data name="Common.label.TotalCompleted" xml:space="preserve">
+    <value>Tổng hàng hoàn thành</value>
+  </data>
+  <data name="Common.label.TotalInTransit" xml:space="preserve">
+    <value>Tổng hàng đang giao</value>
+  </data>
+  <data name="Common.label.TotalNewOrders" xml:space="preserve">
+    <value>Tổng hàng đang duyệt</value>
+  </data>
+  <data name="Sidebar.title.RedemptionReport" xml:space="preserve">
+    <value>Báo Cáo Đổi Thưởng</value>
+  </data>
+  <data name="Common.label.GiftReport" xml:space="preserve">
+    <value>Báo Cáo Đổi Quà</value>
+  </data>
+  <data name="Common.label.ControlPannel" xml:space="preserve">
+    <value>Bảng Điều Khiển Báo Cáo</value>
+  </data>
+  <data name="Common.label.DateRange" xml:space="preserve">
+    <value>Khoảng Thời Gian</value>
+  </data>
+  <data name="Common_label_deleteMessage" xml:space="preserve">
+    <value>Bạn có chắc không</value>
+  </data>
+  <data name="Common_label_deleteMessages" xml:space="preserve">
+    <value>Bạn có thực sự muốn xóa các bản ghi này không? Không thể hoàn tác quá trình này.</value>
+  </data>
+  <data name="Common.label.tableOrderStatus" xml:space="preserve">
+    <value>Trạng Thái Đổi Quà</value>
+  </data>
+  <data name="Common.label.Total" xml:space="preserve">
+    <value>Tổng</value>
+  </data>
+  <data name="Common.td.Point" xml:space="preserve">
+    <value>Điểm</value>
+  </data>
+  <data name="Sidebar.Title.createPointRule" xml:space="preserve">
+    <value>Tạo Quy Tắc Điểm</value>
+  </data>
+  <data name="Sidebar.Title.editPointRule" xml:space="preserve">
+    <value>Chỉnh Sửa Quy Tắc Điểm</value>
+  </data>
+  <data name="Sidebar.title.preferredBrand" xml:space="preserve">
+    <value>Thương Hiệu Ưa Thích</value>
+  </data>
+  <data name="Common.label.send" xml:space="preserve">
+    <value>Gửi</value>
+  </data>
+  <data name="Common.label.time" xml:space="preserve">
+    <value>Thời Gian</value>
+  </data>
+  <data name="Common.label.uploadFile" xml:space="preserve">
+    <value>Chọn Tệp Tin</value>
+  </data>
+  <data name="Comom.Label.invoiceNo" xml:space="preserve">
+    <value>Không Có Hóa Đơn </value>
+  </data>
+  <data name="Comom.Label.verificationCode" xml:space="preserve">
+    <value>Mã Xác Nhận</value>
+  </data>
+  <data name="Common.label.CodeScans" xml:space="preserve">
+    <value>Lượt Quét Mã</value>
+  </data>
+  <data name="Common.label.Stt" xml:space="preserve">
+    <value>STT</value>
+  </data>
+  <data name="Common.label.ThereAre" xml:space="preserve">
+    <value>Có</value>
+  </data>
+  <data name="common.prCode" xml:space="preserve">
+    <value>Mã sản phẩm</value>
+  </data>
+  <data name="common.prName" xml:space="preserve">
+    <value>Tên sản phẩm</value>
+  </data>
+  <data name="Common.label.Activatedmembers" xml:space="preserve">
+    <value>Đã Kích Hoạt</value>
+  </data>
+  <data name="Common.label.Dashboard" xml:space="preserve">
+    <value>BẢNG ĐIỀU KHIỂN</value>
+  </data>
+  <data name="Common.label.daterangestatistical" xml:space="preserve">
+    <value>Thống Kê Từ Ngày</value>
+  </data>
+  <data name="Common.label.Inactived" xml:space="preserve">
+    <value>Thành Viên Không Hoạt Động</value>
+  </data>
+  <data name="Common.label.Newmembers" xml:space="preserve">
+    <value>Thành Viên Mới Trong Tháng</value>
+  </data>
+  <data name="Common.label.NewMembersChart" xml:space="preserve">
+    <value>Biểu Đồ Thành Viên Mới</value>
+  </data>
+  <data name="Common.label.Numberofcodescans" xml:space="preserve">
+    <value>Số Lần Quét Mã</value>
+  </data>
+  <data name="Common.label.Numberofnewmembers" xml:space="preserve">
+    <value>Số Lượng Thành Viên Mới</value>
+  </data>
+  <data name="Common.label.Numberofredemptions" xml:space="preserve">
+    <value>Số Lần Đổi Quà</value>
+  </data>
+  <data name="Common.label.WelcometoMegapointDashboard" xml:space="preserve">
+    <value>Chào mừng bạn đến với Bảng điều khiển Panda Loyalty</value>
+  </data>
+  <data name="Common.404" xml:space="preserve">
+    <value>Xin lỗi, chúng tôi không thể tìm thấy trang bạn đang tìm kiếm ...</value>
+  </data>
+  <data name="Commom.label.403" xml:space="preserve">
+    <value>Xin lỗi! Bạn không có quyền truy cập vào trang này...</value>
+  </data>
+  <data name="Commom.label.Analyst" xml:space="preserve">
+    <value>Phân Tích</value>
+  </data>
+  <data name="Commom.label.TotalMember" xml:space="preserve">
+    <value>Tổng Thành Viên</value>
+  </data>
+  <data name="Commom.label.ThisYear" xml:space="preserve">
+    <value>Năm Nay</value>
+  </data>
+  <data name="Commom.placeholder.EnterMember" xml:space="preserve">
+    <value>Vui lòng nhập mã, tên, email hoặc số điện thoại thành viên</value>
+  </data>
+  <data name="Commom.placeholder.EnterProduct" xml:space="preserve">
+    <value>Vui lòng nhập mã sản phẩm, tên sản phẩm ...</value>
+  </data>
+  <data name="Commom.label.DeleteInactiveMember" xml:space="preserve">
+    <value>Xóa thành viên không hoạt động</value>
+  </data>
+  <data name="Commom.placeholder.EnterBrand" xml:space="preserve">
+    <value>Vui lòng nhập tên thương hiệu...</value>
+  </data>
+  <data name="Commom.placeholder.EnterCollection" xml:space="preserve">
+    <value>Vui lòng nhập tên danh mục sản phẩm...</value>
+  </data>
+  <data name="Commom.placeholder.EnterOrder" xml:space="preserve">
+    <value>Vui lòng nhập tên sản phẩm hoặc tên, mã thành viên hoặc số điện thoại</value>
+  </data>
+  <data name="Commom.placeholder.EnterProductCate" xml:space="preserve">
+    <value>Vui lòng nhập tên danh mục sản phẩm...</value>
+  </data>
+  <data name="Commom.label.ActivationNotices" xml:space="preserve">
+    <value>Số lượng thành viên trên hệ thống của bạn sắp đạt ngưỡng cho phép. Vui lòng liên hệ Aegona Ltd. để được nâng cấp.</value>
+  </data>
+  <data name="Commom.lable.CreateMemberNoti" xml:space="preserve">
+    <value>Không thể thêm thành viên mới vì đã đạt đến ngưỡng giới hạn</value>
+  </data>
+  <data name="Commom.label.ExportExcel" xml:space="preserve">
+    <value>Xuất Excel</value>
+  </data>
+  <data name="Commom.label.ThereAreNewMembers1" xml:space="preserve">
+    <value>Có</value>
+  </data>
+  <data name="Commom.label.ThereAreNewMembers2" xml:space="preserve">
+    <value>thành viên mới</value>
+  </data>
+  <data name="Commom.label.TransactionDate" xml:space="preserve">
+    <value>Ngày Giao Dịch</value>
+  </data>
+  <data name="ViewBag.Title.Member.AddMember" xml:space="preserve">
+    <value>Thêm Mới Thành Viên | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Member.Detail" xml:space="preserve">
+    <value>Chi Tiết Thành Viên | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Member.EditMember" xml:space="preserve">
+    <value>Chỉnh Sửa Thành Viên | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Member.ImportMember" xml:space="preserve">
+    <value>Nhập Thành Viên | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Member.Index" xml:space="preserve">
+    <value>Tìm Kiếm Thành Viên | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.MemberTag.Edit" xml:space="preserve">
+    <value>Chỉnh Sửa Thẻ Thành Viên | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.MemberTag.Index" xml:space="preserve">
+    <value>Thẻ Thành Viên  | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Coupon.Create" xml:space="preserve">
+    <value>Thêm Mới Mã Giảm Giá  | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Coupon.Detail" xml:space="preserve">
+    <value>Chi Tiết Mã Giảm Giá  | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Coupon.Edit" xml:space="preserve">
+    <value>Chỉnh Sửa Mã Giảm Giá | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Coupon.Index" xml:space="preserve">
+    <value>Mã Giảm Giá | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.CustomPointRule.Create" xml:space="preserve">
+    <value>Thêm Mới Quy Tắc Điểm Tùy Chỉnh  | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.CustomPointRule.Edit" xml:space="preserve">
+    <value>Chỉnh Sửa Quy Tắc Điểm Tùy Chỉnh | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.CustomPointRule.Index" xml:space="preserve">
+    <value>Quy Tắc Điểm Tùy Chỉnh  | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Gift.Create" xml:space="preserve">
+    <value>Thêm Mới Quà Tặng  | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.GIft.Detail" xml:space="preserve">
+    <value>Chi Tiết Quà Tặng  | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Gift.Edit" xml:space="preserve">
+    <value>Chỉnh Sửa Quà Tặng | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Gift.Index" xml:space="preserve">
+    <value>Quà Tặng | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.MemberGroup.Create" xml:space="preserve">
+    <value>Thêm Mới Nhóm Thành Viên  | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.MemberGroup.Edit" xml:space="preserve">
+    <value>Chỉnh Sửa Nhóm Thành Viên | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.MemberGroup.Index" xml:space="preserve">
+    <value>Nhóm Thành Viên | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.MemberLifecycle.Create" xml:space="preserve">
+    <value>Thêm Mới Vòng Đời Thành Viên | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.MemberLifecycle.Detail" xml:space="preserve">
+    <value>Chi Tiết Vòng Đời Thành Viên  | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.MemberLifecycle.Edit" xml:space="preserve">
+    <value>Chỉnh Sửa Vòng Đời Thành Viên | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.MemberLifecycle.Index" xml:space="preserve">
+    <value>Vòng Đời Thành Viên | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.MemberSegment.Create" xml:space="preserve">
+    <value>Thêm Mới Phân Khúc Thành Viên  | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.MemberSegment.Edit" xml:space="preserve">
+    <value>Chỉnh Sửa Phân Khúc Thành Viên | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.MemberSegment.Index" xml:space="preserve">
+    <value>Phân Khúc Thành Viên | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.MemberTag.Create" xml:space="preserve">
+    <value>Thêm Mới Thẻ Thành Viên  | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.PointRuleBrand.Create" xml:space="preserve">
+    <value>Tạo Nhãn Hiệu  Tắc Điểm | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.PointRuleBrand.Edit" xml:space="preserve">
+    <value>Chỉnh Sửa Nhãn Hiệu Quy Tắc Điểm | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.PointRuleCate.Create" xml:space="preserve">
+    <value>Tạo Danh Mục Quy Tắc Điểm | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.PointRuleCate.Edit" xml:space="preserve">
+    <value>Chỉnh Sửa Danh Mục Quy Tắc Điểm  | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.PointRuleChannel.Create" xml:space="preserve">
+    <value>Tạo Kênh Quy Tắc Điểm | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.PointRuleChannel.Edit" xml:space="preserve">
+    <value>Chỉnh Sửa Kênh Quy Tắc Điểm | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.PointRuleProduct.Create" xml:space="preserve">
+    <value>Tạo Sản Phẩm Quy Tắc Điểm | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.PointRuleProduct.Edit" xml:space="preserve">
+    <value>Chỉnh Sửa Sản Phẩm Quy Tắc Điểm | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.PointRuleStandard.Index" xml:space="preserve">
+    <value>Quy Tắc Điểm Tiêu Chuẩn  | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.PointRuleStore.Create" xml:space="preserve">
+    <value>Tạo Cửa Hàng Tắc Điểm | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.PointRuleStore.Edit" xml:space="preserve">
+    <value>Chỉnh Sửa Cửa Hàng Quy Tắc Điểm | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Referral.Index" xml:space="preserve">
+    <value>Giới Thiệu | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Rewards.Center" xml:space="preserve">
+    <value>Trung Tâm Phần Thưởng | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Rewards.RedeemPoint" xml:space="preserve">
+    <value>Đổi Điểm | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Rewards.Redemption" xml:space="preserve">
+    <value>Đổi Thẻ Quà Tặng, Phiếu Mua Hàng, Giảm Giá | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.TierRule.Index" xml:space="preserve">
+    <value>Quy Tắc Bậc | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Voucher.Create" xml:space="preserve">
+    <value>Thêm Mới Phiếu Mua Hàng  | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Voucher.Detail" xml:space="preserve">
+    <value>Chi Tiết Phiếu Mua Hàng  | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Voucher.Edit" xml:space="preserve">
+    <value>Chỉnh Sửa Phiếu Mua Hàng | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Voucher.Index" xml:space="preserve">
+    <value>Phiếu Mua Hàng | Panda Loyalty</value>
+  </data>
+  <data name="Common.errorMessage.MemberPhoneNotFound" xml:space="preserve">
+    <value>Số điện thoại này đã được sử dụng</value>
+  </data>
+  <data name="ViewBag.Title.Brand.Index" xml:space="preserve">
+    <value>Nhãn Hàng | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Channel.Index" xml:space="preserve">
+    <value>Kênh Bản Hàng | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.CouponCategory.Index" xml:space="preserve">
+    <value>Loại Mã Giảm Giá | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.DashBoard.Index" xml:space="preserve">
+    <value>Bảng Điều Khiển | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Department.CreateDepUser" xml:space="preserve">
+    <value>Thêm Người Dùng Bộ Phận | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Department.Edit" xml:space="preserve">
+    <value>Chỉnh Sửa Phòng Ban | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Department.EditDepUser" xml:space="preserve">
+    <value>Chỉnh Sửa Người Dùng Bộ Phận | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Department.Index" xml:space="preserve">
+    <value>Phòng Ban | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.GiftCategory.Index" xml:space="preserve">
+    <value>Danh Mục Quà Tặng | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.GroupRole.Edit" xml:space="preserve">
+    <value>Chỉnh Sửa Nhóm Vai Trò | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.GroupRole.Index" xml:space="preserve">
+    <value>Nhóm Vai Trò | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Import.FileImport" xml:space="preserve">
+    <value>Nhập Tập Tin | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.JobTitle.Index" xml:space="preserve">
+    <value>Chức Danh | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.LoyaltyTier.Index" xml:space="preserve">
+    <value>Cấp Bậc | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.LoyaltyType.Index" xml:space="preserve">
+    <value>Loại Điểm | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.MemberTagCategory.Index" xml:space="preserve">
+    <value>Danh Mục Thẻ Thành Viên | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.NewMemberReport.Index" xml:space="preserve">
+    <value>Báo Cáo Thành Viên Mới | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Occupation.Index" xml:space="preserve">
+    <value>Nghề Nghiệp | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Organization.Edit" xml:space="preserve">
+    <value>Chỉnh Sửa Tổ Chức | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Organization.Index" xml:space="preserve">
+    <value>Tổ Chức | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Product.Edit" xml:space="preserve">
+    <value>Chỉnh Sửa Sản Phẩm  | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Product.Index" xml:space="preserve">
+    <value>Sản Phẩm  | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.ProductCate.Index" xml:space="preserve">
+    <value>Danh Mục Sản Phẩm  | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.ProductOrder.Create" xml:space="preserve">
+    <value>Tạo Đơn Đổi Quà | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.ProductOrder.Detail" xml:space="preserve">
+    <value>Chi Tiết Đơn Đổi Quà | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.ProductOrder.Edit" xml:space="preserve">
+    <value>Chỉnh Sửa Đơn Đổi Quà | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.ProductOrder.Index" xml:space="preserve">
+    <value>Đơn Đổi Quà | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.ProductOrder.SelectMember" xml:space="preserve">
+    <value>Chọn Thành Viên | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.ProductOrder.SelectProduct" xml:space="preserve">
+    <value>Chọn Sản Phẩm | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.ProductScanReport.Index" xml:space="preserve">
+    <value>Báo Cáo Lượt Quét Tích Điểm Của Sản Phẩm | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.RedemptionReport.Index" xml:space="preserve">
+    <value>Báo Cáo Đổi Quà | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.SpotCampaign.Create" xml:space="preserve">
+    <value>Tạo Chiến Dịch Tại Chỗ | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.SpotCampaign.Detail" xml:space="preserve">
+    <value>Chi Tiết Chiến Dịch Tại Chỗ | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.SpotCampaign.Edit" xml:space="preserve">
+    <value>Chỉnh Sửa Chiến Dịch Tại Chỗ | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.SpotCampaign.Index" xml:space="preserve">
+    <value>Chiến Dịch Tại Chỗ | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Store.Create" xml:space="preserve">
+    <value>Thêm Mới Cửa Hàng | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Store.Edit" xml:space="preserve">
+    <value>Chỉnh Sửa Cửa Hàng| Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Store.Index" xml:space="preserve">
+    <value>Cửa Hàng  | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Team.CreateDep" xml:space="preserve">
+    <value>Thêm Thành Viên Nhóm | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Team.Edit" xml:space="preserve">
+    <value>Chỉnh Sửa Nhóm | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Team.EditDep" xml:space="preserve">
+    <value>Chỉnh Sửa Thành Viên Nhóm | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Team.Index" xml:space="preserve">
+    <value>Nhóm | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Unit.Index" xml:space="preserve">
+    <value>Đơn Vị | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.User.Edit" xml:space="preserve">
+    <value>Chỉnh Sửa Tài Khoản | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.User.Index" xml:space="preserve">
+    <value>Tài Khoản | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.VoucherCategory.Index" xml:space="preserve">
+    <value>Loại Phiếu Mua Hàng  | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Wallet.History" xml:space="preserve">
+    <value>Lịch Sử Ví Thành Viên | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.Wallet.Index" xml:space="preserve">
+    <value>Ví Thành Viên | Panda Loyalty</value>
+  </data>
+  <data name="ViewBag.Title.AdminDashboard" xml:space="preserve">
+    <value>Bảng Điều Khiển Quản Trị Viên</value>
+  </data>
+  <data name="commom.label.Redeemed" xml:space="preserve">
+    <value>Đã Đổi</value>
+  </data>
+  <data name="commom.label.RedeemedStatus" xml:space="preserve">
+    <value>Trạng Thái Đổi</value>
+  </data>
+  <data name="commom.label.Unredeemed" xml:space="preserve">
+    <value>Chưa Đổi</value>
+  </data>
+  <data name="commom.lablel.onclickDeleteinactivemember" xml:space="preserve">
+    <value>Bạn có chắc chắn muốn xóa thành viên không hoạt động không?</value>
+  </data>
+  <data name="commom.notifi.deleteInactiveMemberSuccessfully" xml:space="preserve">
+    <value>thành viên không hoạt động</value>
+  </data>
+  <data name="Sidebar.Title.List.User" xml:space="preserve">
+    <value>Danh sách người dùng</value>
+  </data>
+  <data name="Commom.Placeholder.ListUser" xml:space="preserve">
+    <value>Vui lòng nhập tên hoặc email</value>
+  </data>
+  <data name="Sidebar.Title.Courses" xml:space="preserve">
+    <value>Khóa Học</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Common.Label.Create" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="Common.Error.File.Required" xml:space="preserve">
+    <value>Tập tin là bắt buộc</value>
+  </data>
+  <data name="Common.Error.File.Maxsize" xml:space="preserve">
+    <value>Tệp tin phải nhỏ hơn 10MB</value>
+  </data>
+  <data name="Common.Error.File.Must.Csv" xml:space="preserve">
+    <value>Tệp phải là tệp CSV</value>
+  </data>
+  <data name="Common.Error.Course.Required" xml:space="preserve">
+    <value>Khóa học là bắt buộc</value>
+  </data>
+  <data name="Common.Error.Title.Required" xml:space="preserve">
+    <value>Tiêu đề là bắt buộc</value>
+  </data>
+  <data name="Common.Error.AudioType.Required" xml:space="preserve">
+    <value>Loại âm thanh là bắt buộc</value>
+  </data>
+  <data name="Common.Error.AudioCode.Required" xml:space="preserve">
+    <value>Mã âm thanh là bắt buộc</value>
+  </data>
+  <data name="Common.Error.Url.Required" xml:space="preserve">
+    <value>URL tập tin là bắt buộc</value>
+  </data>
+  <data name="Common.Error.Url.Invalid" xml:space="preserve">
+    <value>URL tệp không hợp lệ</value>
+  </data>
+  <data name="Common.Error.File.Empty" xml:space="preserve">
+    <value>Tập tin không được trống</value>
+  </data>
+  <data name="Common.Error.Upload" xml:space="preserve">
+    <value>Có lỗi trong quá trình upload</value>
+  </data>
+  <data name="Common.Error.Course.Invalid" xml:space="preserve">
+    <value>Khóa học không hợp lệ</value>
+  </data>
+</root>

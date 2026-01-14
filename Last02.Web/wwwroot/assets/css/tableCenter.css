@@ -1,0 +1,12 @@
+﻿.main-content #dtHorizontalVerticalExample tbody tr td,
+.main-content #dtHorizontalVerticalExample thead tr th {
+    text-align: left;
+    vertical-align: middle;
+}
+
+.main-content #datatableLoyaltyTier tbody tr td,
+.main-content #datatableLoyaltyTier thead tr th {
+    text-align: center;
+    vertical-align: middle;
+}
+

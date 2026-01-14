@@ -13,6 +13,8 @@ namespace Last02.Models.Dtos
         public string AudioCode { get; set; } = string.Empty;
         public AudioType AudioType { get; set; }
         public string Title { get; set; } = string.Empty;
+        public string TitleVi { get; set; } = string.Empty;
+        public string TitleEn { get; set; } = string.Empty;
         public string FileUrl { get; set; } = string.Empty;
         public int SortOrder { get; set; }
         public bool IsFree { get; set; }

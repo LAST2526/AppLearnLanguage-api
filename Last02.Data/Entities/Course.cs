@@ -17,7 +17,6 @@ namespace Last02.Data.Entities
         [Required]
         [StringLength(200)]
         public string Title { get; set; } = string.Empty;
-
         [Required]
         public DateTime CreatedDate { get; set; } = DateTime.Now;
         public bool Deleted { get; set; } = false;

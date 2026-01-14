@@ -19,24 +19,32 @@ namespace Last02.Services.Implement
         private readonly IUnitOfWork _uow;
         ILogger<ConversationService> _logger;
         private ILocalizedMessageService _messageService = null!;
+        private IStorageService _storageService = null!;
 
         public ConversationService(IUnitOfWork unitOfWork, ILogger<ConversationService> logger
-            , ILocalizedMessageService messageService) : base(unitOfWork)
+            , ILocalizedMessageService messageService, IStorageService storageService) : base(unitOfWork)
         {
             _uow = unitOfWork;
             _logger = logger;
             _messageService = messageService;
+            _storageService = storageService;
         }
 
-        public async Task<IEnumerable<Audio>> GetAllConversationsAsync()
+        public async Task<ResponseBase<IEnumerable<ConversationDto>>> GetAllConversationsAsync()
         {
-            //var baseUrl = await GetBaseUrlAsync();
-            var list = await _uow.Audio.GetAllAsync(a => a.AudioType == AudioType.Kaiwa);
+            try
+            {
+                var list = await _uow.Audio.GetAllAsync(a => a.AudioType == AudioType.Kaiwa);
+                var res = list.Select(ConvertToDto).ToList();
 
-            //foreach (var a in list)
-            //    a.AbsoluteFileUrl = UrlHelper.ToAbsoluteUrl(a.FileUrl, baseUrl);
-
-            return list;
+                return ResponseBase<IEnumerable<ConversationDto>>.Success(
+                    res,
+                    await _messageService.GetMessageAsync(MessageCodes.Conversation.SUC_CONVERSATION_RETRIEVED));
+            }
+            catch (Exception ex)
+            {
+                return ResponseBase<IEnumerable<ConversationDto>>.Error("System error: " + ex.Message, statusCode: 500);
+            }
         }
 
         public async Task<ResponseBase<IEnumerable<ConversationDto>>> GetByCourseIdAsync(int userId, int courseId, int? pageSize, int? pageNumber)
@@ -127,15 +135,21 @@ namespace Last02.Services.Implement
         //    return (await _appSettingService.GetAudioBaseUrlAsync(ct)).TrimEnd('/');
         //}
 
-        public static ConversationDto ConvertToDto(Audio audio)
+        private ConversationDto ConvertToDto(Audio audio)
         {
+            var fileUrl = string.IsNullOrWhiteSpace(audio.FileUrl)
+                ? string.Empty
+                : _storageService.GenerateDownloadUrl(audio.FileUrl);
+
             return new ConversationDto
             {
                 Id = audio.Id,
                 AudioCode = audio.AudioCode,
                 AudioType = audio.AudioType ?? AudioType.Kaiwa,
                 Title = audio.Title,
-                FileUrl = audio.FileUrl,
+                TitleVi = audio.TitleVi,
+                TitleEn = audio.TitleEn,
+                FileUrl = fileUrl,
                 SortOrder = audio.SortOrder,
                 IsFree = audio.IsFree,
                 Script = audio.Script,

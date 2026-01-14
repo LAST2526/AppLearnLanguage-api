@@ -16,7 +16,7 @@ namespace Last02.Api
             var assembly = Assembly.Load("Last02.Models");
             var resourceManager = new ResourceManager(resourceBaseName, assembly);
 
-            var supportedCultures = new[] { "vi", "en", "ja" };
+            var supportedCultures = new[] { "vi", "en" };
 
             foreach (var cultureCode in supportedCultures)
             {

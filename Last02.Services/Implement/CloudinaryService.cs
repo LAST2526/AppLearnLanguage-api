@@ -54,9 +54,8 @@ namespace Last02.Services.Implement
             // Ví dụ URL: https://res.cloudinary.com/demo/image/upload/v1692459123/folder/avatar_abc123.jpg
             var uri = new Uri(imageUrl);
             var segments = uri.AbsolutePath.Split('/');
-            // lấy từ sau "upload/"
             var index = Array.IndexOf(segments, "upload");
-            var publicId = string.Join("/", segments.Skip(index + 2)); // bỏ qua upload/v...
+            var publicId = string.Join("/", segments.Skip(index + 2));
             return Path.Combine(Path.GetDirectoryName(publicId) ?? "", Path.GetFileNameWithoutExtension(publicId))
                 .Replace("\\", "/");
         }

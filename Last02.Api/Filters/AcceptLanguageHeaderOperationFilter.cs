@@ -19,7 +19,7 @@ namespace Last02.Api.Filters
                     Type = "string",
                     Default = new OpenApiString("en")
                 },
-                Description = "Language: en, vi, ja"
+                Description = "Language: en, vi"
             });
         }
     }

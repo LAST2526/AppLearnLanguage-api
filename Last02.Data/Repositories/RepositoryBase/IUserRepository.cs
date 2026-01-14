@@ -10,6 +10,6 @@ namespace Last02.Data.Repositories.RepositoryBase
     public interface IUserRepository : IRepository<Users>
     {
         Task<Users?> GetByEmailAsync(string email);
-        Task<Users?> GetByEmailAndDOBAsync(string email, DateTime DOB);
+        Task<Users?> GetByEmailAndDOBAsync(string email);
     }
 }

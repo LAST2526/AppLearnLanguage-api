@@ -33,10 +33,6 @@ namespace Last02.Api.Controllers
 
         [Authorize]
         [HttpPut("update/{id}")]
-        //[ProducesResponseType(typeof(ResponseBase<UserDto>), StatusCodes.Status200OK)]
-        //[ProducesResponseType(typeof(ResponseBase<UserDto>), StatusCodes.Status400BadRequest)]
-        //[ProducesResponseType(typeof(ResponseBase<UserDto>), StatusCodes.Status404NotFound)]
-        //[ProducesResponseType(typeof(ResponseBase<UserDto>), StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> UpdateUser(int id, [FromBody] UpdateUserRequest updateUserRequest)
         {
             if (!ModelState.IsValid)

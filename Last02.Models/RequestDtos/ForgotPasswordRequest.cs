@@ -9,6 +9,5 @@ namespace Last02.Models.RequestDtos
     public class ForgotPasswordRequest
     {
         public string Email { get; set; } = string.Empty;
-        public DateTime? DOB { get; set; }
     }
 }

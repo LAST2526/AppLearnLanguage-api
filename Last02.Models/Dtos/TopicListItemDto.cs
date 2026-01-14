@@ -11,6 +11,8 @@ namespace Last02.Models.Dtos
         public int Id { get; set; }
         public string TopicCode { get; set; } = string.Empty;
         public string Title { get; set; } = string.Empty;
+        public string? TitleEn { get; set; } = string.Empty;
+        public string? TitleVi { get; set; } = string.Empty;
         public string? Description { get; set; }
         public bool IsFree { get; set; }
         public string? HexColorCode { get; set; }
@@ -21,5 +23,15 @@ namespace Last02.Models.Dtos
     {
         public int CompletedFlashcardCnt { get; set; }
         public int FlashcardCnt { get; set; }
+    }
+
+    public sealed class LearningOverviewDto
+    {
+        public int UserId { get; set; }
+        public int? MemberId { get; set; }
+        public int? CourseId { get; set; }
+        public string? CourseTitle { get; set; }
+        public double CourseProgress { get; set; }
+        public List<TopicListItemDto> Topics { get; set; } = new();
     }
 }

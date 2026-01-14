@@ -13,7 +13,6 @@
 
   <ItemGroup>
     <Folder Include="Dashboard\" />
-    <Folder Include="Members\" />
   </ItemGroup>
 
   <ItemGroup>

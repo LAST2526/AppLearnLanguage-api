@@ -11,7 +11,7 @@ namespace Last02.Services.Interfaces
 {
     public interface IConversationService : IBaseService
     {
-        Task<IEnumerable<Audio>> GetAllConversationsAsync();
+        Task<ResponseBase<IEnumerable<ConversationDto>>> GetAllConversationsAsync();
         Task<ResponseBase<IEnumerable<ConversationDto>>> GetByCourseIdAsync(int userId, int courseId, int? pageSize, int? pageNumber);
         Task<ResponseBase<ConversationDto>> GetByIdAsync(int id);
         Task<ResponseBase<ConversationDto>> GetByConversationCodeAsync(string code);

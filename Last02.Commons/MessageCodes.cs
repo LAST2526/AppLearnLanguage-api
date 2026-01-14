@@ -58,6 +58,11 @@ namespace Last02.Commons
             public const string ERR_CONVERSATION_NOT_FOUND = "ERR_TOPIC_001";
         }
 
+        public static class Course
+        {
+            public const string ERR_COURSE_NOT_FOUND = "ERR_COURSE_001";
+        }
+
         public static class QrCode
         {
             public const string SUC_QRCODE_RETRIEVED = "SUC_QRCODE_001";

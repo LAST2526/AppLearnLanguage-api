@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Last02.Commons.Extensions
 {
-    public static class LanguageExtentions
+    public static class LanguageExtensions
     {
         //From enum to code
         public static string GetLanguageCode(this Language lang)

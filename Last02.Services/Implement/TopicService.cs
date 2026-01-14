@@ -79,6 +79,8 @@ namespace Last02.Services.Implement
             {
                 Id = topic.Id,
                 Title = topic.Title,
+                TitleVi = topic.TitleVi,
+                TitleEn = topic.TitleEn,
                 TopicCode = topic.TopicCode,
                 Description = topic.Description,
                 IsFree = topic.IsFree,

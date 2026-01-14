@@ -1,0 +1,50 @@
+﻿<!-- ========== Left Sidebar Start ========== -->
+@using Last02.Web.Resources
+<div class="vertical-menu">
+    <div data-simplebar class="h-100">
+        <!--- Sidemenu -->
+        <div id="sidebar-menu">
+            <!-- Left Menu Start -->
+            <ul class="metismenu list-unstyled" id="side-menu">
+                <li class="menu-title">@Resource.Sidebar_title_main</li>
+                <li>
+                    <a href="@Url.Action("Index", "Member")" class="waves-effect text-decoration-none">
+                        <span>@Resource.Sidebar_title_member</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="@Url.Action("Index", "Courses")" class="waves-effect text-decoration-none">
+                        <span>@Resource.Sidebar_Title_Courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="@Url.Action("Index", "FlashcardHistory")" class="waves-effect text-decoration-none">
+                        <span>FlashcardHistory</span>
+                    </a>
+                </li>
+                <li>
+                    @* <a href="@Url.Action("Index", "Book")" class="waves-effect text-decoration-none">
+                        <span>書籍コード</span>
+                    </a> *@
+                </li>
+                <li>
+                    <a href="@Url.Action("Index", "AudioGenHistory")" class="waves-effect text-decoration-none">
+                        <span>AudioGen</span>
+                    </a>
+                </li>
+                <li>
+                    @* <a href="@Url.Action("Index", "Notification")" class="waves-effect text-decoration-none">
+                        <span>通知</span>
+                    </a> *@
+                </li>
+                <li>
+                    @* <a href="@Url.Action("Index", "AppSetting")" class="waves-effect text-decoration-none">
+                        <span>設定</span>
+                    </a> *@
+                </li>
+            </ul>
+        </div>
+        <!-- Sidebar -->
+    </div>
+</div>
+<!-- Left Sidebar End -->

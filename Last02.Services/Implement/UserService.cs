@@ -248,7 +248,6 @@ namespace Last02.Services.Implement
                 {
                     if (model.AvatarImage != null && model.AvatarImage.Length > 0)
                     {
-                        // Xóa avatar cũ trên Cloudinary nếu có
                         if (!string.IsNullOrEmpty(member.AvatarUrl))
                         {
                             try
@@ -258,11 +257,10 @@ namespace Last02.Services.Implement
                             }
                             catch (Exception ex)
                             {
-                                _logger.LogWarning($"Không thể xóa avatar cũ trên Cloudinary: {ex.Message}");
+                                _logger.LogWarning($"Delete image from Cloudinary failed: {ex.Message}");
                             }
                         }
 
-                        // Upload avatar mới
                         var uploadResult = await _cloudinaryService.UploadImageAsync(model.AvatarImage);
                         if (uploadResult.StatusCode == HttpStatusCode.OK)
                         {
@@ -271,7 +269,7 @@ namespace Last02.Services.Implement
                         }
                         else
                         {
-                            return ResponseBase<UpdateAvatarResponseDto>.Error("Upload avatar thất bại");
+                            return ResponseBase<UpdateAvatarResponseDto>.Error("Upload failed");
                         }
                     }
                 }
@@ -444,7 +442,7 @@ namespace Last02.Services.Implement
         {
             try
             {
-                var user = await _uow.User.GetByEmailAndDOBAsync(request.Email, request.DOB!.Value);
+                var user = await _uow.User.GetByEmailAndDOBAsync(request.Email);
                 if (user == null)
                     return ResponseBase<ForgotPasswordDto>.Error(await _messageService.GetMessageAsync(MessageCodes.User.ERR_MAIL_DOB_NOT_MATCH));
 
@@ -457,7 +455,7 @@ namespace Last02.Services.Implement
 
                 user.PasswordHash = BCrypt.Net.BCrypt.HashPassword(newPassword);
                 user.TemporaryPasswordHash = BCrypt.Net.BCrypt.HashPassword(newPassword);
-                user.TemporaryPasswordExpires = DateTime.UtcNow.AddMinutes(5);
+                user.TemporaryPasswordExpires = null;
                 user.LastForgotPasswordRequestAt = DateTime.UtcNow;
 
                 var member = await _uow.Member.GetAsync(m => m.UserId == user.Id);

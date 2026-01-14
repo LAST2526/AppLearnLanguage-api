@@ -1,0 +1,31 @@
+.course-td-max-width {
+    max-width: 250px;
+}
+
+.course-create-modal-content {
+    position: relative;
+}
+
+.course-btn-width {
+    width: 120px;
+}
+
+.select-checkbox {
+    position: relative;
+}
+
+.select-checkbox-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.select-checkbox-span {
+    position: absolute;
+    top: 0;
+}

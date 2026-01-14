@@ -1,0 +1,149 @@
+﻿@model Last02.Models.PagerViewModel
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+<p class="pl-3">
+    表示 : <span style="color:red;">@Model.TotalItemInPage</span> / <b>@Model.TotalItem</b>
+</p>
+
+@if (Model != null)
+{
+    var pages = (Model.TotalItem / Model.Size);
+    if (Model.TotalItem % Model.Size != 0)
+    {
+        pages += 1;
+    }
+
+    if (Model.Page > pages)
+    {
+        Model.Page = pages;
+    }
+
+    var start = 1;
+    var end = Model.DisplayPage;
+    if (pages > end)
+    {
+        start = Model.Page - Model.DisplayPage / 2;
+        if (start <= 0)
+        {
+            start = 1;
+        }
+        end = start + Model.DisplayPage - 1;
+    }
+
+    var pre = Model.Page - 1;
+    var nxt = Model.Page + 1;
+
+    <nav aria-label="Page navigation" class="ms-auto">
+        <ul class="pagination justify-content-center">
+            @{
+                var cssPrevious = string.Empty;
+                var cssNext = string.Empty;
+                if (Model.Page == 1 || Model.Page == 0) cssPrevious = "disabled";
+                if (Model.Page == pages || pages == 0 || Model.Page == 0) cssNext = "disabled";
+            }
+            <!-- #region Previous -->
+            <li class="page-item @cssPrevious">
+                <a class="page-link" name="pageDetail" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                    <span class="sr-only">Previous</span>
+                    <input type="hidden" value="@pre">
+                </a>
+            </li>
+            <!-- #endregion -->
+            <!-- #region display limited number -->
+            @{
+                if (pages <= Model.DisplayPage)
+                {
+                    for (int i = 1; i <= pages; i++)
+                    {
+                        if (i == Model.Page)
+                        {
+                            <li class="page-item active"><a class="page-link">@i</a></li>
+                        }
+                        else
+                        {
+                            <li class="page-item" name="pageDetail"><a class="page-link" href="#">@i</a>
+                                <input type="hidden" value="@i">
+                            </li>
+                        }
+
+                    }
+                }
+                //
+                if (pages > Model.DisplayPage)
+                {
+                    if (Model.Page + 1 < Model.DisplayPage)
+                    {
+                        for (int i = 1; i <= Model.DisplayPage; i++)
+                        {
+                            if (i == Model.Page)
+                            {
+                                <li class="page-item active" name="pageDetail"><a class="page-link" href="#">@i</a>
+                                    <input type="hidden" value="@i">
+                                </li>
+                            }
+                            else
+                            {
+                                <li class="page-item" name="pageDetail"><a class="page-link" href="#">@i</a>
+                                    <input type="hidden" value="@i">
+                                </li>
+                            }
+                        }
+                        <li>...</li>
+                    }
+                    else if (Model.Page - 2 > 1 && Model.Page + 2 < pages)
+                    {
+                        <li>...</li>
+                        for (int i = Model.Page - 2; i <= Model.Page + 2; i++)
+                        {
+                            if (i == Model.Page)
+                            {
+                                <li class="page-item active" name="pageDetail"><a class="page-link" href="#">@i</a>
+                                    <input type="hidden" value="@i">
+                                </li>
+                            }
+                            else
+                            {
+                                <li class="page-item" name="pageDetail"><a class="page-link" href="#">@i</a>
+                                    <input type="hidden" value="@i">
+                                </li>
+                            }
+                        }
+                        <li>...</li>
+                    }
+                    else if (pages - 2 <= Model.Page)
+                    {
+                        <li>...</li>
+                        for (int i = pages - Model.DisplayPage + 1; i <= pages; i++)
+                        {
+                            if (i == Model.Page)
+                            {
+                                <li class="page-item active" name="pageDetail"><a class="page-link" href="#">@i</a>
+                                    <input type="hidden" value="@i">
+                                </li>
+                            }
+                            else
+                            {
+                                <li class="page-item" name="pageDetail"><a class="page-link" href="#">@i</a>
+                                    <input type="hidden" value="@i">
+                                </li>
+                            }
+                        }
+                    }
+                }
+            }
+            <!-- #endregion -->
+            <!-- #region Next -->
+            <li class="page-item @cssNext">
+                <a class="page-link" name="pageDetail" href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                    <span class="sr-only">Next</span>
+                    <input type="hidden" value="@nxt">
+                </a>
+            </li>
+            <!-- #endregion -->
+        </ul>
+    </nav>
+}
